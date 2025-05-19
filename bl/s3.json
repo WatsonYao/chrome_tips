@@ -1,0 +1,7652 @@
+{
+  "font_size": 0.4,
+  "font_color": "#FFFFFF",
+  "background_alpha": 0.5,
+  "background_color": "#9C27B0",
+  "Stroke": "none",
+  "type": "AIsubtitle",
+  "lang": "zh",
+  "version": "v1.7.0.4",
+  "body": [
+    {
+      "from": 0.1,
+      "to": 1.69,
+      "sid": 1,
+      "location": 2,
+      "content": "请你思考一个问题啊",
+      "music": 0.0
+    },
+    {
+      "from": 1.69,
+      "to": 3.31,
+      "sid": 2,
+      "location": 2,
+      "content": "在大的尺度上",
+      "music": 0.0
+    },
+    {
+      "from": 3.31,
+      "to": 5.73,
+      "sid": 3,
+      "location": 2,
+      "content": "宇宙的整体是什么形状的呢",
+      "music": 0.0
+    },
+    {
+      "from": 5.73,
+      "to": 8.219,
+      "sid": 4,
+      "location": 2,
+      "content": "你可能从来都没有觉得这是个问题啊",
+      "music": 0.0
+    },
+    {
+      "from": 8.219,
+      "to": 11.859,
+      "sid": 5,
+      "location": 2,
+      "content": "我在很多的视频和图片里都看到过宇宙的样子",
+      "music": 0.0
+    },
+    {
+      "from": 11.859,
+      "to": 13.79,
+      "sid": 6,
+      "location": 2,
+      "content": "就是一个黑黑的大球",
+      "music": 0.0
+    },
+    {
+      "from": 13.79,
+      "to": 17.13,
+      "sid": 7,
+      "location": 2,
+      "content": "从大爆炸的那个小点儿开始逐渐变大",
+      "music": 0.0
+    },
+    {
+      "from": 17.13,
+      "to": 19.439,
+      "sid": 8,
+      "location": 2,
+      "content": "那我先直接告诉你答案啊",
+      "music": 0.0
+    },
+    {
+      "from": 19.439,
+      "to": 20.039,
+      "sid": 9,
+      "location": 2,
+      "content": "不对",
+      "music": 0.0
+    },
+    {
+      "from": 20.039,
+      "to": 22.58,
+      "sid": 10,
+      "location": 2,
+      "content": "宇宙不是一个三维的球体",
+      "music": 0.0
+    },
+    {
+      "from": 22.58,
+      "to": 25.78,
+      "sid": 11,
+      "location": 2,
+      "content": "请先把这个形状在你的脑子里删除掉",
+      "music": 0.0
+    },
+    {
+      "from": 25.78,
+      "to": 28.36,
+      "sid": 12,
+      "location": 2,
+      "content": "那些视频只是为了说明问题的好",
+      "music": 0.0
+    },
+    {
+      "from": 28.36,
+      "to": 30.06,
+      "sid": 13,
+      "location": 2,
+      "content": "接下来请您认真的想一想",
+      "music": 0.0
+    },
+    {
+      "from": 30.06,
+      "to": 32.48,
+      "sid": 14,
+      "location": 2,
+      "content": "宇宙它可能是什么形状呢",
+      "music": 0.0
+    },
+    {
+      "from": 32.48,
+      "to": 34.75,
+      "sid": 15,
+      "location": 2,
+      "content": "我们的地球差不多是个球形",
+      "music": 0.0
+    },
+    {
+      "from": 34.75,
+      "to": 36.55,
+      "sid": 16,
+      "location": 2,
+      "content": "但是太阳系不是球形",
+      "music": 0.0
+    },
+    {
+      "from": 36.55,
+      "to": 38.61,
+      "sid": 17,
+      "location": 2,
+      "content": "它是一个很扁的圆盘形",
+      "music": 0.0
+    },
+    {
+      "from": 38.61,
+      "to": 40.54,
+      "sid": 18,
+      "location": 2,
+      "content": "银河系也是圆盘形",
+      "music": 0.0
+    },
+    {
+      "from": 40.54,
+      "to": 42.6,
+      "sid": 19,
+      "location": 2,
+      "content": "但是它有很多的悬臂",
+      "music": 0.0
+    },
+    {
+      "from": 42.6,
+      "to": 45.04,
+      "sid": 20,
+      "location": 2,
+      "content": "不是所有的星系都是圆盘形状的",
+      "music": 0.0
+    },
+    {
+      "from": 45.04,
+      "to": 48.18,
+      "sid": 21,
+      "location": 2,
+      "content": "比如说螺旋星系IIC2163",
+      "music": 0.0
+    },
+    {
+      "from": 48.18,
+      "to": 50.35,
+      "sid": 22,
+      "location": 2,
+      "content": "它的形状像一对大眼睛",
+      "music": 0.0
+    },
+    {
+      "from": 50.35,
+      "to": 52.71,
+      "sid": 23,
+      "location": 2,
+      "content": "南三角座的ESO137",
+      "music": 0.0
+    },
+    {
+      "from": 52.71,
+      "to": 56.43,
+      "sid": 24,
+      "location": 2,
+      "content": "杠001星系看起来像一只巨大的水母",
+      "music": 0.0
+    },
+    {
+      "from": 56.43,
+      "to": 58.33,
+      "sid": 25,
+      "location": 2,
+      "content": "可以说是千奇百怪啊",
+      "music": 0.0
+    },
+    {
+      "from": 58.33,
+      "to": 61.99,
+      "sid": 26,
+      "location": 2,
+      "content": "所以宇宙似乎也可以是任何的形状",
+      "music": 0.0
+    },
+    {
+      "from": 61.99,
+      "to": 64.49,
+      "sid": 27,
+      "location": 2,
+      "content": "那如果你是一个有野心的宇宙学家",
+      "music": 0.0
+    },
+    {
+      "from": 64.49,
+      "to": 66.17,
+      "sid": 28,
+      "location": 2,
+      "content": "你一定不想盲猜",
+      "music": 0.0
+    },
+    {
+      "from": 66.17,
+      "to": 68.61,
+      "sid": 29,
+      "location": 2,
+      "content": "但我们也没有办法飞到宇宙的外面",
+      "music": 0.0
+    },
+    {
+      "from": 68.61,
+      "to": 69.9,
+      "sid": 30,
+      "location": 2,
+      "content": "给他拍一张照片",
+      "music": 0.0
+    },
+    {
+      "from": 69.9,
+      "to": 74.28,
+      "sid": 31,
+      "location": 2,
+      "content": "所以你只能寄希望于找到一些理论来帮助你",
+      "music": 0.0
+    },
+    {
+      "from": 74.28,
+      "to": 77.65,
+      "sid": 32,
+      "location": 2,
+      "content": "把无限多可能的选项缩减到几个",
+      "music": 0.0
+    },
+    {
+      "from": 77.65,
+      "to": 79.61,
+      "sid": 33,
+      "location": 2,
+      "content": "最好是只有一个选项",
+      "music": 0.0
+    },
+    {
+      "from": 79.61,
+      "to": 80.27,
+      "sid": 34,
+      "location": 2,
+      "content": "对不对",
+      "music": 0.0
+    },
+    {
+      "from": 80.27,
+      "to": 82.67,
+      "sid": 35,
+      "location": 2,
+      "content": "那有一个理论就可以帮我们",
+      "music": 0.0
+    },
+    {
+      "from": 82.67,
+      "to": 87.47,
+      "sid": 36,
+      "location": 2,
+      "content": "把宇宙形状的可能性从无限多种减少到三种",
+      "music": 0.0
+    },
+    {
+      "from": 87.47,
+      "to": 90.59,
+      "sid": 37,
+      "location": 2,
+      "content": "而且我们差不多快要找到那个最终的答案了",
+      "music": 0.0
+    },
+    {
+      "from": 90.59,
+      "to": 91.64,
+      "sid": 38,
+      "location": 2,
+      "content": "不仅如此",
+      "music": 0.0
+    },
+    {
+      "from": 91.64,
+      "to": 94.98,
+      "sid": 39,
+      "location": 2,
+      "content": "这个理论还决定着宇宙的生死时速",
+      "music": 0.0
+    },
+    {
+      "from": 94.98,
+      "to": 97.89,
+      "sid": 40,
+      "location": 2,
+      "content": "也就是时间它是否成立",
+      "music": 0.0
+    },
+    {
+      "from": 97.89,
+      "to": 99.45,
+      "sid": 41,
+      "location": 2,
+      "content": "今天我就想和你聊一聊",
+      "music": 0.0
+    },
+    {
+      "from": 99.45,
+      "to": 101.19,
+      "sid": 42,
+      "location": 2,
+      "content": "这个乍一听挺熟悉",
+      "music": 0.0
+    },
+    {
+      "from": 101.19,
+      "to": 104.29,
+      "sid": 43,
+      "location": 2,
+      "content": "但是在科学领域却很少听别人拆开了",
+      "music": 0.0
+    },
+    {
+      "from": 104.29,
+      "to": 105.6,
+      "sid": 44,
+      "location": 2,
+      "content": "仔细讲的概念",
+      "music": 0.0
+    },
+    {
+      "from": 105.6,
+      "to": 107.86,
+      "sid": 45,
+      "location": 2,
+      "content": "它的名字叫对称性",
+      "music": 0.0
+    },
+    {
+      "from": 107.86,
+      "to": 110.74,
+      "sid": 46,
+      "location": 2,
+      "content": "不知道你有没有想过我们脚下的地球",
+      "music": 0.0
+    },
+    {
+      "from": 110.74,
+      "to": 112.15,
+      "sid": 47,
+      "location": 2,
+      "content": "头顶的星空",
+      "music": 0.0
+    },
+    {
+      "from": 112.15,
+      "to": 114.17,
+      "sid": 48,
+      "location": 2,
+      "content": "乃至整个浩瀚的宇宙",
+      "music": 0.0
+    },
+    {
+      "from": 114.17,
+      "to": 116.15,
+      "sid": 49,
+      "location": 2,
+      "content": "它们运行的底层密码",
+      "music": 0.0
+    },
+    {
+      "from": 116.15,
+      "to": 119.67,
+      "sid": 50,
+      "location": 2,
+      "content": "竟然就藏在两个看似简单的句子里",
+      "music": 0.0
+    },
+    {
+      "from": 119.67,
+      "to": 121.729,
+      "sid": 51,
+      "location": 2,
+      "content": "我们先从这两个句子开始说起",
+      "music": 0.0
+    },
+    {
+      "from": 121.729,
+      "to": 124.309,
+      "sid": 52,
+      "location": 2,
+      "content": "大物理学家理查德费曼曾经说过",
+      "music": 0.0
+    },
+    {
+      "from": 124.309,
+      "to": 126.649,
+      "sid": 53,
+      "location": 2,
+      "content": "如果让他用一句话来总结",
+      "music": 0.0
+    },
+    {
+      "from": 126.649,
+      "to": 128.46,
+      "sid": 54,
+      "location": 2,
+      "content": "现代科学最重要的发现",
+      "music": 0.0
+    },
+    {
+      "from": 128.46,
+      "to": 130.35,
+      "sid": 55,
+      "location": 2,
+      "content": "他会选择这句话",
+      "music": 0.0
+    },
+    {
+      "from": 130.35,
+      "to": 132.81,
+      "sid": 56,
+      "location": 2,
+      "content": "世界是由原子组成的",
+      "music": 0.0
+    },
+    {
+      "from": 132.81,
+      "to": 135.03,
+      "sid": 57,
+      "location": 2,
+      "content": "这是因为我们对宇宙的许多理解",
+      "music": 0.0
+    },
+    {
+      "from": 135.03,
+      "to": 138.51,
+      "sid": 58,
+      "location": 2,
+      "content": "都是基于原子的性质和它们相互作用的理论",
+      "music": 0.0
+    },
+    {
+      "from": 138.51,
+      "to": 140.49,
+      "sid": 59,
+      "location": 2,
+      "content": "很多的现代著名科学家认为",
+      "music": 0.0
+    },
+    {
+      "from": 140.49,
+      "to": 142.33,
+      "sid": 60,
+      "location": 2,
+      "content": "如果可以再选一句话",
+      "music": 0.0
+    },
+    {
+      "from": 142.33,
+      "to": 146.34,
+      "sid": 61,
+      "location": 2,
+      "content": "那就是对称性是宇宙规律的基础",
+      "music": 0.0
+    },
+    {
+      "from": 146.34,
+      "to": 148.52,
+      "sid": 62,
+      "location": 2,
+      "content": "后来科学界就有这么一个段子啊",
+      "music": 0.0
+    },
+    {
+      "from": 148.52,
+      "to": 151.04,
+      "sid": 63,
+      "location": 2,
+      "content": "说如果我们整个人类的文明都毁灭了",
+      "music": 0.0
+    },
+    {
+      "from": 151.04,
+      "to": 153.0,
+      "sid": 64,
+      "location": 2,
+      "content": "只能给后人留下两句话",
+      "music": 0.0
+    },
+    {
+      "from": 153.0,
+      "to": 154.65,
+      "sid": 65,
+      "location": 2,
+      "content": "那就留下这两句",
+      "music": 0.0
+    },
+    {
+      "from": 154.65,
+      "to": 156.47,
+      "sid": 66,
+      "location": 2,
+      "content": "世界是由原子组成的",
+      "music": 0.0
+    },
+    {
+      "from": 156.47,
+      "to": 159.28,
+      "sid": 67,
+      "location": 2,
+      "content": "对称性是宇宙规律的基础",
+      "music": 0.0
+    },
+    {
+      "from": 159.28,
+      "to": 161.06,
+      "sid": 68,
+      "location": 2,
+      "content": "这两句话留给后世",
+      "music": 0.0
+    },
+    {
+      "from": 161.06,
+      "to": 163.42,
+      "sid": 69,
+      "location": 2,
+      "content": "会让下一个重新崛起的文明",
+      "music": 0.0
+    },
+    {
+      "from": 163.42,
+      "to": 165.61,
+      "sid": 70,
+      "location": 2,
+      "content": "节省几百年的探索时间",
+      "music": 0.0
+    },
+    {
+      "from": 165.61,
+      "to": 167.17,
+      "sid": 71,
+      "location": 2,
+      "content": "在过去的几百年里",
+      "music": 0.0
+    },
+    {
+      "from": 167.17,
+      "to": 169.41,
+      "sid": 72,
+      "location": 2,
+      "content": "科学领域发生了无数的变革",
+      "music": 0.0
+    },
+    {
+      "from": 169.41,
+      "to": 173.06,
+      "sid": 73,
+      "location": 2,
+      "content": "这里面最具有活力的发现都有一个共同点",
+      "music": 0.0
+    },
+    {
+      "from": 173.06,
+      "to": 177.16,
+      "sid": 74,
+      "location": 2,
+      "content": "他们都关注自然界在很多种不同的操作下",
+      "music": 0.0
+    },
+    {
+      "from": 177.16,
+      "to": 179.11,
+      "sid": 75,
+      "location": 2,
+      "content": "保持不变的特性",
+      "music": 0.0
+    },
+    {
+      "from": 179.11,
+      "to": 182.8,
+      "sid": 76,
+      "location": 2,
+      "content": "这种不变性就是物理学家所说的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 182.8,
+      "to": 185.74,
+      "sid": 77,
+      "location": 2,
+      "content": "当然我们在日常生活中所说的左右对称",
+      "music": 0.0
+    },
+    {
+      "from": 185.74,
+      "to": 187.64,
+      "sid": 78,
+      "location": 2,
+      "content": "它也包含在这个对称性里面",
+      "music": 0.0
+    },
+    {
+      "from": 187.64,
+      "to": 191.21,
+      "sid": 79,
+      "location": 2,
+      "content": "只不过呢物理学家所说的对称性要更广泛",
+      "music": 0.0
+    },
+    {
+      "from": 191.21,
+      "to": 193.35,
+      "sid": 80,
+      "location": 2,
+      "content": "在很多重要的科学进展中",
+      "music": 0.0
+    },
+    {
+      "from": 193.35,
+      "to": 195.66,
+      "sid": 81,
+      "location": 2,
+      "content": "对称性都扮演了关键的角色",
+      "music": 0.0
+    },
+    {
+      "from": 195.66,
+      "to": 199.58,
+      "sid": 82,
+      "location": 2,
+      "content": "那我们不妨就从你最熟悉的几何对称开始聊起",
+      "music": 0.0
+    },
+    {
+      "from": 199.58,
+      "to": 203.18,
+      "sid": 83,
+      "location": 2,
+      "content": "你随便拿起一个台球桌上的白球放在手里旋转",
+      "music": 0.0
+    },
+    {
+      "from": 203.18,
+      "to": 206.02,
+      "sid": 84,
+      "location": 2,
+      "content": "或者呢让一个没有花纹的圆盘子",
+      "music": 0.0
+    },
+    {
+      "from": 206.02,
+      "to": 207.56,
+      "sid": 85,
+      "location": 2,
+      "content": "绕着它的中心旋转",
+      "music": 0.0
+    },
+    {
+      "from": 207.56,
+      "to": 210.74,
+      "sid": 86,
+      "location": 2,
+      "content": "它们看起来在旋转中都没有任何的变化",
+      "music": 0.0
+    },
+    {
+      "from": 210.74,
+      "to": 213.6,
+      "sid": 87,
+      "location": 2,
+      "content": "你还可以拿起一片刚刚落下的雪花",
+      "music": 0.0
+    },
+    {
+      "from": 213.6,
+      "to": 216.6,
+      "sid": 88,
+      "location": 2,
+      "content": "把它的每个角转到相邻角的位置",
+      "music": 0.0
+    },
+    {
+      "from": 216.6,
+      "to": 218.04,
+      "sid": 89,
+      "location": 2,
+      "content": "这就不能随便转了啊",
+      "music": 0.0
+    },
+    {
+      "from": 218.04,
+      "to": 219.92,
+      "sid": 90,
+      "location": 2,
+      "content": "你只能转一个固定的角度",
+      "music": 0.0
+    },
+    {
+      "from": 219.92,
+      "to": 223.61,
+      "sid": 91,
+      "location": 2,
+      "content": "你会发现很难看出这片雪花经历了转动",
+      "music": 0.0
+    },
+    {
+      "from": 223.61,
+      "to": 227.55,
+      "sid": 92,
+      "location": 2,
+      "content": "或者你可以让一个字母A绕着垂直轴翻转一下",
+      "music": 0.0
+    },
+    {
+      "from": 227.55,
+      "to": 230.51,
+      "sid": 93,
+      "location": 2,
+      "content": "你会得到一个看起来一模一样的字母A",
+      "music": 0.0
+    },
+    {
+      "from": 230.51,
+      "to": 232.59,
+      "sid": 94,
+      "location": 2,
+      "content": "一个物体所具有的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 232.59,
+      "to": 234.529,
+      "sid": 95,
+      "location": 2,
+      "content": "说的就是这样一种操作",
+      "music": 0.0
+    },
+    {
+      "from": 234.529,
+      "to": 237.069,
+      "sid": 96,
+      "location": 2,
+      "content": "不管这种操作是真实的还是想象的",
+      "music": 0.0
+    },
+    {
+      "from": 237.069,
+      "to": 238.849,
+      "sid": 97,
+      "location": 2,
+      "content": "只要在这种操作下",
+      "music": 0.0
+    },
+    {
+      "from": 238.849,
+      "to": 241.59,
+      "sid": 98,
+      "location": 2,
+      "content": "这个物体看起来没有发生任何变化",
+      "music": 0.0
+    },
+    {
+      "from": 241.59,
+      "to": 243.97,
+      "sid": 99,
+      "location": 2,
+      "content": "我们就可以把这种操作成为",
+      "music": 0.0
+    },
+    {
+      "from": 243.97,
+      "to": 246.2,
+      "sid": 100,
+      "location": 2,
+      "content": "这个物体所具有的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 246.2,
+      "to": 247.6,
+      "sid": 101,
+      "location": 2,
+      "content": "对于一个物体来说",
+      "music": 0.0
+    },
+    {
+      "from": 247.6,
+      "to": 250.96,
+      "sid": 102,
+      "location": 2,
+      "content": "能让它保持不变的操作的种类越多",
+      "music": 0.0
+    },
+    {
+      "from": 250.96,
+      "to": 253.35,
+      "sid": 103,
+      "location": 2,
+      "content": "它所具有的对称性就越多",
+      "music": 0.0
+    },
+    {
+      "from": 253.35,
+      "to": 257.37,
+      "sid": 104,
+      "location": 2,
+      "content": "像白色台球那样完美的球体具有高度的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 257.37,
+      "to": 258.95,
+      "sid": 105,
+      "location": 2,
+      "content": "因为任何一种旋转",
+      "music": 0.0
+    },
+    {
+      "from": 258.95,
+      "to": 261.51,
+      "sid": 106,
+      "location": 2,
+      "content": "只要这个旋转经过球体的中心",
+      "music": 0.0
+    },
+    {
+      "from": 261.51,
+      "to": 263.23,
+      "sid": 107,
+      "location": 2,
+      "content": "这个操作都没有办法",
+      "music": 0.0
+    },
+    {
+      "from": 263.23,
+      "to": 265.81,
+      "sid": 108,
+      "location": 2,
+      "content": "让球看起来和原来有任何的变化",
+      "music": 0.0
+    },
+    {
+      "from": 265.81,
+      "to": 268.53,
+      "sid": 109,
+      "location": 2,
+      "content": "而立方体的对称性则要少一些",
+      "music": 0.0
+    },
+    {
+      "from": 268.53,
+      "to": 272.419,
+      "sid": 110,
+      "location": 2,
+      "content": "因为只有围绕着垂直于立方体表面的中心轴",
+      "music": 0.0
+    },
+    {
+      "from": 272.419,
+      "to": 273.559,
+      "sid": 111,
+      "location": 2,
+      "content": "旋转90度",
+      "music": 0.0
+    },
+    {
+      "from": 273.559,
+      "to": 275.519,
+      "sid": 112,
+      "location": 2,
+      "content": "才能保持这个立方体不变",
+      "music": 0.0
+    },
+    {
+      "from": 275.519,
+      "to": 278.279,
+      "sid": 113,
+      "location": 2,
+      "content": "一旦有人用其他的方式旋转了这个立方体",
+      "music": 0.0
+    },
+    {
+      "from": 278.279,
+      "to": 279.74,
+      "sid": 114,
+      "location": 2,
+      "content": "比如说转了45度",
+      "music": 0.0
+    },
+    {
+      "from": 279.74,
+      "to": 282.89,
+      "sid": 115,
+      "location": 2,
+      "content": "你还是可以认出来他是原来的那个立方体",
+      "music": 0.0
+    },
+    {
+      "from": 282.89,
+      "to": 285.59,
+      "sid": 116,
+      "location": 2,
+      "content": "但你也会同时发现有人转过它了",
+      "music": 0.0
+    },
+    {
+      "from": 285.59,
+      "to": 288.57,
+      "sid": 117,
+      "location": 2,
+      "content": "而我们前面说的字母A它的自由度就更少了",
+      "music": 0.0
+    },
+    {
+      "from": 288.57,
+      "to": 292.38,
+      "sid": 118,
+      "location": 2,
+      "content": "你只能沿着它的竖向的中心轴左右翻转",
+      "music": 0.0
+    },
+    {
+      "from": 292.38,
+      "to": 294.34,
+      "sid": 119,
+      "location": 2,
+      "content": "或者我们叫旋转180度",
+      "music": 0.0
+    },
+    {
+      "from": 294.34,
+      "to": 295.96,
+      "sid": 120,
+      "location": 2,
+      "content": "才能看起来没有变化",
+      "music": 0.0
+    },
+    {
+      "from": 295.96,
+      "to": 297.18,
+      "sid": 121,
+      "location": 2,
+      "content": "不过在物理学中",
+      "music": 0.0
+    },
+    {
+      "from": 297.18,
+      "to": 299.4,
+      "sid": 122,
+      "location": 2,
+      "content": "对称性的范围那可就广多了啊",
+      "music": 0.0
+    },
+    {
+      "from": 299.4,
+      "to": 301.44,
+      "sid": 123,
+      "location": 2,
+      "content": "我们能对一个物体进行的操作",
+      "music": 0.0
+    },
+    {
+      "from": 301.44,
+      "to": 303.54,
+      "sid": 124,
+      "location": 2,
+      "content": "就不仅仅是旋转或者翻转了",
+      "music": 0.0
+    },
+    {
+      "from": 303.54,
+      "to": 307.01,
+      "sid": 125,
+      "location": 2,
+      "content": "我们可以用一种更抽象的方式来思考这个问题",
+      "music": 0.0
+    },
+    {
+      "from": 307.01,
+      "to": 311.59,
+      "sid": 126,
+      "location": 2,
+      "content": "也就是无论是对你还是对环境施加哪种操作",
+      "music": 0.0
+    },
+    {
+      "from": 311.59,
+      "to": 313.85,
+      "sid": 127,
+      "location": 2,
+      "content": "不管这个操作是现实中发生的",
+      "music": 0.0
+    },
+    {
+      "from": 313.85,
+      "to": 315.35,
+      "sid": 128,
+      "location": 2,
+      "content": "还是我们想象出来的",
+      "music": 0.0
+    },
+    {
+      "from": 315.35,
+      "to": 316.31,
+      "sid": 129,
+      "location": 2,
+      "content": "这种操作",
+      "music": 0.0
+    },
+    {
+      "from": 316.31,
+      "to": 320.09,
+      "sid": 130,
+      "location": 2,
+      "content": "会让那些用来解释你观测到的物理现象的定律",
+      "music": 0.0
+    },
+    {
+      "from": 320.09,
+      "to": 321.38,
+      "sid": 131,
+      "location": 2,
+      "content": "保持不变",
+      "music": 0.0
+    },
+    {
+      "from": 321.38,
+      "to": 322.4,
+      "sid": 132,
+      "location": 2,
+      "content": "强调一下啊",
+      "music": 0.0
+    },
+    {
+      "from": 322.4,
+      "to": 323.72,
+      "sid": 133,
+      "location": 2,
+      "content": "是一种操作",
+      "music": 0.0
+    },
+    {
+      "from": 323.72,
+      "to": 326.58,
+      "sid": 134,
+      "location": 2,
+      "content": "让物理现象的定律保持不变",
+      "music": 0.0
+    },
+    {
+      "from": 326.58,
+      "to": 327.46,
+      "sid": 135,
+      "location": 2,
+      "content": "需要注意的是",
+      "music": 0.0
+    },
+    {
+      "from": 327.46,
+      "to": 328.84,
+      "sid": 136,
+      "location": 2,
+      "content": "这里的对称性操作",
+      "music": 0.0
+    },
+    {
+      "from": 328.84,
+      "to": 331.47,
+      "sid": 137,
+      "location": 2,
+      "content": "并不要求你观测到的结果不变",
+      "music": 0.0
+    },
+    {
+      "from": 331.47,
+      "to": 334.91,
+      "sid": 138,
+      "location": 2,
+      "content": "我们真正关心的是这些观测背后的定律",
+      "music": 0.0
+    },
+    {
+      "from": 334.91,
+      "to": 338.48,
+      "sid": 139,
+      "location": 2,
+      "content": "在对称性操作下是不是没有发生变化",
+      "music": 0.0
+    },
+    {
+      "from": 338.48,
+      "to": 339.64,
+      "sid": 140,
+      "location": 2,
+      "content": "再说的详细一点儿",
+      "music": 0.0
+    },
+    {
+      "from": 339.64,
+      "to": 343.2,
+      "sid": 141,
+      "location": 2,
+      "content": "就是用来解释你进行对称性操作前的",
+      "music": 0.0
+    },
+    {
+      "from": 343.2,
+      "to": 346.48,
+      "sid": 142,
+      "location": 2,
+      "content": "观测的定律是不是和用来解释",
+      "music": 0.0
+    },
+    {
+      "from": 346.48,
+      "to": 350.64,
+      "sid": 143,
+      "location": 2,
+      "content": "你进行对称性操作之后的观测的定律完全一样",
+      "music": 0.0
+    },
+    {
+      "from": 350.64,
+      "to": 352.5,
+      "sid": 144,
+      "location": 2,
+      "content": "我们用一个例子来说明啊",
+      "music": 0.0
+    },
+    {
+      "from": 352.5,
+      "to": 354.78,
+      "sid": 145,
+      "location": 2,
+      "content": "假设呢你是一名体操运动员",
+      "music": 0.0
+    },
+    {
+      "from": 354.78,
+      "to": 357.86,
+      "sid": 146,
+      "location": 2,
+      "content": "过去几年时间一直为参加奥运会备战",
+      "music": 0.0
+    },
+    {
+      "from": 357.86,
+      "to": 359.52,
+      "sid": 147,
+      "location": 2,
+      "content": "你已经可以轻松的完成",
+      "music": 0.0
+    },
+    {
+      "from": 359.52,
+      "to": 361.46,
+      "sid": 148,
+      "location": 2,
+      "content": "体操套路中的每一组动作",
+      "music": 0.0
+    },
+    {
+      "from": 361.46,
+      "to": 362.3,
+      "sid": 149,
+      "location": 2,
+      "content": "你很清楚",
+      "music": 0.0
+    },
+    {
+      "from": 362.3,
+      "to": 364.4,
+      "sid": 150,
+      "location": 2,
+      "content": "在平衡木上要用多大的劲儿",
+      "music": 0.0
+    },
+    {
+      "from": 364.4,
+      "to": 366.29,
+      "sid": 151,
+      "location": 2,
+      "content": "才能完成挺身前空翻",
+      "music": 0.0
+    },
+    {
+      "from": 366.29,
+      "to": 367.97,
+      "sid": 152,
+      "location": 2,
+      "content": "在地板上要跳多高",
+      "music": 0.0
+    },
+    {
+      "from": 367.97,
+      "to": 370.01,
+      "sid": 153,
+      "location": 2,
+      "content": "才能完成一个直体后空翻",
+      "music": 0.0
+    },
+    {
+      "from": 370.01,
+      "to": 371.36,
+      "sid": 154,
+      "location": 2,
+      "content": "转体720度",
+      "music": 0.0
+    },
+    {
+      "from": 371.36,
+      "to": 373.94,
+      "sid": 155,
+      "location": 2,
+      "content": "在双杠上把身体摆动的多快",
+      "music": 0.0
+    },
+    {
+      "from": 373.94,
+      "to": 376.32,
+      "sid": 156,
+      "location": 2,
+      "content": "才能完成一次完美的后空翻",
+      "music": 0.0
+    },
+    {
+      "from": 376.32,
+      "to": 377.12,
+      "sid": 157,
+      "location": 2,
+      "content": "看起来",
+      "music": 0.0
+    },
+    {
+      "from": 377.12,
+      "to": 380.57,
+      "sid": 158,
+      "location": 2,
+      "content": "你的身体对牛顿定律已经有了本能的感觉了",
+      "music": 0.0
+    },
+    {
+      "from": 380.57,
+      "to": 382.69,
+      "sid": 159,
+      "location": 2,
+      "content": "好现在奥运会的比赛要开始了",
+      "music": 0.0
+    },
+    {
+      "from": 382.69,
+      "to": 384.21,
+      "sid": 160,
+      "location": 2,
+      "content": "你要飞到美国去",
+      "music": 0.0
+    },
+    {
+      "from": 384.21,
+      "to": 386.13,
+      "sid": 161,
+      "location": 2,
+      "content": "在现场观众面前表演",
+      "music": 0.0
+    },
+    {
+      "from": 386.13,
+      "to": 388.909,
+      "sid": 162,
+      "location": 2,
+      "content": "你当然希望牛顿定律保持不变",
+      "music": 0.0
+    },
+    {
+      "from": 388.909,
+      "to": 391.409,
+      "sid": 163,
+      "location": 2,
+      "content": "牛顿定律确实可以满足你的这种期待",
+      "music": 0.0
+    },
+    {
+      "from": 391.409,
+      "to": 394.26,
+      "sid": 164,
+      "location": 2,
+      "content": "它并不会随着位置的改变而变化",
+      "music": 0.0
+    },
+    {
+      "from": 394.26,
+      "to": 397.2,
+      "sid": 165,
+      "location": 2,
+      "content": "即便你换个地方支配你身体的定律",
+      "music": 0.0
+    },
+    {
+      "from": 397.2,
+      "to": 399.13,
+      "sid": 166,
+      "location": 2,
+      "content": "也不会受到任何的影响",
+      "music": 0.0
+    },
+    {
+      "from": 399.13,
+      "to": 401.77,
+      "sid": 167,
+      "location": 2,
+      "content": "这个就像那颗台球在旋转时",
+      "music": 0.0
+    },
+    {
+      "from": 401.77,
+      "to": 403.84,
+      "sid": 168,
+      "location": 2,
+      "content": "看不出表面有任何变化一样",
+      "music": 0.0
+    },
+    {
+      "from": 403.84,
+      "to": 407.52,
+      "sid": 169,
+      "location": 2,
+      "content": "这种对称性在物理学中被称为平移对称性",
+      "music": 0.0
+    },
+    {
+      "from": 407.52,
+      "to": 409.54,
+      "sid": 170,
+      "location": 2,
+      "content": "或者说平移不变性",
+      "music": 0.0
+    },
+    {
+      "from": 409.54,
+      "to": 412.48,
+      "sid": 171,
+      "location": 2,
+      "content": "平移对称性不仅在牛顿定律中成立",
+      "music": 0.0
+    },
+    {
+      "from": 412.48,
+      "to": 415.79,
+      "sid": 172,
+      "location": 2,
+      "content": "在用来描述电磁相互作用的麦克斯韦定律中",
+      "music": 0.0
+    },
+    {
+      "from": 415.79,
+      "to": 417.51,
+      "sid": 173,
+      "location": 2,
+      "content": "爱因斯坦的狭义相对论",
+      "music": 0.0
+    },
+    {
+      "from": 417.51,
+      "to": 419.11,
+      "sid": 174,
+      "location": 2,
+      "content": "甚至是广义相对论中",
+      "music": 0.0
+    },
+    {
+      "from": 419.11,
+      "to": 420.35,
+      "sid": 175,
+      "location": 2,
+      "content": "还有量子力学中",
+      "music": 0.0
+    },
+    {
+      "from": 420.35,
+      "to": 423.5,
+      "sid": 176,
+      "location": 2,
+      "content": "以及现代物理学形形色色的各种理论中",
+      "music": 0.0
+    },
+    {
+      "from": 423.5,
+      "to": 425.38,
+      "sid": 177,
+      "location": 2,
+      "content": "平移对称性都是成立的",
+      "music": 0.0
+    },
+    {
+      "from": 425.38,
+      "to": 427.94,
+      "sid": 178,
+      "location": 2,
+      "content": "我们还是要强调是物理定律不变",
+      "music": 0.0
+    },
+    {
+      "from": 427.94,
+      "to": 429.88,
+      "sid": 179,
+      "location": 2,
+      "content": "而不是观测结果不变",
+      "music": 0.0
+    },
+    {
+      "from": 429.88,
+      "to": 431.24,
+      "sid": 180,
+      "location": 2,
+      "content": "你的观测和体验",
+      "music": 0.0
+    },
+    {
+      "from": 431.24,
+      "to": 433.86,
+      "sid": 181,
+      "location": 2,
+      "content": "会因为你所处的位置变化而不同",
+      "music": 0.0
+    },
+    {
+      "from": 433.86,
+      "to": 436.36,
+      "sid": 182,
+      "location": 2,
+      "content": "比如说如果你在月球上做体操",
+      "music": 0.0
+    },
+    {
+      "from": 436.36,
+      "to": 437.32,
+      "sid": 183,
+      "location": 2,
+      "content": "你就会发现",
+      "music": 0.0
+    },
+    {
+      "from": 437.32,
+      "to": 440.5,
+      "sid": 184,
+      "location": 2,
+      "content": "当你的双腿使用同样的力气往上跳的时候",
+      "music": 0.0
+    },
+    {
+      "from": 440.5,
+      "to": 443.86,
+      "sid": 185,
+      "location": 2,
+      "content": "身体弹起的轨迹是和地球上完全不同的",
+      "music": 0.0
+    },
+    {
+      "from": 443.86,
+      "to": 446.04,
+      "sid": 186,
+      "location": 2,
+      "content": "但是我们懂得其中的差异",
+      "music": 0.0
+    },
+    {
+      "from": 446.04,
+      "to": 448.49,
+      "sid": 187,
+      "location": 2,
+      "content": "知道这正是物理定律导致的",
+      "music": 0.0
+    },
+    {
+      "from": 448.49,
+      "to": 450.79,
+      "sid": 188,
+      "location": 2,
+      "content": "因为月球比地球要轻很多",
+      "music": 0.0
+    },
+    {
+      "from": 450.79,
+      "to": 453.79,
+      "sid": 189,
+      "location": 2,
+      "content": "所以可以产生的引力也就小很多",
+      "music": 0.0
+    },
+    {
+      "from": 453.79,
+      "to": 456.03,
+      "sid": 190,
+      "location": 2,
+      "content": "从而让你向上蹦起的轨迹",
+      "music": 0.0
+    },
+    {
+      "from": 456.03,
+      "to": 458.25,
+      "sid": 191,
+      "location": 2,
+      "content": "和在地球上是完全不一样的",
+      "music": 0.0
+    },
+    {
+      "from": 458.25,
+      "to": 462.19,
+      "sid": 192,
+      "location": 2,
+      "content": "而这个定律引力的大小取决于质量的大小",
+      "music": 0.0
+    },
+    {
+      "from": 462.19,
+      "to": 464.9,
+      "sid": 193,
+      "location": 2,
+      "content": "正是牛顿引力定律的一个组成部分",
+      "music": 0.0
+    },
+    {
+      "from": 464.9,
+      "to": 467.62,
+      "sid": 194,
+      "location": 2,
+      "content": "你在地球和月球上感受到的不同",
+      "music": 0.0
+    },
+    {
+      "from": 467.62,
+      "to": 471.97,
+      "sid": 195,
+      "location": 2,
+      "content": "并不代表引力定律随时间和地点的变化而变化",
+      "music": 0.0
+    },
+    {
+      "from": 471.97,
+      "to": 473.05,
+      "sid": 196,
+      "location": 2,
+      "content": "但我们想啊",
+      "music": 0.0
+    },
+    {
+      "from": 473.05,
+      "to": 475.55,
+      "sid": 197,
+      "location": 2,
+      "content": "物理学定律可不一定非得是这样",
+      "music": 0.0
+    },
+    {
+      "from": 475.55,
+      "to": 477.95,
+      "sid": 198,
+      "location": 2,
+      "content": "我们也可以臆想出一个新的宇宙",
+      "music": 0.0
+    },
+    {
+      "from": 477.95,
+      "to": 479.23,
+      "sid": 199,
+      "location": 2,
+      "content": "里面的物理定律",
+      "music": 0.0
+    },
+    {
+      "from": 479.23,
+      "to": 481.17,
+      "sid": 200,
+      "location": 2,
+      "content": "就是会随时随处变化",
+      "music": 0.0
+    },
+    {
+      "from": 481.17,
+      "to": 483.65,
+      "sid": 201,
+      "location": 2,
+      "content": "我们在地球上所熟知的物理定律",
+      "music": 0.0
+    },
+    {
+      "from": 483.65,
+      "to": 485.909,
+      "sid": 202,
+      "location": 2,
+      "content": "完全不能帮助我们了解月球",
+      "music": 0.0
+    },
+    {
+      "from": 485.909,
+      "to": 488.249,
+      "sid": 203,
+      "location": 2,
+      "content": "不能帮助我们了解仙女星系",
+      "music": 0.0
+    },
+    {
+      "from": 488.249,
+      "to": 491.68,
+      "sid": 204,
+      "location": 2,
+      "content": "蟹状星云或者是宇宙中其他位置的物理定律",
+      "music": 0.0
+    },
+    {
+      "from": 491.68,
+      "to": 492.48,
+      "sid": 205,
+      "location": 2,
+      "content": "事实上",
+      "music": 0.0
+    },
+    {
+      "from": 492.48,
+      "to": 494.02,
+      "sid": 206,
+      "location": 2,
+      "content": "即便在我们这个宇宙里",
+      "music": 0.0
+    },
+    {
+      "from": 494.02,
+      "to": 495.99,
+      "sid": 207,
+      "location": 2,
+      "content": "我们也不真的那么确定",
+      "music": 0.0
+    },
+    {
+      "from": 495.99,
+      "to": 498.37,
+      "sid": 208,
+      "location": 2,
+      "content": "就在地球上起作用的物理定律",
+      "music": 0.0
+    },
+    {
+      "from": 498.37,
+      "to": 501.22,
+      "sid": 209,
+      "location": 2,
+      "content": "是不是也在遥远的其他地方有效",
+      "music": 0.0
+    },
+    {
+      "from": 501.22,
+      "to": 502.6,
+      "sid": 210,
+      "location": 2,
+      "content": "但是我们的确知道",
+      "music": 0.0
+    },
+    {
+      "from": 502.6,
+      "to": 505.06,
+      "sid": 211,
+      "location": 2,
+      "content": "要是宇宙中某个地方的物理定律",
+      "music": 0.0
+    },
+    {
+      "from": 505.06,
+      "to": 506.62,
+      "sid": 212,
+      "location": 2,
+      "content": "不同于我们所想",
+      "music": 0.0
+    },
+    {
+      "from": 506.62,
+      "to": 508.96,
+      "sid": 213,
+      "location": 2,
+      "content": "那他必须就在什么地方找个出口",
+      "music": 0.0
+    },
+    {
+      "from": 508.96,
+      "to": 511.16,
+      "sid": 214,
+      "location": 2,
+      "content": "把这种差异给消化干净",
+      "music": 0.0
+    },
+    {
+      "from": 511.16,
+      "to": 514.2,
+      "sid": 215,
+      "location": 2,
+      "content": "否则就解释不了我们观测到的那些现象",
+      "music": 0.0
+    },
+    {
+      "from": 514.2,
+      "to": 516.28,
+      "sid": 216,
+      "location": 2,
+      "content": "越来越精确的天文学观测",
+      "music": 0.0
+    },
+    {
+      "from": 516.28,
+      "to": 519.19,
+      "sid": 217,
+      "location": 2,
+      "content": "已经向我们提供了足够可信的证据",
+      "music": 0.0
+    },
+    {
+      "from": 519.19,
+      "to": 521.35,
+      "sid": 218,
+      "location": 2,
+      "content": "证明在整个宇宙空间中",
+      "music": 0.0
+    },
+    {
+      "from": 521.35,
+      "to": 522.75,
+      "sid": 219,
+      "location": 2,
+      "content": "或者更准确的说",
+      "music": 0.0
+    },
+    {
+      "from": 522.75,
+      "to": 526.17,
+      "sid": 220,
+      "location": 2,
+      "content": "至少在我们目前所能观测到的宇宙空间中",
+      "music": 0.0
+    },
+    {
+      "from": 526.17,
+      "to": 528.31,
+      "sid": 221,
+      "location": 2,
+      "content": "物理定律是保持一致的",
+      "music": 0.0
+    },
+    {
+      "from": 528.31,
+      "to": 531.8,
+      "sid": 222,
+      "location": 2,
+      "content": "这一点也就更加突出了对称性的神奇威力",
+      "music": 0.0
+    },
+    {
+      "from": 531.8,
+      "to": 534.2,
+      "sid": 223,
+      "location": 2,
+      "content": "虽然我们只能在地球和附近活动",
+      "music": 0.0
+    },
+    {
+      "from": 534.2,
+      "to": 537.15,
+      "sid": 224,
+      "location": 2,
+      "content": "但是空间平移不变性的存在",
+      "music": 0.0
+    },
+    {
+      "from": 537.15,
+      "to": 538.91,
+      "sid": 225,
+      "location": 2,
+      "content": "让我们能够足不出户",
+      "music": 0.0
+    },
+    {
+      "from": 538.91,
+      "to": 541.37,
+      "sid": 226,
+      "location": 2,
+      "content": "就洞悉整个宇宙的基本规律",
+      "music": 0.0
+    },
+    {
+      "from": 541.37,
+      "to": 543.51,
+      "sid": 227,
+      "location": 2,
+      "content": "因为在我们这里发现的物理定律",
+      "music": 0.0
+    },
+    {
+      "from": 543.51,
+      "to": 546.05,
+      "sid": 228,
+      "location": 2,
+      "content": "同时也是整个宇宙的定律",
+      "music": 0.0
+    },
+    {
+      "from": 546.05,
+      "to": 549.4,
+      "sid": 229,
+      "location": 2,
+      "content": "我们说的转动对称性或者转动不变性",
+      "music": 0.0
+    },
+    {
+      "from": 549.4,
+      "to": 550.86,
+      "sid": 230,
+      "location": 2,
+      "content": "还有平移不变性",
+      "music": 0.0
+    },
+    {
+      "from": 550.86,
+      "to": 552.36,
+      "sid": 231,
+      "location": 2,
+      "content": "其实是近亲啦",
+      "music": 0.0
+    },
+    {
+      "from": 552.36,
+      "to": 554.98,
+      "sid": 232,
+      "location": 2,
+      "content": "这些对称性都是基于这样一种理念",
+      "music": 0.0
+    },
+    {
+      "from": 554.98,
+      "to": 558.87,
+      "sid": 233,
+      "location": 2,
+      "content": "也就是不同的空间方向有着相同的地位",
+      "music": 0.0
+    },
+    {
+      "from": 558.87,
+      "to": 560.31,
+      "sid": 234,
+      "location": 2,
+      "content": "你可能会觉得奇怪啊",
+      "music": 0.0
+    },
+    {
+      "from": 560.31,
+      "to": 563.49,
+      "sid": 235,
+      "location": 2,
+      "content": "在地球上你觉得上和下那是有区别的呀",
+      "music": 0.0
+    },
+    {
+      "from": 563.49,
+      "to": 565.61,
+      "sid": 236,
+      "location": 2,
+      "content": "注意那也是环境的区别",
+      "music": 0.0
+    },
+    {
+      "from": 565.61,
+      "to": 567.6,
+      "sid": 237,
+      "location": 2,
+      "content": "而不是物理定律的区别",
+      "music": 0.0
+    },
+    {
+      "from": 567.6,
+      "to": 568.86,
+      "sid": 238,
+      "location": 2,
+      "content": "如果你离开地球",
+      "music": 0.0
+    },
+    {
+      "from": 568.86,
+      "to": 570.2,
+      "sid": 239,
+      "location": 2,
+      "content": "漂浮在外太空",
+      "music": 0.0
+    },
+    {
+      "from": 570.2,
+      "to": 573.18,
+      "sid": 240,
+      "location": 2,
+      "content": "远离任何的星系或者其他的天体",
+      "music": 0.0
+    },
+    {
+      "from": 573.18,
+      "to": 575.06,
+      "sid": 241,
+      "location": 2,
+      "content": "对称性就会凸显出来",
+      "music": 0.0
+    },
+    {
+      "from": 575.06,
+      "to": 577.16,
+      "sid": 242,
+      "location": 2,
+      "content": "在黑洞洞的宇宙空间里",
+      "music": 0.0
+    },
+    {
+      "from": 577.16,
+      "to": 579.22,
+      "sid": 243,
+      "location": 2,
+      "content": "你找不出一个特殊的方向",
+      "music": 0.0
+    },
+    {
+      "from": 579.22,
+      "to": 581.14,
+      "sid": 244,
+      "location": 2,
+      "content": "上下四周全是一样的",
+      "music": 0.0
+    },
+    {
+      "from": 581.14,
+      "to": 584.2,
+      "sid": 245,
+      "location": 2,
+      "content": "如果你打算建造一个用来探索物质",
+      "music": 0.0
+    },
+    {
+      "from": 584.2,
+      "to": 586.38,
+      "sid": 246,
+      "location": 2,
+      "content": "或者力的性质的一个实验室",
+      "music": 0.0
+    },
+    {
+      "from": 586.38,
+      "to": 588.04,
+      "sid": 247,
+      "location": 2,
+      "content": "那么你根本不用花心思",
+      "music": 0.0
+    },
+    {
+      "from": 588.04,
+      "to": 589.56,
+      "sid": 248,
+      "location": 2,
+      "content": "它在朝向上的问题",
+      "music": 0.0
+    },
+    {
+      "from": 589.56,
+      "to": 593.29,
+      "sid": 249,
+      "location": 2,
+      "content": "因为基本定律根本不会被实验室的朝向所影响",
+      "music": 0.0
+    },
+    {
+      "from": 593.29,
+      "to": 595.99,
+      "sid": 250,
+      "location": 2,
+      "content": "那么除了这种空间方向上的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 595.99,
+      "to": 598.53,
+      "sid": 251,
+      "location": 2,
+      "content": "物理学还遵循另外一种对称性",
+      "music": 0.0
+    },
+    {
+      "from": 598.53,
+      "to": 601.92,
+      "sid": 252,
+      "location": 2,
+      "content": "如果你的外层空间实验室以匀速运动",
+      "music": 0.0
+    },
+    {
+      "from": 601.92,
+      "to": 604.36,
+      "sid": 253,
+      "location": 2,
+      "content": "不管是以每小时5千米的速度",
+      "music": 0.0
+    },
+    {
+      "from": 604.36,
+      "to": 607.14,
+      "sid": 254,
+      "location": 2,
+      "content": "还是以每小时10万千米的速度运动",
+      "music": 0.0
+    },
+    {
+      "from": 607.14,
+      "to": 610.6,
+      "sid": 255,
+      "location": 2,
+      "content": "那么这些运动都不会对用来解释你的实验",
+      "music": 0.0
+    },
+    {
+      "from": 610.6,
+      "to": 613.25,
+      "sid": 256,
+      "location": 2,
+      "content": "观测的物理定律有任何的影响",
+      "music": 0.0
+    },
+    {
+      "from": 613.25,
+      "to": 614.99,
+      "sid": 257,
+      "location": 2,
+      "content": "爱因斯坦更是往前一步",
+      "music": 0.0
+    },
+    {
+      "from": 614.99,
+      "to": 617.03,
+      "sid": 258,
+      "location": 2,
+      "content": "他提出光的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 617.03,
+      "to": 621.07,
+      "sid": 259,
+      "location": 2,
+      "content": "将光速提升到了不可侵犯的大自然定律的层次",
+      "music": 0.0
+    },
+    {
+      "from": 621.07,
+      "to": 623.81,
+      "sid": 260,
+      "location": 2,
+      "content": "并且宣称它不受运动的影响",
+      "music": 0.0
+    },
+    {
+      "from": 623.81,
+      "to": 627.24,
+      "sid": 261,
+      "location": 2,
+      "content": "正如白色的台球不会因旋转而改变一样",
+      "music": 0.0
+    },
+    {
+      "from": 627.24,
+      "to": 628.32,
+      "sid": 262,
+      "location": 2,
+      "content": "那么光速不变",
+      "music": 0.0
+    },
+    {
+      "from": 628.32,
+      "to": 631.0,
+      "sid": 263,
+      "location": 2,
+      "content": "我们在之前有一期节目里仔细的讲过啊",
+      "music": 0.0
+    },
+    {
+      "from": 631.0,
+      "to": 633.14,
+      "sid": 264,
+      "location": 2,
+      "content": "没有听过的小伙伴可以去听一下",
+      "music": 0.0
+    },
+    {
+      "from": 633.14,
+      "to": 635.5,
+      "sid": 265,
+      "location": 2,
+      "content": "爱因斯坦的下一项重大的科学贡献",
+      "music": 0.0
+    },
+    {
+      "from": 635.5,
+      "to": 637.04,
+      "sid": 266,
+      "location": 2,
+      "content": "也就是广义相对论",
+      "music": 0.0
+    },
+    {
+      "from": 637.04,
+      "to": 638.91,
+      "sid": 267,
+      "location": 2,
+      "content": "正是沿着这样的方向",
+      "music": 0.0
+    },
+    {
+      "from": 638.91,
+      "to": 641.83,
+      "sid": 268,
+      "location": 2,
+      "content": "朝着具有更大对称性的理论继续前进",
+      "music": 0.0
+    },
+    {
+      "from": 641.83,
+      "to": 645.47,
+      "sid": 269,
+      "location": 2,
+      "content": "你可以把狭义相对论想成是在相对于彼此",
+      "music": 0.0
+    },
+    {
+      "from": 645.47,
+      "to": 648.69,
+      "sid": 270,
+      "location": 2,
+      "content": "匀速运动的观测者之间建立对称性",
+      "music": 0.0
+    },
+    {
+      "from": 648.69,
+      "to": 650.89,
+      "sid": 271,
+      "location": 2,
+      "content": "你也可以把广义相对论想象成",
+      "music": 0.0
+    },
+    {
+      "from": 650.89,
+      "to": 653.76,
+      "sid": 272,
+      "location": 2,
+      "content": "是一个前进了一步的狭义相对论",
+      "music": 0.0
+    },
+    {
+      "from": 653.76,
+      "to": 658.09,
+      "sid": 273,
+      "location": 2,
+      "content": "它在相对于彼此加速运动的点之间建立对称性",
+      "music": 0.0
+    },
+    {
+      "from": 658.09,
+      "to": 661.09,
+      "sid": 274,
+      "location": 2,
+      "content": "在宇宙中你是不能感受到匀速运动的",
+      "music": 0.0
+    },
+    {
+      "from": 661.09,
+      "to": 663.22,
+      "sid": 275,
+      "location": 2,
+      "content": "但是你可以感受到加速运动",
+      "music": 0.0
+    },
+    {
+      "from": 663.22,
+      "to": 665.46,
+      "sid": 276,
+      "location": 2,
+      "content": "描述你的观测的物理学定律",
+      "music": 0.0
+    },
+    {
+      "from": 665.46,
+      "to": 669.099,
+      "sid": 277,
+      "location": 2,
+      "content": "看起来应该会因为你的加速度而变得有所不同",
+      "music": 0.0
+    },
+    {
+      "from": 669.099,
+      "to": 672.919,
+      "sid": 278,
+      "location": 2,
+      "content": "以便于解释你所感受到的额外的那部分力",
+      "music": 0.0
+    },
+    {
+      "from": 672.919,
+      "to": 675.09,
+      "sid": 279,
+      "location": 2,
+      "content": "而这正是牛顿理论的情况",
+      "music": 0.0
+    },
+    {
+      "from": 675.09,
+      "to": 676.65,
+      "sid": 280,
+      "location": 2,
+      "content": "而爱因斯坦意识到",
+      "music": 0.0
+    },
+    {
+      "from": 676.65,
+      "to": 680.569,
+      "sid": 281,
+      "location": 2,
+      "content": "你没有办法区分加速度和引力场的区别",
+      "music": 0.0
+    },
+    {
+      "from": 680.569,
+      "to": 682.629,
+      "sid": 282,
+      "location": 2,
+      "content": "一旦我们把合适的引力场",
+      "music": 0.0
+    },
+    {
+      "from": 682.629,
+      "to": 684.849,
+      "sid": 283,
+      "location": 2,
+      "content": "添加到外在的物理条件中",
+      "music": 0.0
+    },
+    {
+      "from": 684.849,
+      "to": 686.269,
+      "sid": 284,
+      "location": 2,
+      "content": "在你加速的时候",
+      "music": 0.0
+    },
+    {
+      "from": 686.269,
+      "to": 688.56,
+      "sid": 285,
+      "location": 2,
+      "content": "物理定律就不会发生变化",
+      "music": 0.0
+    },
+    {
+      "from": 688.56,
+      "to": 690.44,
+      "sid": 286,
+      "location": 2,
+      "content": "在广义相对论的框架中",
+      "music": 0.0
+    },
+    {
+      "from": 690.44,
+      "to": 691.74,
+      "sid": 287,
+      "location": 2,
+      "content": "所有的观测者",
+      "music": 0.0
+    },
+    {
+      "from": 691.74,
+      "to": 694.04,
+      "sid": 288,
+      "location": 2,
+      "content": "即使那些做变速运动的观测者",
+      "music": 0.0
+    },
+    {
+      "from": 694.04,
+      "to": 695.74,
+      "sid": 289,
+      "location": 2,
+      "content": "都具有平等的地位",
+      "music": 0.0
+    },
+    {
+      "from": 695.74,
+      "to": 697.44,
+      "sid": 290,
+      "location": 2,
+      "content": "他们彼此完全对称",
+      "music": 0.0
+    },
+    {
+      "from": 697.44,
+      "to": 700.22,
+      "sid": 291,
+      "location": 2,
+      "content": "因为每一个观测者都可以宣称自己",
+      "music": 0.0
+    },
+    {
+      "from": 700.22,
+      "to": 701.58,
+      "sid": 292,
+      "location": 2,
+      "content": "处于静止的状态",
+      "music": 0.0
+    },
+    {
+      "from": 701.58,
+      "to": 704.14,
+      "sid": 293,
+      "location": 2,
+      "content": "只要他们将各自所感受到的力",
+      "music": 0.0
+    },
+    {
+      "from": 704.14,
+      "to": 706.49,
+      "sid": 294,
+      "location": 2,
+      "content": "换算成不同的引力场效应",
+      "music": 0.0
+    },
+    {
+      "from": 706.49,
+      "to": 709.57,
+      "sid": 295,
+      "location": 2,
+      "content": "这就如同你在地球和月亮上做体操",
+      "music": 0.0
+    },
+    {
+      "from": 709.57,
+      "to": 711.49,
+      "sid": 296,
+      "location": 2,
+      "content": "所感受到的不同是一样的",
+      "music": 0.0
+    },
+    {
+      "from": 711.49,
+      "to": 713.05,
+      "sid": 297,
+      "location": 2,
+      "content": "在过去的几十年间",
+      "music": 0.0
+    },
+    {
+      "from": 713.05,
+      "to": 715.93,
+      "sid": 298,
+      "location": 2,
+      "content": "物理学家们将对称性原理的地位",
+      "music": 0.0
+    },
+    {
+      "from": 715.93,
+      "to": 719.21,
+      "sid": 299,
+      "location": 2,
+      "content": "提升到了我们科学探索之梯的最高一级",
+      "music": 0.0
+    },
+    {
+      "from": 719.21,
+      "to": 721.69,
+      "sid": 300,
+      "location": 2,
+      "content": "但凡有人提出一条新的自然定律",
+      "music": 0.0
+    },
+    {
+      "from": 721.69,
+      "to": 723.29,
+      "sid": 301,
+      "location": 2,
+      "content": "他们就会很自然的问出",
+      "music": 0.0
+    },
+    {
+      "from": 723.29,
+      "to": 724.81,
+      "sid": 302,
+      "location": 2,
+      "content": "为什么要有这条定律",
+      "music": 0.0
+    },
+    {
+      "from": 724.81,
+      "to": 726.35,
+      "sid": 303,
+      "location": 2,
+      "content": "为什么要有狭义相对论",
+      "music": 0.0
+    },
+    {
+      "from": 726.35,
+      "to": 728.07,
+      "sid": 304,
+      "location": 2,
+      "content": "为什么要有广义相对论",
+      "music": 0.0
+    },
+    {
+      "from": 728.07,
+      "to": 730.33,
+      "sid": 305,
+      "location": 2,
+      "content": "为什么要有麦克斯韦电磁理论",
+      "music": 0.0
+    },
+    {
+      "from": 730.33,
+      "to": 733.71,
+      "sid": 306,
+      "location": 2,
+      "content": "为什么要有关于强相互作用和弱相互作用的",
+      "music": 0.0
+    },
+    {
+      "from": 733.71,
+      "to": 735.22,
+      "sid": 307,
+      "location": 2,
+      "content": "杨米尔斯场论",
+      "music": 0.0
+    },
+    {
+      "from": 735.22,
+      "to": 736.22,
+      "sid": 308,
+      "location": 2,
+      "content": "可以这么说",
+      "music": 0.0
+    },
+    {
+      "from": 736.22,
+      "to": 739.64,
+      "sid": 309,
+      "location": 2,
+      "content": "物理学家们感觉这些理论可能是正确的",
+      "music": 0.0
+    },
+    {
+      "from": 739.64,
+      "to": 744.2,
+      "sid": 310,
+      "location": 2,
+      "content": "而对称性的思想是他们这种感觉最关键的理由",
+      "music": 0.0
+    },
+    {
+      "from": 744.2,
+      "to": 747.22,
+      "sid": 311,
+      "location": 2,
+      "content": "正是因为没有理由认为宇宙中存在某一个",
+      "music": 0.0
+    },
+    {
+      "from": 747.22,
+      "to": 750.21,
+      "sid": 312,
+      "location": 2,
+      "content": "与其他位置相比独一无二的位置",
+      "music": 0.0
+    },
+    {
+      "from": 750.21,
+      "to": 752.33,
+      "sid": 313,
+      "location": 2,
+      "content": "所以物理学家们对平移",
+      "music": 0.0
+    },
+    {
+      "from": 752.33,
+      "to": 755.68,
+      "sid": 314,
+      "location": 2,
+      "content": "对称性广泛存在于自然定律中是有信心的",
+      "music": 0.0
+    },
+    {
+      "from": 755.68,
+      "to": 757.22,
+      "sid": 315,
+      "location": 2,
+      "content": "正是因为没有理由认为",
+      "music": 0.0
+    },
+    {
+      "from": 757.22,
+      "to": 760.64,
+      "sid": 316,
+      "location": 2,
+      "content": "宇宙中存在某一种和其他匀速运动相比",
+      "music": 0.0
+    },
+    {
+      "from": 760.64,
+      "to": 762.42,
+      "sid": 317,
+      "location": 2,
+      "content": "独一无二的匀速运动",
+      "music": 0.0
+    },
+    {
+      "from": 762.42,
+      "to": 766.24,
+      "sid": 318,
+      "location": 2,
+      "content": "所以物理学家们有足够的信心相信狭义相对论",
+      "music": 0.0
+    },
+    {
+      "from": 766.24,
+      "to": 769.24,
+      "sid": 319,
+      "location": 2,
+      "content": "也正是因为没有理由认为任何一个观测点",
+      "music": 0.0
+    },
+    {
+      "from": 769.24,
+      "to": 771.05,
+      "sid": 320,
+      "location": 2,
+      "content": "不管他是否在加速",
+      "music": 0.0
+    },
+    {
+      "from": 771.05,
+      "to": 773.47,
+      "sid": 321,
+      "location": 2,
+      "content": "都和其他的观测点有所不同",
+      "music": 0.0
+    },
+    {
+      "from": 773.47,
+      "to": 777.22,
+      "sid": 322,
+      "location": 2,
+      "content": "所以物理学家们对广义相对论有足够的信心",
+      "music": 0.0
+    },
+    {
+      "from": 777.22,
+      "to": 779.36,
+      "sid": 323,
+      "location": 2,
+      "content": "可以说啊对于科学家来说",
+      "music": 0.0
+    },
+    {
+      "from": 779.36,
+      "to": 782.14,
+      "sid": 324,
+      "location": 2,
+      "content": "对称性并不是自然定律的结果",
+      "music": 0.0
+    },
+    {
+      "from": 782.14,
+      "to": 784.35,
+      "sid": 325,
+      "location": 2,
+      "content": "而是自然定律的基础",
+      "music": 0.0
+    },
+    {
+      "from": 784.35,
+      "to": 785.65,
+      "sid": 326,
+      "location": 2,
+      "content": "如果没有对称性",
+      "music": 0.0
+    },
+    {
+      "from": 785.65,
+      "to": 788.54,
+      "sid": 327,
+      "location": 2,
+      "content": "那么现代科学的大厦将会整体崩塌",
+      "music": 0.0
+    },
+    {
+      "from": 788.54,
+      "to": 790.8,
+      "sid": 328,
+      "location": 2,
+      "content": "如果有一天你提出一个新的理论",
+      "music": 0.0
+    },
+    {
+      "from": 790.8,
+      "to": 792.84,
+      "sid": 329,
+      "location": 2,
+      "content": "但是挑战了某种对称性",
+      "music": 0.0
+    },
+    {
+      "from": 792.84,
+      "to": 796.12,
+      "sid": 330,
+      "location": 2,
+      "content": "那么就会迎来科学界最严苛的审视",
+      "music": 0.0
+    },
+    {
+      "from": 796.12,
+      "to": 798.58,
+      "sid": 331,
+      "location": 2,
+      "content": "但是这里有一个东西你肯定猜到了",
+      "music": 0.0
+    },
+    {
+      "from": 798.58,
+      "to": 801.83,
+      "sid": 332,
+      "location": 2,
+      "content": "那就是我们讲过很多次的时间对称性",
+      "music": 0.0
+    },
+    {
+      "from": 801.83,
+      "to": 803.67,
+      "sid": 333,
+      "location": 2,
+      "content": "对于时间也很重要",
+      "music": 0.0
+    },
+    {
+      "from": 803.67,
+      "to": 805.11,
+      "sid": 334,
+      "location": 2,
+      "content": "没有人能给予时间",
+      "music": 0.0
+    },
+    {
+      "from": 805.11,
+      "to": 807.85,
+      "sid": 335,
+      "location": 2,
+      "content": "一个明确的基本层面上的定义",
+      "music": 0.0
+    },
+    {
+      "from": 807.85,
+      "to": 809.19,
+      "sid": 336,
+      "location": 2,
+      "content": "但毫无疑问的是",
+      "music": 0.0
+    },
+    {
+      "from": 809.19,
+      "to": 811.67,
+      "sid": 337,
+      "location": 2,
+      "content": "时间是宇宙变化的记录者",
+      "music": 0.0
+    },
+    {
+      "from": 811.67,
+      "to": 813.45,
+      "sid": 338,
+      "location": 2,
+      "content": "宇宙中的事物逐渐变化",
+      "music": 0.0
+    },
+    {
+      "from": 813.45,
+      "to": 816.48,
+      "sid": 339,
+      "location": 2,
+      "content": "不同以往使我们注意到时间的流逝",
+      "music": 0.0
+    },
+    {
+      "from": 816.48,
+      "to": 819.1,
+      "sid": 340,
+      "location": 2,
+      "content": "手表上的指针指向不同的数字",
+      "music": 0.0
+    },
+    {
+      "from": 819.1,
+      "to": 821.64,
+      "sid": 341,
+      "location": 2,
+      "content": "太阳在天空中的位置发生变化",
+      "music": 0.0
+    },
+    {
+      "from": 821.64,
+      "to": 825.069,
+      "sid": 342,
+      "location": 2,
+      "content": "可乐瓶子中出来的二氧化碳分子四处弥散",
+      "music": 0.0
+    },
+    {
+      "from": 825.069,
+      "to": 827.849,
+      "sid": 343,
+      "location": 2,
+      "content": "所有这一切都表明事物发生了变化",
+      "music": 0.0
+    },
+    {
+      "from": 827.849,
+      "to": 829.949,
+      "sid": 344,
+      "location": 2,
+      "content": "而时间的作用正在于",
+      "music": 0.0
+    },
+    {
+      "from": 829.949,
+      "to": 832.31,
+      "sid": 345,
+      "location": 2,
+      "content": "它可以帮助我们注意到这些变化",
+      "music": 0.0
+    },
+    {
+      "from": 832.31,
+      "to": 834.16,
+      "sid": 346,
+      "location": 2,
+      "content": "按照约翰惠勒的说法",
+      "music": 0.0
+    },
+    {
+      "from": 834.16,
+      "to": 838.74,
+      "sid": 347,
+      "location": 2,
+      "content": "时间就是大自然用以保证所有一切所有的变化",
+      "music": 0.0
+    },
+    {
+      "from": 838.74,
+      "to": 842.33,
+      "sid": 348,
+      "location": 2,
+      "content": "不至于一股脑儿一下子发生的巧妙方法",
+      "music": 0.0
+    },
+    {
+      "from": 842.33,
+      "to": 846.28,
+      "sid": 349,
+      "location": 2,
+      "content": "时间的存在取决于一种特殊的对称性的缺失",
+      "music": 0.0
+    },
+    {
+      "from": 846.28,
+      "to": 848.88,
+      "sid": 350,
+      "location": 2,
+      "content": "如果今天的世界和过去的世界之间",
+      "music": 0.0
+    },
+    {
+      "from": 848.88,
+      "to": 850.7,
+      "sid": 351,
+      "location": 2,
+      "content": "存在一种完美的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 850.7,
+      "to": 854.0,
+      "sid": 352,
+      "location": 2,
+      "content": "如果时间的改变就像旋转白色台球一样",
+      "music": 0.0
+    },
+    {
+      "from": 854.0,
+      "to": 855.41,
+      "sid": 353,
+      "location": 2,
+      "content": "不会带来任何变化",
+      "music": 0.0
+    },
+    {
+      "from": 855.41,
+      "to": 858.46,
+      "sid": 354,
+      "location": 2,
+      "content": "那我们感受到的时间实际上就不存在",
+      "music": 0.0
+    },
+    {
+      "from": 858.46,
+      "to": 861.28,
+      "sid": 355,
+      "location": 2,
+      "content": "我们前面用了三期的时间探讨了时间",
+      "music": 0.0
+    },
+    {
+      "from": 861.28,
+      "to": 862.0,
+      "sid": 356,
+      "location": 2,
+      "content": "这个东西",
+      "music": 0.0
+    },
+    {
+      "from": 862.0,
+      "to": 864.02,
+      "sid": 357,
+      "location": 2,
+      "content": "在经典物理学中的消失",
+      "music": 0.0
+    },
+    {
+      "from": 864.02,
+      "to": 866.12,
+      "sid": 358,
+      "location": 2,
+      "content": "和在现代物理学中的回归",
+      "music": 0.0
+    },
+    {
+      "from": 866.12,
+      "to": 868.88,
+      "sid": 359,
+      "location": 2,
+      "content": "今天我们在这就不重新展开这个话题了啊",
+      "music": 0.0
+    },
+    {
+      "from": 868.88,
+      "to": 870.22,
+      "sid": 360,
+      "location": 2,
+      "content": "我们换一个问题",
+      "music": 0.0
+    },
+    {
+      "from": 870.22,
+      "to": 871.37,
+      "sid": 361,
+      "location": 2,
+      "content": "请你思考一下",
+      "music": 0.0
+    },
+    {
+      "from": 871.37,
+      "to": 873.13,
+      "sid": 362,
+      "location": 2,
+      "content": "既然相对论告诉我们",
+      "music": 0.0
+    },
+    {
+      "from": 873.13,
+      "to": 874.83,
+      "sid": 363,
+      "location": 2,
+      "content": "时间的流逝快慢",
+      "music": 0.0
+    },
+    {
+      "from": 874.83,
+      "to": 879.12,
+      "sid": 364,
+      "location": 2,
+      "content": "取决于你运动的速度和你所处的引力场的强度",
+      "music": 0.0
+    },
+    {
+      "from": 879.12,
+      "to": 882.0,
+      "sid": 365,
+      "location": 2,
+      "content": "这一点经常听我们节目的人肯定都清楚了啊",
+      "music": 0.0
+    },
+    {
+      "from": 882.0,
+      "to": 883.8,
+      "sid": 366,
+      "location": 2,
+      "content": "就是如果你不停的加速运动",
+      "music": 0.0
+    },
+    {
+      "from": 883.8,
+      "to": 885.3,
+      "sid": 367,
+      "location": 2,
+      "content": "直到接近光速的时候",
+      "music": 0.0
+    },
+    {
+      "from": 885.3,
+      "to": 888.02,
+      "sid": 368,
+      "location": 2,
+      "content": "你的时间流速就会越来越慢好",
+      "music": 0.0
+    },
+    {
+      "from": 888.02,
+      "to": 891.62,
+      "sid": 369,
+      "location": 2,
+      "content": "那么我们不禁要问天文学家和物理学家们",
+      "music": 0.0
+    },
+    {
+      "from": 891.62,
+      "to": 894.54,
+      "sid": 370,
+      "location": 2,
+      "content": "当他们谈起整个宇宙的年龄的时候",
+      "music": 0.0
+    },
+    {
+      "from": 894.54,
+      "to": 898.41,
+      "sid": 371,
+      "location": 2,
+      "content": "也就是宇宙开始于距今140亿年之前",
+      "music": 0.0
+    },
+    {
+      "from": 898.41,
+      "to": 902.339,
+      "sid": 372,
+      "location": 2,
+      "content": "这个140亿年又是相对于谁来说的呢",
+      "music": 0.0
+    },
+    {
+      "from": 902.339,
+      "to": 905.499,
+      "sid": 373,
+      "location": 2,
+      "content": "是哪一台时钟给出的140亿年呢",
+      "music": 0.0
+    },
+    {
+      "from": 905.499,
+      "to": 908.179,
+      "sid": 374,
+      "location": 2,
+      "content": "如果有一个距离我们很遥远的星系",
+      "music": 0.0
+    },
+    {
+      "from": 908.179,
+      "to": 911.46,
+      "sid": 375,
+      "location": 2,
+      "content": "它和我们之间以非常快的速度相对运动",
+      "music": 0.0
+    },
+    {
+      "from": 911.46,
+      "to": 913.66,
+      "sid": 376,
+      "location": 2,
+      "content": "那在这个星系里的智慧生命",
+      "music": 0.0
+    },
+    {
+      "from": 913.66,
+      "to": 916.82,
+      "sid": 377,
+      "location": 2,
+      "content": "他们也会得出宇宙的寿命是140亿年",
+      "music": 0.0
+    },
+    {
+      "from": 916.82,
+      "to": 917.75,
+      "sid": 378,
+      "location": 2,
+      "content": "这个结论吗",
+      "music": 0.0
+    },
+    {
+      "from": 917.75,
+      "to": 919.07,
+      "sid": 379,
+      "location": 2,
+      "content": "如果是这样的话",
+      "music": 0.0
+    },
+    {
+      "from": 919.07,
+      "to": 921.61,
+      "sid": 380,
+      "location": 2,
+      "content": "又是什么保证了他们的时钟",
+      "music": 0.0
+    },
+    {
+      "from": 921.61,
+      "to": 924.37,
+      "sid": 381,
+      "location": 2,
+      "content": "和我们的时钟是同步校对过的呢",
+      "music": 0.0
+    },
+    {
+      "from": 924.37,
+      "to": 927.52,
+      "sid": 382,
+      "location": 2,
+      "content": "这些问题的答案也取决于对称性",
+      "music": 0.0
+    },
+    {
+      "from": 927.52,
+      "to": 929.6,
+      "sid": 383,
+      "location": 2,
+      "content": "空间中的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 929.6,
+      "to": 930.7,
+      "sid": 384,
+      "location": 2,
+      "content": "40多年前",
+      "music": 0.0
+    },
+    {
+      "from": 930.7,
+      "to": 934.25,
+      "sid": 385,
+      "location": 2,
+      "content": "科学家们发现宇宙中弥漫着微波背景辐射",
+      "music": 0.0
+    },
+    {
+      "from": 934.25,
+      "to": 936.57,
+      "sid": 386,
+      "location": 2,
+      "content": "他正是大爆炸刚刚结束的时候",
+      "music": 0.0
+    },
+    {
+      "from": 936.57,
+      "to": 940.48,
+      "sid": 387,
+      "location": 2,
+      "content": "极度高热环境残留到今天冷却下来的遗迹",
+      "music": 0.0
+    },
+    {
+      "from": 940.48,
+      "to": 943.6,
+      "sid": 388,
+      "location": 2,
+      "content": "早期宇宙处于难以想象的高热状态",
+      "music": 0.0
+    },
+    {
+      "from": 943.6,
+      "to": 945.74,
+      "sid": 389,
+      "location": 2,
+      "content": "但是随着宇宙的演化和膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 945.74,
+      "to": 947.86,
+      "sid": 390,
+      "location": 2,
+      "content": "辐射被稳定的持续稀释",
+      "music": 0.0
+    },
+    {
+      "from": 947.86,
+      "to": 949.069,
+      "sid": 391,
+      "location": 2,
+      "content": "慢慢的冷却了",
+      "music": 0.0
+    },
+    {
+      "from": 949.069,
+      "to": 952.369,
+      "sid": 392,
+      "location": 2,
+      "content": "今天微波辐射的温度只比绝对零度高2.7",
+      "music": 0.0
+    },
+    {
+      "from": 952.369,
+      "to": 955.68,
+      "sid": 393,
+      "location": 2,
+      "content": "开尔文宇宙微波背景辐射对天文学家来说",
+      "music": 0.0
+    },
+    {
+      "from": 955.68,
+      "to": 957.14,
+      "sid": 394,
+      "location": 2,
+      "content": "就像是恐龙骨骼",
+      "music": 0.0
+    },
+    {
+      "from": 957.14,
+      "to": 958.92,
+      "sid": 395,
+      "location": 2,
+      "content": "对古生物学家一样珍贵",
+      "music": 0.0
+    },
+    {
+      "from": 958.92,
+      "to": 961.02,
+      "sid": 396,
+      "location": 2,
+      "content": "通过过去十几年的卫星观测",
+      "music": 0.0
+    },
+    {
+      "from": 961.02,
+      "to": 963.91,
+      "sid": 397,
+      "location": 2,
+      "content": "我们发现了微波辐射的一个重要特点",
+      "music": 0.0
+    },
+    {
+      "from": 963.91,
+      "to": 966.53,
+      "sid": 398,
+      "location": 2,
+      "content": "它的分布是极其均匀的",
+      "music": 0.0
+    },
+    {
+      "from": 966.53,
+      "to": 968.85,
+      "sid": 399,
+      "location": 2,
+      "content": "天空中不同区域的微波背景辐射",
+      "music": 0.0
+    },
+    {
+      "from": 968.85,
+      "to": 970.72,
+      "sid": 400,
+      "location": 2,
+      "content": "差异小于1‰",
+      "music": 0.0
+    },
+    {
+      "from": 970.72,
+      "to": 971.88,
+      "sid": 401,
+      "location": 2,
+      "content": "那如果在地球上",
+      "music": 0.0
+    },
+    {
+      "from": 971.88,
+      "to": 974.93,
+      "sid": 402,
+      "location": 2,
+      "content": "这样微小的差异会让天气预报变得毫无意义",
+      "music": 0.0
+    },
+    {
+      "from": 974.93,
+      "to": 976.45,
+      "sid": 403,
+      "location": 2,
+      "content": "这就相当于整个地球",
+      "music": 0.0
+    },
+    {
+      "from": 976.45,
+      "to": 978.43,
+      "sid": 404,
+      "location": 2,
+      "content": "所有地方的天气都一模一样了",
+      "music": 0.0
+    },
+    {
+      "from": 978.43,
+      "to": 979.75,
+      "sid": 405,
+      "location": 2,
+      "content": "而在宇宙尺度上",
+      "music": 0.0
+    },
+    {
+      "from": 979.75,
+      "to": 982.94,
+      "sid": 406,
+      "location": 2,
+      "content": "这种辐射温度的均匀性却非常的重要",
+      "music": 0.0
+    },
+    {
+      "from": 982.94,
+      "to": 984.28,
+      "sid": 407,
+      "location": 2,
+      "content": "这里有两个原因",
+      "music": 0.0
+    },
+    {
+      "from": 984.28,
+      "to": 987.92,
+      "sid": 408,
+      "location": 2,
+      "content": "首先辐射温度的均匀性提供了观测证据",
+      "music": 0.0
+    },
+    {
+      "from": 987.92,
+      "to": 992.1,
+      "sid": 409,
+      "location": 2,
+      "content": "证明宇宙在早期并不是由巨大的高伤的物质团",
+      "music": 0.0
+    },
+    {
+      "from": 992.1,
+      "to": 994.75,
+      "sid": 410,
+      "location": 2,
+      "content": "比如说像黑洞这样的东西所占据的",
+      "music": 0.0
+    },
+    {
+      "from": 994.75,
+      "to": 996.91,
+      "sid": 411,
+      "location": 2,
+      "content": "因为那样不均匀的物质环境",
+      "music": 0.0
+    },
+    {
+      "from": 996.91,
+      "to": 1000.09,
+      "sid": 412,
+      "location": 2,
+      "content": "只会留下同样不均匀的辐射痕迹",
+      "music": 0.0
+    },
+    {
+      "from": 1000.09,
+      "to": 1002.63,
+      "sid": 413,
+      "location": 2,
+      "content": "相反辐射温度的均匀性证明了",
+      "music": 0.0
+    },
+    {
+      "from": 1002.63,
+      "to": 1005.29,
+      "sid": 414,
+      "location": 2,
+      "content": "年轻的宇宙是各向同性的",
+      "music": 0.0
+    },
+    {
+      "from": 1005.29,
+      "to": 1008.89,
+      "sid": 415,
+      "location": 2,
+      "content": "而各项同性就意味着很低的熵",
+      "music": 0.0
+    },
+    {
+      "from": 1008.89,
+      "to": 1010.25,
+      "sid": 416,
+      "location": 2,
+      "content": "这是一件好事",
+      "music": 0.0
+    },
+    {
+      "from": 1010.25,
+      "to": 1012.59,
+      "sid": 417,
+      "location": 2,
+      "content": "因为我们关于时间之鉴的讨论",
+      "music": 0.0
+    },
+    {
+      "from": 1012.59,
+      "to": 1017.05,
+      "sid": 418,
+      "location": 2,
+      "content": "需要建立在宇宙的起始熵是低伤这种情况下的",
+      "music": 0.0
+    },
+    {
+      "from": 1017.05,
+      "to": 1018.14,
+      "sid": 419,
+      "location": 2,
+      "content": "第二个原因",
+      "music": 0.0
+    },
+    {
+      "from": 1018.14,
+      "to": 1020.14,
+      "sid": 420,
+      "location": 2,
+      "content": "尽管宇宙起源于大爆炸",
+      "music": 0.0
+    },
+    {
+      "from": 1020.14,
+      "to": 1024.27,
+      "sid": 421,
+      "location": 2,
+      "content": "但是总体上整个宇宙各地的演化应该是类似的",
+      "music": 0.0
+    },
+    {
+      "from": 1024.27,
+      "to": 1025.75,
+      "sid": 422,
+      "location": 2,
+      "content": "既然我们这里的温度",
+      "music": 0.0
+    },
+    {
+      "from": 1025.75,
+      "to": 1028.38,
+      "sid": 423,
+      "location": 2,
+      "content": "和宇宙中其他地方的温度相同",
+      "music": 0.0
+    },
+    {
+      "from": 1028.38,
+      "to": 1030.94,
+      "sid": 424,
+      "location": 2,
+      "content": "那么宇宙中每个地方的物理条件",
+      "music": 0.0
+    },
+    {
+      "from": 1030.94,
+      "to": 1034.54,
+      "sid": 425,
+      "location": 2,
+      "content": "从大爆炸以来一定是以相同的方式演化的",
+      "music": 0.0
+    },
+    {
+      "from": 1034.54,
+      "to": 1036.24,
+      "sid": 426,
+      "location": 2,
+      "content": "这个推断非常地重要",
+      "music": 0.0
+    },
+    {
+      "from": 1036.24,
+      "to": 1038.02,
+      "sid": 427,
+      "location": 2,
+      "content": "但是我们需要正确地理解",
+      "music": 0.0
+    },
+    {
+      "from": 1038.02,
+      "to": 1039.88,
+      "sid": 428,
+      "location": 2,
+      "content": "当我们仰望星空的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1039.88,
+      "to": 1042.409,
+      "sid": 429,
+      "location": 2,
+      "content": "乍一看似乎天空并不一致",
+      "music": 0.0
+    },
+    {
+      "from": 1042.409,
+      "to": 1045.409,
+      "sid": 430,
+      "location": 2,
+      "content": "各种不同的行星和恒星在里面闪烁",
+      "music": 0.0
+    },
+    {
+      "from": 1045.409,
+      "to": 1046.929,
+      "sid": 431,
+      "location": 2,
+      "content": "这里的关键就在于",
+      "music": 0.0
+    },
+    {
+      "from": 1046.929,
+      "to": 1049.089,
+      "sid": 432,
+      "location": 2,
+      "content": "当我们分析整个宇宙的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1049.089,
+      "to": 1050.869,
+      "sid": 433,
+      "location": 2,
+      "content": "采用的是宏观的视角",
+      "music": 0.0
+    },
+    {
+      "from": 1050.869,
+      "to": 1052.769,
+      "sid": 434,
+      "location": 2,
+      "content": "这些小尺度上的差异",
+      "music": 0.0
+    },
+    {
+      "from": 1052.769,
+      "to": 1054.61,
+      "sid": 435,
+      "location": 2,
+      "content": "这里的小要打一个引号啊",
+      "music": 0.0
+    },
+    {
+      "from": 1054.61,
+      "to": 1057.21,
+      "sid": 436,
+      "location": 2,
+      "content": "它们的差异完全可以被平均掉",
+      "music": 0.0
+    },
+    {
+      "from": 1057.21,
+      "to": 1058.65,
+      "sid": 437,
+      "location": 2,
+      "content": "在大尺度上",
+      "music": 0.0
+    },
+    {
+      "from": 1058.65,
+      "to": 1059.98,
+      "sid": 438,
+      "location": 2,
+      "content": "宇宙是均匀的",
+      "music": 0.0
+    },
+    {
+      "from": 1059.98,
+      "to": 1061.26,
+      "sid": 439,
+      "location": 2,
+      "content": "这就像是一杯水",
+      "music": 0.0
+    },
+    {
+      "from": 1061.26,
+      "to": 1062.56,
+      "sid": 440,
+      "location": 2,
+      "content": "在分子层次上",
+      "music": 0.0
+    },
+    {
+      "from": 1062.56,
+      "to": 1063.9,
+      "sid": 441,
+      "location": 2,
+      "content": "水是杂乱无章的",
+      "music": 0.0
+    },
+    {
+      "from": 1063.9,
+      "to": 1065.58,
+      "sid": 442,
+      "location": 2,
+      "content": "这里有一个HRO分子",
+      "music": 0.0
+    },
+    {
+      "from": 1065.58,
+      "to": 1066.86,
+      "sid": 443,
+      "location": 2,
+      "content": "那里又什么都没有",
+      "music": 0.0
+    },
+    {
+      "from": 1066.86,
+      "to": 1069.76,
+      "sid": 444,
+      "location": 2,
+      "content": "而另外一边又有两个HRO分子",
+      "music": 0.0
+    },
+    {
+      "from": 1073.3,
+      "to": 1074.96,
+      "sid": 445,
+      "location": 2,
+      "content": "只考虑日常生活中",
+      "music": 0.0
+    },
+    {
+      "from": 1074.96,
+      "to": 1077.84,
+      "sid": 446,
+      "location": 2,
+      "content": "这种肉眼可见的大尺度上的水",
+      "music": 0.0
+    },
+    {
+      "from": 1077.84,
+      "to": 1080.8,
+      "sid": 447,
+      "location": 2,
+      "content": "我们就会发现水是清澈而均匀的",
+      "music": 0.0
+    },
+    {
+      "from": 1080.8,
+      "to": 1082.8,
+      "sid": 448,
+      "location": 2,
+      "content": "这个结论之所以非常重要",
+      "music": 0.0
+    },
+    {
+      "from": 1082.8,
+      "to": 1083.44,
+      "sid": 449,
+      "location": 2,
+      "content": "是因为",
+      "music": 0.0
+    },
+    {
+      "from": 1083.44,
+      "to": 1087.78,
+      "sid": 450,
+      "location": 2,
+      "content": "它让我们可以为整个宇宙定义一个时间的概念",
+      "music": 0.0
+    },
+    {
+      "from": 1087.78,
+      "to": 1089.62,
+      "sid": 451,
+      "location": 2,
+      "content": "如果我们把变化的程度",
+      "music": 0.0
+    },
+    {
+      "from": 1089.62,
+      "to": 1092.1,
+      "sid": 452,
+      "location": 2,
+      "content": "视为时间流逝的有效定义",
+      "music": 0.0
+    },
+    {
+      "from": 1092.1,
+      "to": 1094.88,
+      "sid": 453,
+      "location": 2,
+      "content": "而整个空间的物理条件的均匀性",
+      "music": 0.0
+    },
+    {
+      "from": 1094.88,
+      "to": 1097.31,
+      "sid": 454,
+      "location": 2,
+      "content": "又证明了宇宙变化的均匀性",
+      "music": 0.0
+    },
+    {
+      "from": 1097.31,
+      "to": 1099.91,
+      "sid": 455,
+      "location": 2,
+      "content": "那么我们就能知道时间的流逝",
+      "music": 0.0
+    },
+    {
+      "from": 1099.91,
+      "to": 1101.37,
+      "sid": 456,
+      "location": 2,
+      "content": "它也是均匀的",
+      "music": 0.0
+    },
+    {
+      "from": 1101.37,
+      "to": 1102.29,
+      "sid": 457,
+      "location": 2,
+      "content": "打个比方",
+      "music": 0.0
+    },
+    {
+      "from": 1102.29,
+      "to": 1105.85,
+      "sid": 458,
+      "location": 2,
+      "content": "这就好像地球的地理结构的均匀性啊",
+      "music": 0.0
+    },
+    {
+      "from": 1105.85,
+      "to": 1106.77,
+      "sid": 459,
+      "location": 2,
+      "content": "这里我们说的均匀",
+      "music": 0.0
+    },
+    {
+      "from": 1106.77,
+      "to": 1110.13,
+      "sid": 460,
+      "location": 2,
+      "content": "当然也是大尺度上被平均之后的均匀啊",
+      "music": 0.0
+    },
+    {
+      "from": 1110.13,
+      "to": 1112.09,
+      "sid": 461,
+      "location": 2,
+      "content": "这种均匀性让美洲",
+      "music": 0.0
+    },
+    {
+      "from": 1112.09,
+      "to": 1114.17,
+      "sid": 462,
+      "location": 2,
+      "content": "亚洲和非洲的地理学家",
+      "music": 0.0
+    },
+    {
+      "from": 1114.17,
+      "to": 1117.01,
+      "sid": 463,
+      "location": 2,
+      "content": "可以一致的认可地球的历史和年龄",
+      "music": 0.0
+    },
+    {
+      "from": 1117.01,
+      "to": 1119.91,
+      "sid": 464,
+      "location": 2,
+      "content": "而不会让美洲的地理学家和亚洲的地理学家",
+      "music": 0.0
+    },
+    {
+      "from": 1119.91,
+      "to": 1123.51,
+      "sid": 465,
+      "location": 2,
+      "content": "因为地理条件的不均匀而得出不同的地球年龄",
+      "music": 0.0
+    },
+    {
+      "from": 1123.51,
+      "to": 1124.57,
+      "sid": 466,
+      "location": 2,
+      "content": "这是一样的",
+      "music": 0.0
+    },
+    {
+      "from": 1124.57,
+      "to": 1126.25,
+      "sid": 467,
+      "location": 2,
+      "content": "宇宙演化的均匀性",
+      "music": 0.0
+    },
+    {
+      "from": 1126.25,
+      "to": 1128.79,
+      "sid": 468,
+      "location": 2,
+      "content": "也让生活在不同星系的物理学家",
+      "music": 0.0
+    },
+    {
+      "from": 1128.79,
+      "to": 1132.24,
+      "sid": 469,
+      "location": 2,
+      "content": "能够达成对宇宙历史和年龄的共识",
+      "music": 0.0
+    },
+    {
+      "from": 1132.24,
+      "to": 1135.95,
+      "sid": 470,
+      "location": 2,
+      "content": "但是要当心这里我们又会遇到一个核心的问题",
+      "music": 0.0
+    },
+    {
+      "from": 1135.95,
+      "to": 1138.37,
+      "sid": 471,
+      "location": 2,
+      "content": "如果宇宙拥有短暂的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1138.37,
+      "to": 1141.58,
+      "sid": 472,
+      "location": 2,
+      "content": "也就是说它处于一种完全不变的状态",
+      "music": 0.0
+    },
+    {
+      "from": 1141.58,
+      "to": 1144.33,
+      "sid": 473,
+      "location": 2,
+      "content": "那么连定义时间都会变得非常困难",
+      "music": 0.0
+    },
+    {
+      "from": 1144.33,
+      "to": 1145.35,
+      "sid": 474,
+      "location": 2,
+      "content": "而另一方面",
+      "music": 0.0
+    },
+    {
+      "from": 1145.35,
+      "to": 1148.05,
+      "sid": 475,
+      "location": 2,
+      "content": "如果宇宙在空间上没有任何对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1148.05,
+      "to": 1150.47,
+      "sid": 476,
+      "location": 2,
+      "content": "比如说背景辐射是完全杂乱的",
+      "music": 0.0
+    },
+    {
+      "from": 1150.47,
+      "to": 1152.949,
+      "sid": 477,
+      "location": 2,
+      "content": "各个区域的温差非常的巨大",
+      "music": 0.0
+    },
+    {
+      "from": 1152.949,
+      "to": 1154.329,
+      "sid": 478,
+      "location": 2,
+      "content": "那么在宇宙学上",
+      "music": 0.0
+    },
+    {
+      "from": 1154.329,
+      "to": 1156.829,
+      "sid": 479,
+      "location": 2,
+      "content": "时间的概念也会变得没有意义",
+      "music": 0.0
+    },
+    {
+      "from": 1156.829,
+      "to": 1159.53,
+      "sid": 480,
+      "location": 2,
+      "content": "不同地方的钟会以不同的速度走",
+      "music": 0.0
+    },
+    {
+      "from": 1159.53,
+      "to": 1161.93,
+      "sid": 481,
+      "location": 2,
+      "content": "如果你想知道宇宙在31岁的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1161.93,
+      "to": 1162.87,
+      "sid": 482,
+      "location": 2,
+      "content": "是什么样子",
+      "music": 0.0
+    },
+    {
+      "from": 1162.87,
+      "to": 1165.87,
+      "sid": 483,
+      "location": 2,
+      "content": "答案就取决于你用哪个钟来计算",
+      "music": 0.0
+    },
+    {
+      "from": 1165.87,
+      "to": 1167.75,
+      "sid": 484,
+      "location": 2,
+      "content": "这30亿年的时间流逝",
+      "music": 0.0
+    },
+    {
+      "from": 1167.75,
+      "to": 1169.389,
+      "sid": 485,
+      "location": 2,
+      "content": "那就会非常的复杂",
+      "music": 0.0
+    },
+    {
+      "from": 1169.389,
+      "to": 1171.489,
+      "sid": 486,
+      "location": 2,
+      "content": "所以你看非常幸运的是",
+      "music": 0.0
+    },
+    {
+      "from": 1171.489,
+      "to": 1173.889,
+      "sid": 487,
+      "location": 2,
+      "content": "我们的宇宙既没有那么多对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1173.889,
+      "to": 1176.289,
+      "sid": 488,
+      "location": 2,
+      "content": "以至于时间完全失去意义",
+      "music": 0.0
+    },
+    {
+      "from": 1176.289,
+      "to": 1178.28,
+      "sid": 489,
+      "location": 2,
+      "content": "也不是完全没有对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1178.28,
+      "to": 1179.96,
+      "sid": 490,
+      "location": 2,
+      "content": "这样我们就可以避开那种",
+      "music": 0.0
+    },
+    {
+      "from": 1179.96,
+      "to": 1181.85,
+      "sid": 491,
+      "location": 2,
+      "content": "完全无法计算的复杂性",
+      "music": 0.0
+    },
+    {
+      "from": 1181.85,
+      "to": 1184.43,
+      "sid": 492,
+      "location": 2,
+      "content": "让我们可以讨论宇宙的总年龄",
+      "music": 0.0
+    },
+    {
+      "from": 1184.43,
+      "to": 1185.59,
+      "sid": 493,
+      "location": 2,
+      "content": "也可以讨论",
+      "music": 0.0
+    },
+    {
+      "from": 1185.59,
+      "to": 1187.34,
+      "sid": 494,
+      "location": 2,
+      "content": "随着时间的演化",
+      "music": 0.0
+    },
+    {
+      "from": 1187.34,
+      "to": 1190.71,
+      "sid": 495,
+      "location": 2,
+      "content": "我们总是说为什么人类可以观察和理解宇宙",
+      "music": 0.0
+    },
+    {
+      "from": 1190.71,
+      "to": 1193.39,
+      "sid": 496,
+      "location": 2,
+      "content": "我想这就是宇宙留给我们的一个恩赐吧",
+      "music": 0.0
+    },
+    {
+      "from": 1193.39,
+      "to": 1195.49,
+      "sid": 497,
+      "location": 2,
+      "content": "那就是很多地方都有对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1195.49,
+      "to": 1197.219,
+      "sid": 498,
+      "location": 2,
+      "content": "但又不是完全对称",
+      "music": 0.0
+    },
+    {
+      "from": 1197.219,
+      "to": 1200.759,
+      "sid": 499,
+      "location": 2,
+      "content": "那好就让我们再来关注一下宇宙的演化",
+      "music": 0.0
+    },
+    {
+      "from": 1200.759,
+      "to": 1201.939,
+      "sid": 500,
+      "location": 2,
+      "content": "用一句话来说",
+      "music": 0.0
+    },
+    {
+      "from": 1201.939,
+      "to": 1203.219,
+      "sid": 501,
+      "location": 2,
+      "content": "宇宙的历史很简单",
+      "music": 0.0
+    },
+    {
+      "from": 1203.219,
+      "to": 1204.719,
+      "sid": 502,
+      "location": 2,
+      "content": "宇宙在膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1204.719,
+      "to": 1205.679,
+      "sid": 503,
+      "location": 2,
+      "content": "1929年",
+      "music": 0.0
+    },
+    {
+      "from": 1205.679,
+      "to": 1206.979,
+      "sid": 504,
+      "location": 2,
+      "content": "埃德温哈勃发现",
+      "music": 0.0
+    },
+    {
+      "from": 1206.979,
+      "to": 1210.55,
+      "sid": 505,
+      "location": 2,
+      "content": "他在望远镜里看到的几十个星系都在离他远去",
+      "music": 0.0
+    },
+    {
+      "from": 1210.55,
+      "to": 1212.35,
+      "sid": 506,
+      "location": 2,
+      "content": "而一个星系离他越远",
+      "music": 0.0
+    },
+    {
+      "from": 1212.35,
+      "to": 1214.63,
+      "sid": 507,
+      "location": 2,
+      "content": "那离去的速度就越快",
+      "music": 0.0
+    },
+    {
+      "from": 1214.63,
+      "to": 1216.73,
+      "sid": 508,
+      "location": 2,
+      "content": "距离我们1亿光年远的星系",
+      "music": 0.0
+    },
+    {
+      "from": 1216.73,
+      "to": 1220.07,
+      "sid": 509,
+      "location": 2,
+      "content": "以每小时550万公里的速度离我们远去",
+      "music": 0.0
+    },
+    {
+      "from": 1220.07,
+      "to": 1223.89,
+      "sid": 510,
+      "location": 2,
+      "content": "距离我们2亿光年的星系移动速度也变成两倍",
+      "music": 0.0
+    },
+    {
+      "from": 1223.89,
+      "to": 1226.79,
+      "sid": 511,
+      "location": 2,
+      "content": "就是以每小时110万公里的速度",
+      "music": 0.0
+    },
+    {
+      "from": 1226.79,
+      "to": 1227.929,
+      "sid": 512,
+      "location": 2,
+      "content": "离我们远去",
+      "music": 0.0
+    },
+    {
+      "from": 1227.929,
+      "to": 1229.849,
+      "sid": 513,
+      "location": 2,
+      "content": "而距离我们3亿光年的星系",
+      "music": 0.0
+    },
+    {
+      "from": 1229.849,
+      "to": 1231.609,
+      "sid": 514,
+      "location": 2,
+      "content": "的移动速度就变成三倍",
+      "music": 0.0
+    },
+    {
+      "from": 1231.609,
+      "to": 1232.67,
+      "sid": 515,
+      "location": 2,
+      "content": "以此类推",
+      "music": 0.0
+    },
+    {
+      "from": 1232.67,
+      "to": 1234.11,
+      "sid": 516,
+      "location": 2,
+      "content": "后来的故事你知道了",
+      "music": 0.0
+    },
+    {
+      "from": 1234.11,
+      "to": 1236.99,
+      "sid": 517,
+      "location": 2,
+      "content": "人们按照这个现象反推得出结论",
+      "music": 0.0
+    },
+    {
+      "from": 1236.99,
+      "to": 1239.46,
+      "sid": 518,
+      "location": 2,
+      "content": "宇宙一定开始于一场大爆炸",
+      "music": 0.0
+    },
+    {
+      "from": 1239.46,
+      "to": 1241.0,
+      "sid": 519,
+      "location": 2,
+      "content": "但这里也有个问题",
+      "music": 0.0
+    },
+    {
+      "from": 1241.0,
+      "to": 1243.48,
+      "sid": 520,
+      "location": 2,
+      "content": "如果宇宙像是一颗炸弹爆炸开",
+      "music": 0.0
+    },
+    {
+      "from": 1243.48,
+      "to": 1246.82,
+      "sid": 521,
+      "location": 2,
+      "content": "所有的星系都像炸弹的碎片一样往四处飞",
+      "music": 0.0
+    },
+    {
+      "from": 1246.82,
+      "to": 1249.92,
+      "sid": 522,
+      "location": 2,
+      "content": "那么就会有些碎片朝着相反的方向飞",
+      "music": 0.0
+    },
+    {
+      "from": 1249.92,
+      "to": 1252.54,
+      "sid": 523,
+      "location": 2,
+      "content": "有的碎片朝着同样的方向飞",
+      "music": 0.0
+    },
+    {
+      "from": 1252.54,
+      "to": 1256.44,
+      "sid": 524,
+      "location": 2,
+      "content": "而如果我们所在的地球在一块随机的碎片上",
+      "music": 0.0
+    },
+    {
+      "from": 1256.44,
+      "to": 1260.27,
+      "sid": 525,
+      "location": 2,
+      "content": "那我们应该观察到有的星系相对我们是静止的",
+      "music": 0.0
+    },
+    {
+      "from": 1260.27,
+      "to": 1261.59,
+      "sid": 526,
+      "location": 2,
+      "content": "因为总有一些碎片",
+      "music": 0.0
+    },
+    {
+      "from": 1261.59,
+      "to": 1263.65,
+      "sid": 527,
+      "location": 2,
+      "content": "是和我们朝同一个方向飞的嘛",
+      "music": 0.0
+    },
+    {
+      "from": 1263.65,
+      "to": 1265.37,
+      "sid": 528,
+      "location": 2,
+      "content": "但事实却不是这样",
+      "music": 0.0
+    },
+    {
+      "from": 1265.37,
+      "to": 1268.44,
+      "sid": 529,
+      "location": 2,
+      "content": "我们看到所有的星系都在离我们远去",
+      "music": 0.0
+    },
+    {
+      "from": 1268.44,
+      "to": 1269.98,
+      "sid": 530,
+      "location": 2,
+      "content": "那么合理的推测是",
+      "music": 0.0
+    },
+    {
+      "from": 1269.98,
+      "to": 1273.24,
+      "sid": 531,
+      "location": 2,
+      "content": "我们恰好在宇宙大爆炸的正中心",
+      "music": 0.0
+    },
+    {
+      "from": 1273.24,
+      "to": 1274.34,
+      "sid": 532,
+      "location": 2,
+      "content": "因为只有这样",
+      "music": 0.0
+    },
+    {
+      "from": 1274.34,
+      "to": 1276.6,
+      "sid": 533,
+      "location": 2,
+      "content": "我们才会看到四面八方的星系",
+      "music": 0.0
+    },
+    {
+      "from": 1276.6,
+      "to": 1278.36,
+      "sid": 534,
+      "location": 2,
+      "content": "离开我们的速度是一致的",
+      "music": 0.0
+    },
+    {
+      "from": 1278.36,
+      "to": 1280.42,
+      "sid": 535,
+      "location": 2,
+      "content": "只要它们和我们的距离类似",
+      "music": 0.0
+    },
+    {
+      "from": 1280.42,
+      "to": 1283.04,
+      "sid": 536,
+      "location": 2,
+      "content": "而不是说东边的星系离开得快一些",
+      "music": 0.0
+    },
+    {
+      "from": 1283.04,
+      "to": 1285.13,
+      "sid": 537,
+      "location": 2,
+      "content": "西边的星系离开得慢一些",
+      "music": 0.0
+    },
+    {
+      "from": 1285.13,
+      "to": 1286.53,
+      "sid": 538,
+      "location": 2,
+      "content": "要真的是那样的话",
+      "music": 0.0
+    },
+    {
+      "from": 1286.53,
+      "to": 1290.67,
+      "sid": 539,
+      "location": 2,
+      "content": "这个理论就必须承受一个根深蒂固的不对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1290.67,
+      "to": 1293.57,
+      "sid": 540,
+      "location": 2,
+      "content": "也就是远离爆炸核心的区域",
+      "music": 0.0
+    },
+    {
+      "from": 1293.57,
+      "to": 1295.31,
+      "sid": 541,
+      "location": 2,
+      "content": "那些离我们很远的地方",
+      "music": 0.0
+    },
+    {
+      "from": 1295.31,
+      "to": 1298.28,
+      "sid": 542,
+      "location": 2,
+      "content": "和我们这里将会有很大的不同",
+      "music": 0.0
+    },
+    {
+      "from": 1298.28,
+      "to": 1300.08,
+      "sid": 543,
+      "location": 2,
+      "content": "因为天文学上的实验数据",
+      "music": 0.0
+    },
+    {
+      "from": 1300.08,
+      "to": 1302.62,
+      "sid": 544,
+      "location": 2,
+      "content": "并没有为这种不对称性提供依据",
+      "music": 0.0
+    },
+    {
+      "from": 1302.62,
+      "to": 1304.08,
+      "sid": 545,
+      "location": 2,
+      "content": "我们前面说了很多次",
+      "music": 0.0
+    },
+    {
+      "from": 1304.08,
+      "to": 1307.06,
+      "sid": 546,
+      "location": 2,
+      "content": "宇宙中所有的地方看起来都是差不多的",
+      "music": 0.0
+    },
+    {
+      "from": 1307.06,
+      "to": 1308.66,
+      "sid": 547,
+      "location": 2,
+      "content": "同时我们也高度怀疑",
+      "music": 0.0
+    },
+    {
+      "from": 1308.66,
+      "to": 1309.54,
+      "sid": 548,
+      "location": 2,
+      "content": "真的就那么巧",
+      "music": 0.0
+    },
+    {
+      "from": 1309.54,
+      "to": 1311.86,
+      "sid": 549,
+      "location": 2,
+      "content": "我们就诞生在宇宙的正中心啊",
+      "music": 0.0
+    },
+    {
+      "from": 1311.86,
+      "to": 1313.94,
+      "sid": 550,
+      "location": 2,
+      "content": "那这就要求对哈勃的发现",
+      "music": 0.0
+    },
+    {
+      "from": 1313.94,
+      "to": 1316.08,
+      "sid": 551,
+      "location": 2,
+      "content": "给出一个更加复杂的解释",
+      "music": 0.0
+    },
+    {
+      "from": 1316.08,
+      "to": 1317.58,
+      "sid": 552,
+      "location": 2,
+      "content": "在这个新的解释中",
+      "music": 0.0
+    },
+    {
+      "from": 1317.58,
+      "to": 1318.94,
+      "sid": 553,
+      "location": 2,
+      "content": "我们所在的位置",
+      "music": 0.0
+    },
+    {
+      "from": 1318.94,
+      "to": 1322.19,
+      "sid": 554,
+      "location": 2,
+      "content": "不应该在宇宙中处于某种特殊的地位",
+      "music": 0.0
+    },
+    {
+      "from": 1322.19,
+      "to": 1325.99,
+      "sid": 555,
+      "location": 2,
+      "content": "否则就和我们一直秉承的对称性相冲突了",
+      "music": 0.0
+    },
+    {
+      "from": 1325.99,
+      "to": 1328.78,
+      "sid": 556,
+      "location": 2,
+      "content": "广义相对论最终给出了一个这样的解释",
+      "music": 0.0
+    },
+    {
+      "from": 1328.78,
+      "to": 1332.34,
+      "sid": 557,
+      "location": 2,
+      "content": "爱因斯坦发现空间和时间是可变的",
+      "music": 0.0
+    },
+    {
+      "from": 1332.34,
+      "to": 1333.66,
+      "sid": 558,
+      "location": 2,
+      "content": "而不是固定的",
+      "music": 0.0
+    },
+    {
+      "from": 1333.66,
+      "to": 1334.98,
+      "sid": 559,
+      "location": 2,
+      "content": "它们是有弹性的",
+      "music": 0.0
+    },
+    {
+      "from": 1334.98,
+      "to": 1336.31,
+      "sid": 560,
+      "location": 2,
+      "content": "而不是刚性的",
+      "music": 0.0
+    },
+    {
+      "from": 1336.31,
+      "to": 1339.33,
+      "sid": 561,
+      "location": 2,
+      "content": "他给出的方程可以准确地告诉我们",
+      "music": 0.0
+    },
+    {
+      "from": 1339.33,
+      "to": 1341.27,
+      "sid": 562,
+      "location": 2,
+      "content": "空间和时间是怎样",
+      "music": 0.0
+    },
+    {
+      "from": 1341.27,
+      "to": 1343.94,
+      "sid": 563,
+      "location": 2,
+      "content": "随着物质和能量的存在而变化",
+      "music": 0.0
+    },
+    {
+      "from": 1343.94,
+      "to": 1345.84,
+      "sid": 564,
+      "location": 2,
+      "content": "后来在20世纪20年代",
+      "music": 0.0
+    },
+    {
+      "from": 1345.84,
+      "to": 1348.1,
+      "sid": 565,
+      "location": 2,
+      "content": "俄罗斯数学家亚历山大弗里德曼",
+      "music": 0.0
+    },
+    {
+      "from": 1348.1,
+      "to": 1349.82,
+      "sid": 566,
+      "location": 2,
+      "content": "分析了爱因斯坦方程",
+      "music": 0.0
+    },
+    {
+      "from": 1349.82,
+      "to": 1352.159,
+      "sid": 567,
+      "location": 2,
+      "content": "并且得到了让人吃惊的结果",
+      "music": 0.0
+    },
+    {
+      "from": 1352.159,
+      "to": 1353.119,
+      "sid": 568,
+      "location": 2,
+      "content": "他认识到",
+      "music": 0.0
+    },
+    {
+      "from": 1353.119,
+      "to": 1355.679,
+      "sid": 569,
+      "location": 2,
+      "content": "弥散于整个宇宙空间的引力",
+      "music": 0.0
+    },
+    {
+      "from": 1355.679,
+      "to": 1358.55,
+      "sid": 570,
+      "location": 2,
+      "content": "会让空间本身的结构发生变化",
+      "music": 0.0
+    },
+    {
+      "from": 1358.55,
+      "to": 1360.07,
+      "sid": 571,
+      "location": 2,
+      "content": "在这个新的解释下",
+      "music": 0.0
+    },
+    {
+      "from": 1360.07,
+      "to": 1362.87,
+      "sid": 572,
+      "location": 2,
+      "content": "宇宙中的物质并不像炸弹碎片一样",
+      "music": 0.0
+    },
+    {
+      "from": 1362.87,
+      "to": 1365.3,
+      "sid": 573,
+      "location": 2,
+      "content": "在不变的空间里四散飞去",
+      "music": 0.0
+    },
+    {
+      "from": 1365.3,
+      "to": 1368.2,
+      "sid": 574,
+      "location": 2,
+      "content": "而是说空间本身在膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1368.2,
+      "to": 1369.44,
+      "sid": 575,
+      "location": 2,
+      "content": "空间的膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1369.44,
+      "to": 1371.74,
+      "sid": 576,
+      "location": 2,
+      "content": "把里面的星系彼此拉开",
+      "music": 0.0
+    },
+    {
+      "from": 1371.74,
+      "to": 1376.32,
+      "sid": 577,
+      "location": 2,
+      "content": "反倒是这些星系相对于空间本身是没有运动的",
+      "music": 0.0
+    },
+    {
+      "from": 1376.32,
+      "to": 1378.31,
+      "sid": 578,
+      "location": 2,
+      "content": "举一个比较好理解的例子吧",
+      "music": 0.0
+    },
+    {
+      "from": 1378.31,
+      "to": 1381.159,
+      "sid": 579,
+      "location": 2,
+      "content": "这就像在一个气球上画很多的小点儿",
+      "music": 0.0
+    },
+    {
+      "from": 1381.159,
+      "to": 1383.159,
+      "sid": 580,
+      "location": 2,
+      "content": "当这个气球被吹起来的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1383.159,
+      "to": 1384.999,
+      "sid": 581,
+      "location": 2,
+      "content": "每个小点都彼此远离",
+      "music": 0.0
+    },
+    {
+      "from": 1384.999,
+      "to": 1387.119,
+      "sid": 582,
+      "location": 2,
+      "content": "并且你站在上面的任何一个点上",
+      "music": 0.0
+    },
+    {
+      "from": 1387.119,
+      "to": 1390.34,
+      "sid": 583,
+      "location": 2,
+      "content": "都能看到其他所有的点都在远离自己",
+      "music": 0.0
+    },
+    {
+      "from": 1390.34,
+      "to": 1393.3,
+      "sid": 584,
+      "location": 2,
+      "content": "但是这个气球上并没有一个特殊的点",
+      "music": 0.0
+    },
+    {
+      "from": 1393.3,
+      "to": 1395.02,
+      "sid": 585,
+      "location": 2,
+      "content": "属于爆炸的中心",
+      "music": 0.0
+    },
+    {
+      "from": 1395.02,
+      "to": 1396.78,
+      "sid": 586,
+      "location": 2,
+      "content": "宇宙的膨胀也是这样",
+      "music": 0.0
+    },
+    {
+      "from": 1396.78,
+      "to": 1398.3,
+      "sid": 587,
+      "location": 2,
+      "content": "站在任何的一个位置",
+      "music": 0.0
+    },
+    {
+      "from": 1398.3,
+      "to": 1400.67,
+      "sid": 588,
+      "location": 2,
+      "content": "看自己都像是在爆炸的中心",
+      "music": 0.0
+    },
+    {
+      "from": 1400.67,
+      "to": 1403.25,
+      "sid": 589,
+      "location": 2,
+      "content": "哪个星系的观测者都像我们一样",
+      "music": 0.0
+    },
+    {
+      "from": 1403.25,
+      "to": 1405.98,
+      "sid": 590,
+      "location": 2,
+      "content": "看到其他所有的星系在离自己远去",
+      "music": 0.0
+    },
+    {
+      "from": 1405.98,
+      "to": 1408.26,
+      "sid": 591,
+      "location": 2,
+      "content": "并且离得越远的小点儿",
+      "music": 0.0
+    },
+    {
+      "from": 1408.26,
+      "to": 1409.659,
+      "sid": 592,
+      "location": 2,
+      "content": "离开的速度越快",
+      "music": 0.0
+    },
+    {
+      "from": 1409.659,
+      "to": 1412.739,
+      "sid": 593,
+      "location": 2,
+      "content": "这个远离的效应也是可以被计算出来的",
+      "music": 0.0
+    },
+    {
+      "from": 1412.739,
+      "to": 1414.399,
+      "sid": 594,
+      "location": 2,
+      "content": "还是刚才气球的例子",
+      "music": 0.0
+    },
+    {
+      "from": 1414.399,
+      "to": 1417.3,
+      "sid": 595,
+      "location": 2,
+      "content": "如果气球在一段时间里膨胀到两倍",
+      "music": 0.0
+    },
+    {
+      "from": 1417.3,
+      "to": 1419.72,
+      "sid": 596,
+      "location": 2,
+      "content": "所有空间的间距都变成了两倍",
+      "music": 0.0
+    },
+    {
+      "from": 1419.72,
+      "to": 1421.94,
+      "sid": 597,
+      "location": 2,
+      "content": "那么之前相距一米的小点儿",
+      "music": 0.0
+    },
+    {
+      "from": 1421.94,
+      "to": 1423.53,
+      "sid": 598,
+      "location": 2,
+      "content": "现在相距就是2米",
+      "music": 0.0
+    },
+    {
+      "from": 1423.53,
+      "to": 1426.44,
+      "sid": 599,
+      "location": 2,
+      "content": "之前相距5米的小点就会变成10米",
+      "music": 0.0
+    },
+    {
+      "from": 1426.44,
+      "to": 1428.2,
+      "sid": 600,
+      "location": 2,
+      "content": "相距1000米的小点儿",
+      "music": 0.0
+    },
+    {
+      "from": 1428.2,
+      "to": 1429.94,
+      "sid": 601,
+      "location": 2,
+      "content": "现在会相距2千米",
+      "music": 0.0
+    },
+    {
+      "from": 1429.94,
+      "to": 1432.34,
+      "sid": 602,
+      "location": 2,
+      "content": "也就是说在一定时间内",
+      "music": 0.0
+    },
+    {
+      "from": 1432.34,
+      "to": 1434.75,
+      "sid": 603,
+      "location": 2,
+      "content": "两个小点之间距离的增加",
+      "music": 0.0
+    },
+    {
+      "from": 1434.75,
+      "to": 1437.43,
+      "sid": 604,
+      "location": 2,
+      "content": "正比于它们之间的初始间距",
+      "music": 0.0
+    },
+    {
+      "from": 1437.43,
+      "to": 1439.55,
+      "sid": 605,
+      "location": 2,
+      "content": "两个小点之间的距离越远",
+      "music": 0.0
+    },
+    {
+      "from": 1439.55,
+      "to": 1441.62,
+      "sid": 606,
+      "location": 2,
+      "content": "两者之间的空间越多",
+      "music": 0.0
+    },
+    {
+      "from": 1441.62,
+      "to": 1443.32,
+      "sid": 607,
+      "location": 2,
+      "content": "当空间膨胀的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1443.32,
+      "to": 1446.2,
+      "sid": 608,
+      "location": 2,
+      "content": "它们之间的距离增加也就越显著",
+      "music": 0.0
+    },
+    {
+      "from": 1446.2,
+      "to": 1450.04,
+      "sid": 609,
+      "location": 2,
+      "content": "你可能会说气球里面的中心点就是个特殊点啊",
+      "music": 0.0
+    },
+    {
+      "from": 1450.04,
+      "to": 1453.09,
+      "sid": 610,
+      "location": 2,
+      "content": "因为气球表面所有的点都在离他远去嘛",
+      "music": 0.0
+    },
+    {
+      "from": 1453.09,
+      "to": 1454.85,
+      "sid": 611,
+      "location": 2,
+      "content": "所以我们一定要强调一下啊",
+      "music": 0.0
+    },
+    {
+      "from": 1454.85,
+      "to": 1459.42,
+      "sid": 612,
+      "location": 2,
+      "content": "这个比喻里唯一有效的部分是气球的那个表面",
+      "music": 0.0
+    },
+    {
+      "from": 1459.42,
+      "to": 1462.5,
+      "sid": 613,
+      "location": 2,
+      "content": "我们是用气球表面这个二维的平面",
+      "music": 0.0
+    },
+    {
+      "from": 1462.5,
+      "to": 1465.179,
+      "sid": 614,
+      "location": 2,
+      "content": "来帮你理解宇宙的三维空间",
+      "music": 0.0
+    },
+    {
+      "from": 1465.179,
+      "to": 1467.859,
+      "sid": 615,
+      "location": 2,
+      "content": "这个在我们后面描述宇宙形状的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1467.859,
+      "to": 1468.739,
+      "sid": 616,
+      "location": 2,
+      "content": "非常的重要",
+      "music": 0.0
+    },
+    {
+      "from": 1468.739,
+      "to": 1471.139,
+      "sid": 617,
+      "location": 2,
+      "content": "这个气球的比喻也能帮助你理解",
+      "music": 0.0
+    },
+    {
+      "from": 1471.139,
+      "to": 1473.26,
+      "sid": 618,
+      "location": 2,
+      "content": "为什么整个宇宙在膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1473.26,
+      "to": 1476.26,
+      "sid": 619,
+      "location": 2,
+      "content": "但是我们看不到身边再发生这种膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1476.26,
+      "to": 1478.18,
+      "sid": 620,
+      "location": 2,
+      "content": "比如说你的桌子离你远去",
+      "music": 0.0
+    },
+    {
+      "from": 1478.18,
+      "to": 1480.26,
+      "sid": 621,
+      "location": 2,
+      "content": "或者说木星离我们远去",
+      "music": 0.0
+    },
+    {
+      "from": 1480.26,
+      "to": 1483.0,
+      "sid": 622,
+      "location": 2,
+      "content": "因为在整个宇宙的大尺度下",
+      "music": 0.0
+    },
+    {
+      "from": 1483.0,
+      "to": 1485.62,
+      "sid": 623,
+      "location": 2,
+      "content": "这些物体之间的距离太小了",
+      "music": 0.0
+    },
+    {
+      "from": 1485.62,
+      "to": 1487.8,
+      "sid": 624,
+      "location": 2,
+      "content": "以至于这么小的空间膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1487.8,
+      "to": 1490.27,
+      "sid": 625,
+      "location": 2,
+      "content": "在测量中可以小到忽略不计",
+      "music": 0.0
+    },
+    {
+      "from": 1490.27,
+      "to": 1492.63,
+      "sid": 626,
+      "location": 2,
+      "content": "这就好比那个气球上有两个小点儿",
+      "music": 0.0
+    },
+    {
+      "from": 1492.63,
+      "to": 1494.61,
+      "sid": 627,
+      "location": 2,
+      "content": "几乎是紧紧的挨在一起",
+      "music": 0.0
+    },
+    {
+      "from": 1494.61,
+      "to": 1496.84,
+      "sid": 628,
+      "location": 2,
+      "content": "那么即便气球被吹得很大",
+      "music": 0.0
+    },
+    {
+      "from": 1496.84,
+      "to": 1499.26,
+      "sid": 629,
+      "location": 2,
+      "content": "相比那些原本互相远离的点",
+      "music": 0.0
+    },
+    {
+      "from": 1499.26,
+      "to": 1503.11,
+      "sid": 630,
+      "location": 2,
+      "content": "这两个紧挨着的小点之间还是挨得很近",
+      "music": 0.0
+    },
+    {
+      "from": 1503.11,
+      "to": 1505.699,
+      "sid": 631,
+      "location": 2,
+      "content": "接下来我们再来想象一个气球的变种",
+      "music": 0.0
+    },
+    {
+      "from": 1505.699,
+      "to": 1508.099,
+      "sid": 632,
+      "location": 2,
+      "content": "从空间的对称性来获得",
+      "music": 0.0
+    },
+    {
+      "from": 1508.099,
+      "to": 1511.67,
+      "sid": 633,
+      "location": 2,
+      "content": "一个可以普遍应用于整个宇宙的实践概念",
+      "music": 0.0
+    },
+    {
+      "from": 1511.67,
+      "to": 1515.11,
+      "sid": 634,
+      "location": 2,
+      "content": "你可以把气球上的每个小点都换成一个钟表",
+      "music": 0.0
+    },
+    {
+      "from": 1515.11,
+      "to": 1516.65,
+      "sid": 635,
+      "location": 2,
+      "content": "当气球开始膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1516.65,
+      "to": 1518.86,
+      "sid": 636,
+      "location": 2,
+      "content": "这些钟表开始分别计时",
+      "music": 0.0
+    },
+    {
+      "from": 1518.86,
+      "to": 1522.88,
+      "sid": 637,
+      "location": 2,
+      "content": "既然所有的钟表都随着空间的膨胀而彼此远离",
+      "music": 0.0
+    },
+    {
+      "from": 1522.88,
+      "to": 1525.24,
+      "sid": 638,
+      "location": 2,
+      "content": "而它们相对于彼此远离的速度",
+      "music": 0.0
+    },
+    {
+      "from": 1525.24,
+      "to": 1528.38,
+      "sid": 639,
+      "location": 2,
+      "content": "由两两之间的间距不同而各不相同",
+      "music": 0.0
+    },
+    {
+      "from": 1528.38,
+      "to": 1529.62,
+      "sid": 640,
+      "location": 2,
+      "content": "那么这样的运动",
+      "music": 0.0
+    },
+    {
+      "from": 1529.62,
+      "to": 1532.64,
+      "sid": 641,
+      "location": 2,
+      "content": "会不会就像爱因斯坦的狭义相对论所说的那样",
+      "music": 0.0
+    },
+    {
+      "from": 1532.64,
+      "to": 1535.52,
+      "sid": 642,
+      "location": 2,
+      "content": "让这些钟表失去互相的同步性呢",
+      "music": 0.0
+    },
+    {
+      "from": 1535.52,
+      "to": 1538.82,
+      "sid": 643,
+      "location": 2,
+      "content": "哎如果是一个真实的气球表面的钟表",
+      "music": 0.0
+    },
+    {
+      "from": 1538.82,
+      "to": 1539.95,
+      "sid": 644,
+      "location": 2,
+      "content": "确实会这样",
+      "music": 0.0
+    },
+    {
+      "from": 1539.95,
+      "to": 1542.01,
+      "sid": 645,
+      "location": 2,
+      "content": "但如果把这个气球的概念",
+      "music": 0.0
+    },
+    {
+      "from": 1542.01,
+      "to": 1544.19,
+      "sid": 646,
+      "location": 2,
+      "content": "扩展到整个宇宙的膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1544.19,
+      "to": 1545.21,
+      "sid": 647,
+      "location": 2,
+      "content": "就不会",
+      "music": 0.0
+    },
+    {
+      "from": 1545.21,
+      "to": 1546.53,
+      "sid": 648,
+      "location": 2,
+      "content": "这里的区别在于",
+      "music": 0.0
+    },
+    {
+      "from": 1546.53,
+      "to": 1547.77,
+      "sid": 649,
+      "location": 2,
+      "content": "相对论说的是",
+      "music": 0.0
+    },
+    {
+      "from": 1547.77,
+      "to": 1551.89,
+      "sid": 650,
+      "location": 2,
+      "content": "按照不同路径和速度穿越空间的钟表",
+      "music": 0.0
+    },
+    {
+      "from": 1551.89,
+      "to": 1553.889,
+      "sid": 651,
+      "location": 2,
+      "content": "它们的指针速度会不同",
+      "music": 0.0
+    },
+    {
+      "from": 1553.889,
+      "to": 1556.62,
+      "sid": 652,
+      "location": 2,
+      "content": "但是如果气球代表了空间本身",
+      "music": 0.0
+    },
+    {
+      "from": 1556.62,
+      "to": 1559.78,
+      "sid": 653,
+      "location": 2,
+      "content": "每一个小时钟都是粘在气球表面上",
+      "music": 0.0
+    },
+    {
+      "from": 1559.78,
+      "to": 1562.26,
+      "sid": 654,
+      "location": 2,
+      "content": "一个相对于气球固定的点",
+      "music": 0.0
+    },
+    {
+      "from": 1562.26,
+      "to": 1564.59,
+      "sid": 655,
+      "location": 2,
+      "content": "它本身并没有穿越空间",
+      "music": 0.0
+    },
+    {
+      "from": 1564.59,
+      "to": 1568.13,
+      "sid": 656,
+      "location": 2,
+      "content": "所以他们才能按照完全一样的快慢来运转",
+      "music": 0.0
+    },
+    {
+      "from": 1568.13,
+      "to": 1571.43,
+      "sid": 657,
+      "location": 2,
+      "content": "这也就是为什么我们说在宇宙大爆炸理论中",
+      "music": 0.0
+    },
+    {
+      "from": 1571.43,
+      "to": 1575.29,
+      "sid": 658,
+      "location": 2,
+      "content": "遥远的星系远离我们的速度是可以超过光速的",
+      "music": 0.0
+    },
+    {
+      "from": 1575.29,
+      "to": 1578.72,
+      "sid": 659,
+      "location": 2,
+      "content": "因为它们不是相对于空间在光速运动",
+      "music": 0.0
+    },
+    {
+      "from": 1578.72,
+      "to": 1581.16,
+      "sid": 660,
+      "location": 2,
+      "content": "而是空间本身膨胀的效应",
+      "music": 0.0
+    },
+    {
+      "from": 1581.16,
+      "to": 1583.74,
+      "sid": 661,
+      "location": 2,
+      "content": "让它们看起来以超光速远离我们",
+      "music": 0.0
+    },
+    {
+      "from": 1583.74,
+      "to": 1585.71,
+      "sid": 662,
+      "location": 2,
+      "content": "这个是不违反相对论的",
+      "music": 0.0
+    },
+    {
+      "from": 1585.71,
+      "to": 1588.07,
+      "sid": 663,
+      "location": 2,
+      "content": "当然如果你携带着一块手表",
+      "music": 0.0
+    },
+    {
+      "from": 1588.07,
+      "to": 1590.62,
+      "sid": 664,
+      "location": 2,
+      "content": "以接近光速的速度穿越空间",
+      "music": 0.0
+    },
+    {
+      "from": 1590.62,
+      "to": 1592.46,
+      "sid": 665,
+      "location": 2,
+      "content": "那么你的钟表就会变慢",
+      "music": 0.0
+    },
+    {
+      "from": 1592.46,
+      "to": 1596.159,
+      "sid": 666,
+      "location": 2,
+      "content": "你所观测到的宇宙年龄也会随之发生变化",
+      "music": 0.0
+    },
+    {
+      "from": 1596.159,
+      "to": 1597.199,
+      "sid": 667,
+      "location": 2,
+      "content": "不过别忘了",
+      "music": 0.0
+    },
+    {
+      "from": 1597.199,
+      "to": 1599.699,
+      "sid": 668,
+      "location": 2,
+      "content": "当天文学家们探讨宇宙年龄的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1599.699,
+      "to": 1604.51,
+      "sid": 669,
+      "location": 2,
+      "content": "讨论的是放置整个宇宙而被平均掉的总的时间",
+      "music": 0.0
+    },
+    {
+      "from": 1604.51,
+      "to": 1607.87,
+      "sid": 670,
+      "location": 2,
+      "content": "前面我们说到的宇宙微波背景辐射的均匀",
+      "music": 0.0
+    },
+    {
+      "from": 1607.87,
+      "to": 1611.95,
+      "sid": 671,
+      "location": 2,
+      "content": "它本身就可以用来检验我们是不是在穿越空间",
+      "music": 0.0
+    },
+    {
+      "from": 1611.95,
+      "to": 1612.84,
+      "sid": 672,
+      "location": 2,
+      "content": "高速运动",
+      "music": 0.0
+    },
+    {
+      "from": 1612.84,
+      "to": 1615.8,
+      "sid": 673,
+      "location": 2,
+      "content": "一旦你处于相对于空间的高速运动中",
+      "music": 0.0
+    },
+    {
+      "from": 1615.8,
+      "to": 1619.34,
+      "sid": 674,
+      "location": 2,
+      "content": "你就不会再观测到这种对称性或者不变性了",
+      "music": 0.0
+    },
+    {
+      "from": 1619.34,
+      "to": 1622.06,
+      "sid": 675,
+      "location": 2,
+      "content": "这就好比向着我们疾驰而来的警车",
+      "music": 0.0
+    },
+    {
+      "from": 1622.06,
+      "to": 1624.09,
+      "sid": 676,
+      "location": 2,
+      "content": "上的警笛声会变得尖锐",
+      "music": 0.0
+    },
+    {
+      "from": 1624.09,
+      "to": 1626.71,
+      "sid": 677,
+      "location": 2,
+      "content": "而在飞快地离我们远去的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1626.71,
+      "to": 1628.13,
+      "sid": 678,
+      "location": 2,
+      "content": "警笛声又会变得沉闷",
+      "music": 0.0
+    },
+    {
+      "from": 1628.13,
+      "to": 1628.91,
+      "sid": 679,
+      "location": 2,
+      "content": "是一样的",
+      "music": 0.0
+    },
+    {
+      "from": 1628.91,
+      "to": 1630.86,
+      "sid": 680,
+      "location": 2,
+      "content": "微波背景辐射也会这样",
+      "music": 0.0
+    },
+    {
+      "from": 1630.86,
+      "to": 1634.12,
+      "sid": 681,
+      "location": 2,
+      "content": "如果你驾驶高速的飞船飞行在宇宙空间中",
+      "music": 0.0
+    },
+    {
+      "from": 1634.12,
+      "to": 1636.66,
+      "sid": 682,
+      "location": 2,
+      "content": "那么迎面而来的微波的波峰",
+      "music": 0.0
+    },
+    {
+      "from": 1636.66,
+      "to": 1639.9,
+      "sid": 683,
+      "location": 2,
+      "content": "波谷就会有一个比较高的频率快速更迭",
+      "music": 0.0
+    },
+    {
+      "from": 1639.9,
+      "to": 1642.88,
+      "sid": 684,
+      "location": 2,
+      "content": "而从你后面追过来的微波的波峰和波谷",
+      "music": 0.0
+    },
+    {
+      "from": 1642.88,
+      "to": 1645.11,
+      "sid": 685,
+      "location": 2,
+      "content": "它们迭代的频率就会低一些",
+      "music": 0.0
+    },
+    {
+      "from": 1645.11,
+      "to": 1648.449,
+      "sid": 686,
+      "location": 2,
+      "content": "更高频率的微波意味着更高的辐射温度",
+      "music": 0.0
+    },
+    {
+      "from": 1648.449,
+      "to": 1651.169,
+      "sid": 687,
+      "location": 2,
+      "content": "所以你会感到你面前的辐射温度",
+      "music": 0.0
+    },
+    {
+      "from": 1651.169,
+      "to": 1653.67,
+      "sid": 688,
+      "location": 2,
+      "content": "比你背后的辐射温度要高一些",
+      "music": 0.0
+    },
+    {
+      "from": 1653.67,
+      "to": 1655.67,
+      "sid": 689,
+      "location": 2,
+      "content": "而实际的测量结果表明",
+      "music": 0.0
+    },
+    {
+      "from": 1655.67,
+      "to": 1658.36,
+      "sid": 690,
+      "location": 2,
+      "content": "在我们地球这艘大的飞船上",
+      "music": 0.0
+    },
+    {
+      "from": 1658.36,
+      "to": 1660.16,
+      "sid": 691,
+      "location": 2,
+      "content": "天文学家们确实发现",
+      "music": 0.0
+    },
+    {
+      "from": 1660.16,
+      "to": 1663.46,
+      "sid": 692,
+      "location": 2,
+      "content": "某一个方向上的微波背景辐射要更热一些",
+      "music": 0.0
+    },
+    {
+      "from": 1663.46,
+      "to": 1667.13,
+      "sid": 693,
+      "location": 2,
+      "content": "而相反方向的微波背景辐射要更冷一些",
+      "music": 0.0
+    },
+    {
+      "from": 1667.13,
+      "to": 1669.39,
+      "sid": 694,
+      "location": 2,
+      "content": "这个事实恰恰就告诉我们",
+      "music": 0.0
+    },
+    {
+      "from": 1669.39,
+      "to": 1671.47,
+      "sid": 695,
+      "location": 2,
+      "content": "不仅是地球绕着太阳转",
+      "music": 0.0
+    },
+    {
+      "from": 1671.47,
+      "to": 1673.62,
+      "sid": 696,
+      "location": 2,
+      "content": "太阳绕着星系中心转",
+      "music": 0.0
+    },
+    {
+      "from": 1673.62,
+      "to": 1675.34,
+      "sid": 697,
+      "location": 2,
+      "content": "而是整个银河系",
+      "music": 0.0
+    },
+    {
+      "from": 1675.34,
+      "to": 1678.8,
+      "sid": 698,
+      "location": 2,
+      "content": "都以一个超出宇宙膨胀速度的微小速度",
+      "music": 0.0
+    },
+    {
+      "from": 1678.8,
+      "to": 1681.21,
+      "sid": 699,
+      "location": 2,
+      "content": "向着长蛇星座的方向运动",
+      "music": 0.0
+    },
+    {
+      "from": 1681.21,
+      "to": 1682.93,
+      "sid": 700,
+      "location": 2,
+      "content": "其实知道这个知识点的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1682.93,
+      "to": 1685.95,
+      "sid": 701,
+      "location": 2,
+      "content": "真的是解开了我心里长久以来的一个疑惑啊",
+      "music": 0.0
+    },
+    {
+      "from": 1685.95,
+      "to": 1688.41,
+      "sid": 702,
+      "location": 2,
+      "content": "就是当我们说星系在运动的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1688.41,
+      "to": 1690.27,
+      "sid": 703,
+      "location": 2,
+      "content": "它是相对于谁在运动呢",
+      "music": 0.0
+    },
+    {
+      "from": 1690.27,
+      "to": 1692.44,
+      "sid": 704,
+      "location": 2,
+      "content": "应该是相对于空间运动的吧",
+      "music": 0.0
+    },
+    {
+      "from": 1692.44,
+      "to": 1695.16,
+      "sid": 705,
+      "location": 2,
+      "content": "而我们没有办法测量那个所谓的空间",
+      "music": 0.0
+    },
+    {
+      "from": 1695.16,
+      "to": 1696.48,
+      "sid": 706,
+      "location": 2,
+      "content": "它到底在哪儿啊",
+      "music": 0.0
+    },
+    {
+      "from": 1696.48,
+      "to": 1699.3,
+      "sid": 707,
+      "location": 2,
+      "content": "原来我们可以通过宇宙微波背景辐射",
+      "music": 0.0
+    },
+    {
+      "from": 1699.3,
+      "to": 1701.4,
+      "sid": 708,
+      "location": 2,
+      "content": "在不同方向上的微小差异",
+      "music": 0.0
+    },
+    {
+      "from": 1701.4,
+      "to": 1703.68,
+      "sid": 709,
+      "location": 2,
+      "content": "来探测到我们相对于空间的运动",
+      "music": 0.0
+    },
+    {
+      "from": 1703.68,
+      "to": 1705.44,
+      "sid": 710,
+      "location": 2,
+      "content": "这也真的是挺神奇的啊",
+      "music": 0.0
+    },
+    {
+      "from": 1705.44,
+      "to": 1706.68,
+      "sid": 711,
+      "location": 2,
+      "content": "刚才我们说了一句话",
+      "music": 0.0
+    },
+    {
+      "from": 1706.68,
+      "to": 1707.88,
+      "sid": 712,
+      "location": 2,
+      "content": "这里要再强调一下",
+      "music": 0.0
+    },
+    {
+      "from": 1707.88,
+      "to": 1708.88,
+      "sid": 713,
+      "location": 2,
+      "content": "整个银河系",
+      "music": 0.0
+    },
+    {
+      "from": 1708.88,
+      "to": 1712.0,
+      "sid": 714,
+      "location": 2,
+      "content": "以一个速度向着长蛇星座的方向运动",
+      "music": 0.0
+    },
+    {
+      "from": 1712.0,
+      "to": 1716.12,
+      "sid": 715,
+      "location": 2,
+      "content": "这个速度是一个略微超出宇宙膨胀速度的",
+      "music": 0.0
+    },
+    {
+      "from": 1716.12,
+      "to": 1717.13,
+      "sid": 716,
+      "location": 2,
+      "content": "微小速度",
+      "music": 0.0
+    },
+    {
+      "from": 1717.13,
+      "to": 1718.41,
+      "sid": 717,
+      "location": 2,
+      "content": "这是什么意思呢",
+      "music": 0.0
+    },
+    {
+      "from": 1718.41,
+      "to": 1720.13,
+      "sid": 718,
+      "location": 2,
+      "content": "记得我们说的那个气球吧",
+      "music": 0.0
+    },
+    {
+      "from": 1720.13,
+      "to": 1723.55,
+      "sid": 719,
+      "location": 2,
+      "content": "气球吹起来的速度就是整个宇宙膨胀的速度",
+      "music": 0.0
+    },
+    {
+      "from": 1723.55,
+      "to": 1725.909,
+      "sid": 720,
+      "location": 2,
+      "content": "或者说是空间膨胀的速度",
+      "music": 0.0
+    },
+    {
+      "from": 1725.909,
+      "to": 1730.22,
+      "sid": 721,
+      "location": 2,
+      "content": "如果我们相对于宇宙空间本身膨胀的速度为零",
+      "music": 0.0
+    },
+    {
+      "from": 1730.22,
+      "to": 1733.58,
+      "sid": 722,
+      "location": 2,
+      "content": "那也就意味着我们和其他星系彼此远离",
+      "music": 0.0
+    },
+    {
+      "from": 1733.58,
+      "to": 1736.2,
+      "sid": 723,
+      "location": 2,
+      "content": "完全就因为是空间本身的膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 1736.2,
+      "to": 1738.26,
+      "sid": 724,
+      "location": 2,
+      "content": "就像是那个气球被吹大一样",
+      "music": 0.0
+    },
+    {
+      "from": 1738.26,
+      "to": 1742.01,
+      "sid": 725,
+      "location": 2,
+      "content": "而我们呢就是被焊死在气球表面上的小点儿",
+      "music": 0.0
+    },
+    {
+      "from": 1742.01,
+      "to": 1743.49,
+      "sid": 726,
+      "location": 2,
+      "content": "那如果我们这个小点儿",
+      "music": 0.0
+    },
+    {
+      "from": 1743.49,
+      "to": 1746.71,
+      "sid": 727,
+      "location": 2,
+      "content": "自己要相对于这个气球表面有移动的话",
+      "music": 0.0
+    },
+    {
+      "from": 1746.71,
+      "to": 1749.07,
+      "sid": 728,
+      "location": 2,
+      "content": "这个移动速度就是刚才我们说的",
+      "music": 0.0
+    },
+    {
+      "from": 1749.07,
+      "to": 1752.69,
+      "sid": 729,
+      "location": 2,
+      "content": "略微超出宇宙膨胀速度的微小速度了",
+      "music": 0.0
+    },
+    {
+      "from": 1752.69,
+      "to": 1754.89,
+      "sid": 730,
+      "location": 2,
+      "content": "天文学家们需要先调整一下",
+      "music": 0.0
+    },
+    {
+      "from": 1754.89,
+      "to": 1756.77,
+      "sid": 731,
+      "location": 2,
+      "content": "这个相对较小的速度",
+      "music": 0.0
+    },
+    {
+      "from": 1756.77,
+      "to": 1759.52,
+      "sid": 732,
+      "location": 2,
+      "content": "对微波背景辐射的影响之后",
+      "music": 0.0
+    },
+    {
+      "from": 1759.52,
+      "to": 1763.05,
+      "sid": 733,
+      "location": 2,
+      "content": "才能清楚地看到宇宙微波背景辐射的均匀性",
+      "music": 0.0
+    },
+    {
+      "from": 1763.05,
+      "to": 1763.73,
+      "sid": 734,
+      "location": 2,
+      "content": "换句话说",
+      "music": 0.0
+    },
+    {
+      "from": 1763.73,
+      "to": 1764.81,
+      "sid": 735,
+      "location": 2,
+      "content": "我们要扣除掉",
+      "music": 0.0
+    },
+    {
+      "from": 1764.81,
+      "to": 1768.63,
+      "sid": 736,
+      "location": 2,
+      "content": "那个由于我们相对于空间本身运动所带来的",
+      "music": 0.0
+    },
+    {
+      "from": 1768.63,
+      "to": 1771.32,
+      "sid": 737,
+      "location": 2,
+      "content": "微波背景辐射的前和后的差异",
+      "music": 0.0
+    },
+    {
+      "from": 1771.32,
+      "to": 1772.46,
+      "sid": 738,
+      "location": 2,
+      "content": "扣掉它之后",
+      "music": 0.0
+    },
+    {
+      "from": 1772.46,
+      "to": 1775.72,
+      "sid": 739,
+      "location": 2,
+      "content": "再去观察宇宙中不同方向的微波背景辐射",
+      "music": 0.0
+    },
+    {
+      "from": 1775.72,
+      "to": 1776.96,
+      "sid": 740,
+      "location": 2,
+      "content": "在这样的操作之后",
+      "music": 0.0
+    },
+    {
+      "from": 1776.96,
+      "to": 1777.74,
+      "sid": 741,
+      "location": 2,
+      "content": "我们就发现",
+      "music": 0.0
+    },
+    {
+      "from": 1777.74,
+      "to": 1781.05,
+      "sid": 742,
+      "location": 2,
+      "content": "天空中各个位置的温度其实是非常一致的",
+      "music": 0.0
+    },
+    {
+      "from": 1781.05,
+      "to": 1784.409,
+      "sid": 743,
+      "location": 2,
+      "content": "正是这种均匀性和位置之间的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1784.409,
+      "to": 1786.589,
+      "sid": 744,
+      "location": 2,
+      "content": "让我们在描述整个宇宙时",
+      "music": 0.0
+    },
+    {
+      "from": 1786.589,
+      "to": 1789.969,
+      "sid": 745,
+      "location": 2,
+      "content": "能够准确地谈论那个时间好了",
+      "music": 0.0
+    },
+    {
+      "from": 1789.969,
+      "to": 1791.889,
+      "sid": 746,
+      "location": 2,
+      "content": "让我们回答最开始的问题",
+      "music": 0.0
+    },
+    {
+      "from": 1791.889,
+      "to": 1793.109,
+      "sid": 747,
+      "location": 2,
+      "content": "如果有人问你",
+      "music": 0.0
+    },
+    {
+      "from": 1793.109,
+      "to": 1795.849,
+      "sid": 748,
+      "location": 2,
+      "content": "宇宙它整体上会是个什么形状",
+      "music": 0.0
+    },
+    {
+      "from": 1795.849,
+      "to": 1797.169,
+      "sid": 749,
+      "location": 2,
+      "content": "你会怎么回答呢",
+      "music": 0.0
+    },
+    {
+      "from": 1797.169,
+      "to": 1799.449,
+      "sid": 750,
+      "location": 2,
+      "content": "你知道我们住在一个小行星上",
+      "music": 0.0
+    },
+    {
+      "from": 1799.449,
+      "to": 1802.929,
+      "sid": 751,
+      "location": 2,
+      "content": "这颗小行星绕着一颗不起眼的恒星运动",
+      "music": 0.0
+    },
+    {
+      "from": 1802.929,
+      "to": 1804.389,
+      "sid": 752,
+      "location": 2,
+      "content": "而我们的太阳系",
+      "music": 0.0
+    },
+    {
+      "from": 1804.389,
+      "to": 1807.17,
+      "sid": 753,
+      "location": 2,
+      "content": "不过是整个银河系边缘的一个星系",
+      "music": 0.0
+    },
+    {
+      "from": 1807.17,
+      "to": 1809.37,
+      "sid": 754,
+      "location": 2,
+      "content": "相比于其他千百万个星系",
+      "music": 0.0
+    },
+    {
+      "from": 1809.37,
+      "to": 1810.84,
+      "sid": 755,
+      "location": 2,
+      "content": "没有什么特别的地方",
+      "music": 0.0
+    },
+    {
+      "from": 1810.84,
+      "to": 1814.02,
+      "sid": 756,
+      "location": 2,
+      "content": "那么你怎样才能对整个宇宙的形状",
+      "music": 0.0
+    },
+    {
+      "from": 1814.02,
+      "to": 1815.22,
+      "sid": 757,
+      "location": 2,
+      "content": "有一个认识呢",
+      "music": 0.0
+    },
+    {
+      "from": 1815.22,
+      "to": 1818.59,
+      "sid": 758,
+      "location": 2,
+      "content": "这个时候对称性就可以被拿来使用了",
+      "music": 0.0
+    },
+    {
+      "from": 1818.59,
+      "to": 1821.53,
+      "sid": 759,
+      "location": 2,
+      "content": "如果你愿意采纳科学家们一直持有的信念",
+      "music": 0.0
+    },
+    {
+      "from": 1821.53,
+      "to": 1823.11,
+      "sid": 760,
+      "location": 2,
+      "content": "也就是在大尺度上",
+      "music": 0.0
+    },
+    {
+      "from": 1823.11,
+      "to": 1825.99,
+      "sid": 761,
+      "location": 2,
+      "content": "宇宙中所有的位置和所有的方向",
+      "music": 0.0
+    },
+    {
+      "from": 1825.99,
+      "to": 1828.11,
+      "sid": 762,
+      "location": 2,
+      "content": "都是相对于彼此对称的",
+      "music": 0.0
+    },
+    {
+      "from": 1828.11,
+      "to": 1829.94,
+      "sid": 763,
+      "location": 2,
+      "content": "那你就能回答这个问题",
+      "music": 0.0
+    },
+    {
+      "from": 1829.94,
+      "to": 1830.58,
+      "sid": 764,
+      "location": 2,
+      "content": "要知道",
+      "music": 0.0
+    },
+    {
+      "from": 1830.58,
+      "to": 1834.09,
+      "sid": 765,
+      "location": 2,
+      "content": "绝大多数的形状都不能满足这个对称性的标准",
+      "music": 0.0
+    },
+    {
+      "from": 1834.09,
+      "to": 1837.51,
+      "sid": 766,
+      "location": 2,
+      "content": "它们总是有某个区域和其他的地方不一样",
+      "music": 0.0
+    },
+    {
+      "from": 1837.51,
+      "to": 1840.03,
+      "sid": 767,
+      "location": 2,
+      "content": "比如说梨形是上窄下宽",
+      "music": 0.0
+    },
+    {
+      "from": 1840.03,
+      "to": 1841.75,
+      "sid": 768,
+      "location": 2,
+      "content": "鸡蛋形是两头尖",
+      "music": 0.0
+    },
+    {
+      "from": 1841.75,
+      "to": 1842.63,
+      "sid": 769,
+      "location": 2,
+      "content": "中间粗",
+      "music": 0.0
+    },
+    {
+      "from": 1842.63,
+      "to": 1845.35,
+      "sid": 770,
+      "location": 2,
+      "content": "这些形状虽然也有某种对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1845.35,
+      "to": 1847.41,
+      "sid": 771,
+      "location": 2,
+      "content": "但都不是完全的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1847.41,
+      "to": 1849.23,
+      "sid": 772,
+      "location": 2,
+      "content": "那你肯定又想到了球形",
+      "music": 0.0
+    },
+    {
+      "from": 1849.23,
+      "to": 1849.88,
+      "sid": 773,
+      "location": 2,
+      "content": "对不对",
+      "music": 0.0
+    },
+    {
+      "from": 1849.88,
+      "to": 1851.3,
+      "sid": 774,
+      "location": 2,
+      "content": "答案是不对",
+      "music": 0.0
+    },
+    {
+      "from": 1851.3,
+      "to": 1853.44,
+      "sid": 775,
+      "location": 2,
+      "content": "因为如果宇宙是一个球形",
+      "music": 0.0
+    },
+    {
+      "from": 1853.44,
+      "to": 1857.21,
+      "sid": 776,
+      "location": 2,
+      "content": "那么它的球心处和边缘处也是不一样的",
+      "music": 0.0
+    },
+    {
+      "from": 1857.21,
+      "to": 1859.11,
+      "sid": 777,
+      "location": 2,
+      "content": "正如我们刚才说的气球一样",
+      "music": 0.0
+    },
+    {
+      "from": 1859.11,
+      "to": 1861.74,
+      "sid": 778,
+      "location": 2,
+      "content": "气球里面的中心点是最特殊的",
+      "music": 0.0
+    },
+    {
+      "from": 1861.74,
+      "to": 1863.22,
+      "sid": 779,
+      "location": 2,
+      "content": "而在用这个比喻的时候",
+      "music": 0.0
+    },
+    {
+      "from": 1863.22,
+      "to": 1864.52,
+      "sid": 780,
+      "location": 2,
+      "content": "我也一再跟你强调",
+      "music": 0.0
+    },
+    {
+      "from": 1864.52,
+      "to": 1867.46,
+      "sid": 781,
+      "location": 2,
+      "content": "我们关注的点不是在于整个的气球",
+      "music": 0.0
+    },
+    {
+      "from": 1867.46,
+      "to": 1869.659,
+      "sid": 782,
+      "location": 2,
+      "content": "而是气球的二维表面",
+      "music": 0.0
+    },
+    {
+      "from": 1869.659,
+      "to": 1871.079,
+      "sid": 783,
+      "location": 2,
+      "content": "在那个表面上",
+      "music": 0.0
+    },
+    {
+      "from": 1871.079,
+      "to": 1874.65,
+      "sid": 784,
+      "location": 2,
+      "content": "任何一个点和其他的点相比都不特殊",
+      "music": 0.0
+    },
+    {
+      "from": 1874.65,
+      "to": 1876.45,
+      "sid": 785,
+      "location": 2,
+      "content": "所有的点都是对称的",
+      "music": 0.0
+    },
+    {
+      "from": 1876.45,
+      "to": 1878.96,
+      "sid": 786,
+      "location": 2,
+      "content": "而宇宙显然不是一个二维平面了",
+      "music": 0.0
+    },
+    {
+      "from": 1878.96,
+      "to": 1881.02,
+      "sid": 787,
+      "location": 2,
+      "content": "所以根据对称性原理",
+      "music": 0.0
+    },
+    {
+      "from": 1881.02,
+      "to": 1883.9,
+      "sid": 788,
+      "location": 2,
+      "content": "它应该是一个三维的球面",
+      "music": 0.0
+    },
+    {
+      "from": 1883.9,
+      "to": 1884.66,
+      "sid": 789,
+      "location": 2,
+      "content": "注意啊",
+      "music": 0.0
+    },
+    {
+      "from": 1884.66,
+      "to": 1886.44,
+      "sid": 790,
+      "location": 2,
+      "content": "不是一个三维的球体",
+      "music": 0.0
+    },
+    {
+      "from": 1886.44,
+      "to": 1888.5,
+      "sid": 791,
+      "location": 2,
+      "content": "是一个三维的球面",
+      "music": 0.0
+    },
+    {
+      "from": 1888.5,
+      "to": 1891.44,
+      "sid": 792,
+      "location": 2,
+      "content": "这个球面的样子我们很难用大脑想象",
+      "music": 0.0
+    },
+    {
+      "from": 1891.44,
+      "to": 1892.36,
+      "sid": 793,
+      "location": 2,
+      "content": "这么说吧",
+      "music": 0.0
+    },
+    {
+      "from": 1892.36,
+      "to": 1895.79,
+      "sid": 794,
+      "location": 2,
+      "content": "如果一个球体是由很多很多点构成的",
+      "music": 0.0
+    },
+    {
+      "from": 1895.79,
+      "to": 1898.09,
+      "sid": 795,
+      "location": 2,
+      "content": "那么你从内部随机的一个点出发",
+      "music": 0.0
+    },
+    {
+      "from": 1898.09,
+      "to": 1899.41,
+      "sid": 796,
+      "location": 2,
+      "content": "朝着一个方向走",
+      "music": 0.0
+    },
+    {
+      "from": 1899.41,
+      "to": 1903.49,
+      "sid": 797,
+      "location": 2,
+      "content": "最终你总会碰到球体的表面那堵墙壁",
+      "music": 0.0
+    },
+    {
+      "from": 1903.49,
+      "to": 1904.79,
+      "sid": 798,
+      "location": 2,
+      "content": "然后你就走不动了",
+      "music": 0.0
+    },
+    {
+      "from": 1904.79,
+      "to": 1906.94,
+      "sid": 799,
+      "location": 2,
+      "content": "而在一个三维的球面上",
+      "music": 0.0
+    },
+    {
+      "from": 1906.94,
+      "to": 1910.1,
+      "sid": 800,
+      "location": 2,
+      "content": "你在任何一个点朝着一个方向不停地走",
+      "music": 0.0
+    },
+    {
+      "from": 1910.1,
+      "to": 1912.25,
+      "sid": 801,
+      "location": 2,
+      "content": "最终会回到出发点",
+      "music": 0.0
+    },
+    {
+      "from": 1912.25,
+      "to": 1915.05,
+      "sid": 802,
+      "location": 2,
+      "content": "这个就像你在地球这个二维球面上",
+      "music": 0.0
+    },
+    {
+      "from": 1915.05,
+      "to": 1916.13,
+      "sid": 803,
+      "location": 2,
+      "content": "任意一个点触发",
+      "music": 0.0
+    },
+    {
+      "from": 1916.13,
+      "to": 1917.43,
+      "sid": 804,
+      "location": 2,
+      "content": "最终会回到原点",
+      "music": 0.0
+    },
+    {
+      "from": 1917.43,
+      "to": 1921.02,
+      "sid": 805,
+      "location": 2,
+      "content": "是一个意思好三维球面是我们的一个选项",
+      "music": 0.0
+    },
+    {
+      "from": 1921.02,
+      "to": 1922.96,
+      "sid": 806,
+      "location": 2,
+      "content": "但它也不是唯一的选项",
+      "music": 0.0
+    },
+    {
+      "from": 1922.96,
+      "to": 1925.28,
+      "sid": 807,
+      "location": 2,
+      "content": "你可以再想象一个无限宽",
+      "music": 0.0
+    },
+    {
+      "from": 1925.28,
+      "to": 1927.75,
+      "sid": 808,
+      "location": 2,
+      "content": "无限长的橡胶的薄片",
+      "music": 0.0
+    },
+    {
+      "from": 1927.75,
+      "to": 1929.05,
+      "sid": 809,
+      "location": 2,
+      "content": "他呢有点弯曲",
+      "music": 0.0
+    },
+    {
+      "from": 1929.05,
+      "to": 1930.5,
+      "sid": 810,
+      "location": 2,
+      "content": "但也没有完全弯曲",
+      "music": 0.0
+    },
+    {
+      "from": 1930.5,
+      "to": 1932.3,
+      "sid": 811,
+      "location": 2,
+      "content": "随着这个薄片的扩展",
+      "music": 0.0
+    },
+    {
+      "from": 1932.3,
+      "to": 1934.84,
+      "sid": 812,
+      "location": 2,
+      "content": "我们还是能得到完整的对称性",
+      "music": 0.0
+    },
+    {
+      "from": 1934.84,
+      "to": 1938.31,
+      "sid": 813,
+      "location": 2,
+      "content": "我们把这个薄片的形状从二维变成三维",
+      "music": 0.0
+    },
+    {
+      "from": 1938.31,
+      "to": 1940.73,
+      "sid": 814,
+      "location": 2,
+      "content": "你就得到了一个无限延伸的",
+      "music": 0.0
+    },
+    {
+      "from": 1940.73,
+      "to": 1942.71,
+      "sid": 815,
+      "location": 2,
+      "content": "但是没有弯曲的宇宙",
+      "music": 0.0
+    },
+    {
+      "from": 1942.71,
+      "to": 1945.59,
+      "sid": 816,
+      "location": 2,
+      "content": "和前面弯曲成三维球面的宇宙不同",
+      "music": 0.0
+    },
+    {
+      "from": 1945.59,
+      "to": 1948.199,
+      "sid": 817,
+      "location": 2,
+      "content": "科学家们把它称为平坦的宇宙",
+      "music": 0.0
+    },
+    {
+      "from": 1948.199,
+      "to": 1949.419,
+      "sid": 818,
+      "location": 2,
+      "content": "在这个宇宙里",
+      "music": 0.0
+    },
+    {
+      "from": 1949.419,
+      "to": 1951.119,
+      "sid": 819,
+      "location": 2,
+      "content": "你永远也走不到边缘",
+      "music": 0.0
+    },
+    {
+      "from": 1951.119,
+      "to": 1953.5,
+      "sid": 820,
+      "location": 2,
+      "content": "但是也永远回不到原点",
+      "music": 0.0
+    },
+    {
+      "from": 1953.5,
+      "to": 1954.66,
+      "sid": 821,
+      "location": 2,
+      "content": "那既然没有边缘",
+      "music": 0.0
+    },
+    {
+      "from": 1954.66,
+      "to": 1957.18,
+      "sid": 822,
+      "location": 2,
+      "content": "也就没有办法形容它是一个什么形状了",
+      "music": 0.0
+    },
+    {
+      "from": 1957.18,
+      "to": 1959.84,
+      "sid": 823,
+      "location": 2,
+      "content": "无限平坦的宇宙和三维球面",
+      "music": 0.0
+    },
+    {
+      "from": 1959.84,
+      "to": 1961.7,
+      "sid": 824,
+      "location": 2,
+      "content": "都可以帮我们回避一个问题",
+      "music": 0.0
+    },
+    {
+      "from": 1961.7,
+      "to": 1964.54,
+      "sid": 825,
+      "location": 2,
+      "content": "就是空间的边界之外有什么",
+      "music": 0.0
+    },
+    {
+      "from": 1964.54,
+      "to": 1967.4,
+      "sid": 826,
+      "location": 2,
+      "content": "如果你走进空间的边界会发生什么",
+      "music": 0.0
+    },
+    {
+      "from": 1967.4,
+      "to": 1969.04,
+      "sid": 827,
+      "location": 2,
+      "content": "那如果空间没有边界",
+      "music": 0.0
+    },
+    {
+      "from": 1969.04,
+      "to": 1970.42,
+      "sid": 828,
+      "location": 2,
+      "content": "这些问题就没有意义",
+      "music": 0.0
+    },
+    {
+      "from": 1970.42,
+      "to": 1972.33,
+      "sid": 829,
+      "location": 2,
+      "content": "只不过这二者之间有个区别",
+      "music": 0.0
+    },
+    {
+      "from": 1972.33,
+      "to": 1975.41,
+      "sid": 830,
+      "location": 2,
+      "content": "球面的三维边界是被完全封闭起来的",
+      "music": 0.0
+    },
+    {
+      "from": 1975.41,
+      "to": 1977.73,
+      "sid": 831,
+      "location": 2,
+      "content": "而无限延展的平坦的宇宙",
+      "music": 0.0
+    },
+    {
+      "from": 1977.73,
+      "to": 1979.73,
+      "sid": 832,
+      "location": 2,
+      "content": "它的边界不是自己卷起来",
+      "music": 0.0
+    },
+    {
+      "from": 1979.73,
+      "to": 1981.71,
+      "sid": 833,
+      "location": 2,
+      "content": "而是无限的向外延伸",
+      "music": 0.0
+    },
+    {
+      "from": 1981.71,
+      "to": 1982.65,
+      "sid": 834,
+      "location": 2,
+      "content": "对称的宇宙",
+      "music": 0.0
+    },
+    {
+      "from": 1982.65,
+      "to": 1984.449,
+      "sid": 835,
+      "location": 2,
+      "content": "还有另外一种可能的形状",
+      "music": 0.0
+    },
+    {
+      "from": 1984.449,
+      "to": 1986.229,
+      "sid": 836,
+      "location": 2,
+      "content": "它跟三维球面类似",
+      "music": 0.0
+    },
+    {
+      "from": 1986.229,
+      "to": 1987.869,
+      "sid": 837,
+      "location": 2,
+      "content": "你没有办法把它画出来",
+      "music": 0.0
+    },
+    {
+      "from": 1987.869,
+      "to": 1990.87,
+      "sid": 838,
+      "location": 2,
+      "content": "甚至你也没有办法简单地把它想象出来",
+      "music": 0.0
+    },
+    {
+      "from": 1990.87,
+      "to": 1992.99,
+      "sid": 839,
+      "location": 2,
+      "content": "但是我们还是可以用它的二维版本",
+      "music": 0.0
+    },
+    {
+      "from": 1992.99,
+      "to": 1994.01,
+      "sid": 840,
+      "location": 2,
+      "content": "来做一个说明",
+      "music": 0.0
+    },
+    {
+      "from": 1994.01,
+      "to": 1996.75,
+      "sid": 841,
+      "location": 2,
+      "content": "在这个宇宙形状的二维简化版本里",
+      "music": 0.0
+    },
+    {
+      "from": 1996.75,
+      "to": 1998.48,
+      "sid": 842,
+      "location": 2,
+      "content": "你可以想象一个薯片",
+      "music": 0.0
+    },
+    {
+      "from": 1998.48,
+      "to": 2000.85,
+      "sid": 843,
+      "location": 2,
+      "content": "这个薯片也是无限大的",
+      "music": 0.0
+    },
+    {
+      "from": 2000.85,
+      "to": 2002.89,
+      "sid": 844,
+      "location": 2,
+      "content": "这种形状呢你从一个方向看",
+      "music": 0.0
+    },
+    {
+      "from": 2002.89,
+      "to": 2004.11,
+      "sid": 845,
+      "location": 2,
+      "content": "它是朝下弯的",
+      "music": 0.0
+    },
+    {
+      "from": 2004.11,
+      "to": 2005.65,
+      "sid": 846,
+      "location": 2,
+      "content": "而从另一个形状看呢",
+      "music": 0.0
+    },
+    {
+      "from": 2005.65,
+      "to": 2007.05,
+      "sid": 847,
+      "location": 2,
+      "content": "它是朝上弯的",
+      "music": 0.0
+    },
+    {
+      "from": 2007.05,
+      "to": 2008.62,
+      "sid": 848,
+      "location": 2,
+      "content": "一般叫做马鞍面",
+      "music": 0.0
+    },
+    {
+      "from": 2008.62,
+      "to": 2010.4,
+      "sid": 849,
+      "location": 2,
+      "content": "它是一种反球面",
+      "music": 0.0
+    },
+    {
+      "from": 2010.4,
+      "to": 2013.24,
+      "sid": 850,
+      "location": 2,
+      "content": "球面是高度对称的向外膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 2013.24,
+      "to": 2016.69,
+      "sid": 851,
+      "location": 2,
+      "content": "而马鞍面则是高度对称的向内凹陷",
+      "music": 0.0
+    },
+    {
+      "from": 2016.69,
+      "to": 2018.83,
+      "sid": 852,
+      "location": 2,
+      "content": "注意我们这里说的膨胀和凹陷",
+      "music": 0.0
+    },
+    {
+      "from": 2018.83,
+      "to": 2020.88,
+      "sid": 853,
+      "location": 2,
+      "content": "都是二维的简化版本啊",
+      "music": 0.0
+    },
+    {
+      "from": 2020.88,
+      "to": 2022.14,
+      "sid": 854,
+      "location": 2,
+      "content": "那严谨一点儿",
+      "music": 0.0
+    },
+    {
+      "from": 2022.14,
+      "to": 2023.44,
+      "sid": 855,
+      "location": 2,
+      "content": "回到数学领域呢",
+      "music": 0.0
+    },
+    {
+      "from": 2023.44,
+      "to": 2027.37,
+      "sid": 856,
+      "location": 2,
+      "content": "我们就可以说球面具有正曲率向外膨胀",
+      "music": 0.0
+    },
+    {
+      "from": 2027.37,
+      "to": 2030.43,
+      "sid": 857,
+      "location": 2,
+      "content": "马鞍面具有负曲率向内凹陷",
+      "music": 0.0
+    },
+    {
+      "from": 2030.43,
+      "to": 2033.32,
+      "sid": 858,
+      "location": 2,
+      "content": "而平直空间的曲率为零",
+      "music": 0.0
+    },
+    {
+      "from": 2033.32,
+      "to": 2034.42,
+      "sid": 859,
+      "location": 2,
+      "content": "好了恭喜你",
+      "music": 0.0
+    },
+    {
+      "from": 2034.42,
+      "to": 2037.46,
+      "sid": 860,
+      "location": 2,
+      "content": "物理学界对宇宙形状的所有猜想",
+      "music": 0.0
+    },
+    {
+      "from": 2037.46,
+      "to": 2039.04,
+      "sid": 861,
+      "location": 2,
+      "content": "你已经全都了解了",
+      "music": 0.0
+    },
+    {
+      "from": 2039.04,
+      "to": 2042.14,
+      "sid": 862,
+      "location": 2,
+      "content": "这些不是咱们老百姓唠嗑儿瞎猜啊",
+      "music": 0.0
+    },
+    {
+      "from": 2042.14,
+      "to": 2044.54,
+      "sid": 863,
+      "location": 2,
+      "content": "而是当前主流学界的意见",
+      "music": 0.0
+    },
+    {
+      "from": 2044.54,
+      "to": 2045.9,
+      "sid": 864,
+      "location": 2,
+      "content": "物理学家已经证明",
+      "music": 0.0
+    },
+    {
+      "from": 2045.9,
+      "to": 2047.5,
+      "sid": 865,
+      "location": 2,
+      "content": "在对称性的要求下",
+      "music": 0.0
+    },
+    {
+      "from": 2047.5,
+      "to": 2048.94,
+      "sid": 866,
+      "location": 2,
+      "content": "也就是当我们要求",
+      "music": 0.0
+    },
+    {
+      "from": 2048.94,
+      "to": 2051.54,
+      "sid": 867,
+      "location": 2,
+      "content": "所有位置和方向都没有特殊性",
+      "music": 0.0
+    },
+    {
+      "from": 2051.54,
+      "to": 2052.859,
+      "sid": 868,
+      "location": 2,
+      "content": "在这个要求下",
+      "music": 0.0
+    },
+    {
+      "from": 2052.859,
+      "to": 2054.539,
+      "sid": 869,
+      "location": 2,
+      "content": "正曲率的三维球面",
+      "music": 0.0
+    },
+    {
+      "from": 2054.539,
+      "to": 2056.319,
+      "sid": 870,
+      "location": 2,
+      "content": "负曲率的三维马鞍面",
+      "music": 0.0
+    },
+    {
+      "from": 2056.319,
+      "to": 2058.899,
+      "sid": 871,
+      "location": 2,
+      "content": "还有零曲率的三维平坦空间",
+      "music": 0.0
+    },
+    {
+      "from": 2058.899,
+      "to": 2061.43,
+      "sid": 872,
+      "location": 2,
+      "content": "这三者已经穷尽了所有的可能",
+      "music": 0.0
+    },
+    {
+      "from": 2061.43,
+      "to": 2064.64,
+      "sid": 873,
+      "location": 2,
+      "content": "宇宙的形状只能是这三者之一",
+      "music": 0.0
+    },
+    {
+      "from": 2064.64,
+      "to": 2065.52,
+      "sid": 874,
+      "location": 2,
+      "content": "仔细想想",
+      "music": 0.0
+    },
+    {
+      "from": 2065.52,
+      "to": 2067.02,
+      "sid": 875,
+      "location": 2,
+      "content": "还真的是很神奇啊",
+      "music": 0.0
+    },
+    {
+      "from": 2067.02,
+      "to": 2069.909,
+      "sid": 876,
+      "location": 2,
+      "content": "整个宇宙的形状本该有无限种可能",
+      "music": 0.0
+    },
+    {
+      "from": 2069.909,
+      "to": 2072.429,
+      "sid": 877,
+      "location": 2,
+      "content": "但是借助于对称性的强大威力",
+      "music": 0.0
+    },
+    {
+      "from": 2072.429,
+      "to": 2075.529,
+      "sid": 878,
+      "location": 2,
+      "content": "科学家也排除了绝大部分的可能性",
+      "music": 0.0
+    },
+    {
+      "from": 2075.529,
+      "to": 2078.23,
+      "sid": 879,
+      "location": 2,
+      "content": "但是对称性也只能把我们送到这一步了",
+      "music": 0.0
+    },
+    {
+      "from": 2078.23,
+      "to": 2081.25,
+      "sid": 880,
+      "location": 2,
+      "content": "这三者到底哪个才是宇宙真正的形状",
+      "music": 0.0
+    },
+    {
+      "from": 2081.25,
+      "to": 2083.6,
+      "sid": 881,
+      "location": 2,
+      "content": "我们得求助于广义相对论",
+      "music": 0.0
+    },
+    {
+      "from": 2083.6,
+      "to": 2084.7,
+      "sid": 882,
+      "location": 2,
+      "content": "爱因斯坦方程",
+      "music": 0.0
+    },
+    {
+      "from": 2084.7,
+      "to": 2087.4,
+      "sid": 883,
+      "location": 2,
+      "content": "把宇宙中所有物质和能量作为输入",
+      "music": 0.0
+    },
+    {
+      "from": 2087.4,
+      "to": 2090.56,
+      "sid": 884,
+      "location": 2,
+      "content": "通过计算能够得到空间曲率的大小",
+      "music": 0.0
+    },
+    {
+      "from": 2090.56,
+      "to": 2093.109,
+      "sid": 885,
+      "location": 2,
+      "content": "是正是负还是零",
+      "music": 0.0
+    },
+    {
+      "from": 2093.109,
+      "to": 2094.989,
+      "sid": 886,
+      "location": 2,
+      "content": "但这里的困难之处就在于",
+      "music": 0.0
+    },
+    {
+      "from": 2094.989,
+      "to": 2096.689,
+      "sid": 887,
+      "location": 2,
+      "content": "天文学家们用了几十年",
+      "music": 0.0
+    },
+    {
+      "from": 2096.689,
+      "to": 2099.83,
+      "sid": 888,
+      "location": 2,
+      "content": "都没有办法最终确定这个输入的数值",
+      "music": 0.0
+    },
+    {
+      "from": 2099.83,
+      "to": 2103.31,
+      "sid": 889,
+      "location": 2,
+      "content": "也就是宇宙中物质和能量实际有多少",
+      "music": 0.0
+    },
+    {
+      "from": 2103.31,
+      "to": 2107.21,
+      "sid": 890,
+      "location": 2,
+      "content": "而所有物质和能量的加总除以整个空间的大小",
+      "music": 0.0
+    },
+    {
+      "from": 2107.21,
+      "to": 2109.45,
+      "sid": 891,
+      "location": 2,
+      "content": "我们就得到一个非常关键的数字",
+      "music": 0.0
+    },
+    {
+      "from": 2109.45,
+      "to": 2111.149,
+      "sid": 892,
+      "location": 2,
+      "content": "叫做临界密度",
+      "music": 0.0
+    },
+    {
+      "from": 2111.149,
+      "to": 2113.129,
+      "sid": 893,
+      "location": 2,
+      "content": "如果宇宙中所有的物质和能量",
+      "music": 0.0
+    },
+    {
+      "from": 2113.129,
+      "to": 2114.989,
+      "sid": 894,
+      "location": 2,
+      "content": "均匀地分布于整个太空",
+      "music": 0.0
+    },
+    {
+      "from": 2114.989,
+      "to": 2118.2,
+      "sid": 895,
+      "location": 2,
+      "content": "而且它们的密度大于所谓的临界密度",
+      "music": 0.0
+    },
+    {
+      "from": 2118.2,
+      "to": 2122.02,
+      "sid": 896,
+      "location": 2,
+      "content": "从爱因斯坦方程中得到的空间曲率就会是正数",
+      "music": 0.0
+    },
+    {
+      "from": 2122.02,
+      "to": 2123.86,
+      "sid": 897,
+      "location": 2,
+      "content": "如果小于这个临界密度",
+      "music": 0.0
+    },
+    {
+      "from": 2123.86,
+      "to": 2125.7,
+      "sid": 898,
+      "location": 2,
+      "content": "空间曲率就会是负数",
+      "music": 0.0
+    },
+    {
+      "from": 2125.7,
+      "to": 2127.68,
+      "sid": 899,
+      "location": 2,
+      "content": "如果正好等于这个数字",
+      "music": 0.0
+    },
+    {
+      "from": 2127.68,
+      "to": 2129.779,
+      "sid": 900,
+      "location": 2,
+      "content": "那空间曲率就是零",
+      "music": 0.0
+    },
+    {
+      "from": 2129.779,
+      "to": 2133.359,
+      "sid": 901,
+      "location": 2,
+      "content": "目前最好的数据倾向于认为空间曲率就是零",
+      "music": 0.0
+    },
+    {
+      "from": 2133.359,
+      "to": 2135.319,
+      "sid": 902,
+      "location": 2,
+      "content": "也就是说在那三种形状里",
+      "music": 0.0
+    },
+    {
+      "from": 2135.319,
+      "to": 2137.7,
+      "sid": 903,
+      "location": 2,
+      "content": "宇宙更可能是平坦的",
+      "music": 0.0
+    },
+    {
+      "from": 2137.7,
+      "to": 2139.86,
+      "sid": 904,
+      "location": 2,
+      "content": "这个对应的物质密度是多少呢",
+      "music": 0.0
+    },
+    {
+      "from": 2139.86,
+      "to": 2143.44,
+      "sid": 905,
+      "location": 2,
+      "content": "大概是每立方米中0.00000",
+      "music": 0.0
+    },
+    {
+      "from": 2143.44,
+      "to": 2144.84,
+      "sid": 906,
+      "location": 2,
+      "content": "有23个零",
+      "music": 0.0
+    },
+    {
+      "from": 2144.84,
+      "to": 2147.66,
+      "sid": 907,
+      "location": 2,
+      "content": "也就是十的-23次方克",
+      "music": 0.0
+    },
+    {
+      "from": 2147.66,
+      "to": 2148.6,
+      "sid": 908,
+      "location": 2,
+      "content": "换个说法",
+      "music": 0.0
+    },
+    {
+      "from": 2148.6,
+      "to": 2152.17,
+      "sid": 909,
+      "location": 2,
+      "content": "就是每一立方米中大概只有五个氢原子",
+      "music": 0.0
+    },
+    {
+      "from": 2152.17,
+      "to": 2154.29,
+      "sid": 910,
+      "location": 2,
+      "content": "这个数字是非常空旷的啊",
+      "music": 0.0
+    },
+    {
+      "from": 2154.29,
+      "to": 2155.99,
+      "sid": 911,
+      "location": 2,
+      "content": "你可以想象地球上",
+      "music": 0.0
+    },
+    {
+      "from": 2155.99,
+      "to": 2156.61,
+      "sid": 912,
+      "location": 2,
+      "content": "月球上",
+      "music": 0.0
+    },
+    {
+      "from": 2156.61,
+      "to": 2157.25,
+      "sid": 913,
+      "location": 2,
+      "content": "木星上",
+      "music": 0.0
+    },
+    {
+      "from": 2157.25,
+      "to": 2159.11,
+      "sid": 914,
+      "location": 2,
+      "content": "所有你能想得到的地方",
+      "music": 0.0
+    },
+    {
+      "from": 2159.11,
+      "to": 2161.35,
+      "sid": 915,
+      "location": 2,
+      "content": "密度都远远大于这个数字",
+      "music": 0.0
+    },
+    {
+      "from": 2161.35,
+      "to": 2166.2,
+      "sid": 916,
+      "location": 2,
+      "content": "但是别忘了这个数字会被更大的空旷给平均掉",
+      "music": 0.0
+    },
+    {
+      "from": 2166.2,
+      "to": 2168.08,
+      "sid": 917,
+      "location": 2,
+      "content": "在星系与星系之间",
+      "music": 0.0
+    },
+    {
+      "from": 2168.08,
+      "to": 2170.98,
+      "sid": 918,
+      "location": 2,
+      "content": "是广袤到无法想象的宇宙空间",
+      "music": 0.0
+    },
+    {
+      "from": 2170.98,
+      "to": 2172.609,
+      "sid": 919,
+      "location": 2,
+      "content": "那里真的什么都没有",
+      "music": 0.0
+    },
+    {
+      "from": 2172.609,
+      "to": 2174.749,
+      "sid": 920,
+      "location": 2,
+      "content": "但是比这个临界密度的空旷",
+      "music": 0.0
+    },
+    {
+      "from": 2174.749,
+      "to": 2176.509,
+      "sid": 921,
+      "location": 2,
+      "content": "更让人感到怪异的是",
+      "music": 0.0
+    },
+    {
+      "from": 2176.509,
+      "to": 2179.75,
+      "sid": 922,
+      "location": 2,
+      "content": "宇宙的曲率为什么这么接近于零呢",
+      "music": 0.0
+    },
+    {
+      "from": 2179.75,
+      "to": 2182.75,
+      "sid": 923,
+      "location": 2,
+      "content": "其实它可以是正的或者负的任何一个值",
+      "music": 0.0
+    },
+    {
+      "from": 2182.75,
+      "to": 2184.71,
+      "sid": 924,
+      "location": 2,
+      "content": "但偏偏几乎为零",
+      "music": 0.0
+    },
+    {
+      "from": 2184.71,
+      "to": 2188.09,
+      "sid": 925,
+      "location": 2,
+      "content": "我们很难相信这就是一个单纯的巧合",
+      "music": 0.0
+    },
+    {
+      "from": 2188.09,
+      "to": 2190.41,
+      "sid": 926,
+      "location": 2,
+      "content": "如果你觉得巧合就是巧合嘛",
+      "music": 0.0
+    },
+    {
+      "from": 2190.41,
+      "to": 2193.35,
+      "sid": 927,
+      "location": 2,
+      "content": "那么你的好奇心就不足以支撑你",
+      "music": 0.0
+    },
+    {
+      "from": 2193.35,
+      "to": 2194.88,
+      "sid": 928,
+      "location": 2,
+      "content": "成为一个物理学家",
+      "music": 0.0
+    },
+    {
+      "from": 2194.88,
+      "to": 2196.72,
+      "sid": 929,
+      "location": 2,
+      "content": "在挖掘这个问题的道路上",
+      "music": 0.0
+    },
+    {
+      "from": 2196.72,
+      "to": 2200.04,
+      "sid": 930,
+      "location": 2,
+      "content": "物理学家们又发现了很多了不起的事情",
+      "music": 0.0
+    },
+    {
+      "from": 2200.04,
+      "to": 2201.68,
+      "sid": 931,
+      "location": 2,
+      "content": "那这又是一个非常大的话题",
+      "music": 0.0
+    },
+    {
+      "from": 2201.68,
+      "to": 2203.17,
+      "sid": 932,
+      "location": 2,
+      "content": "我们就改天再展开吧",
+      "music": 0.0
+    },
+    {
+      "from": 2203.17,
+      "to": 2204.77,
+      "sid": 933,
+      "location": 2,
+      "content": "最后给你总结一下吧",
+      "music": 0.0
+    },
+    {
+      "from": 2204.77,
+      "to": 2205.93,
+      "sid": 934,
+      "location": 2,
+      "content": "如果我们乱猜",
+      "music": 0.0
+    },
+    {
+      "from": 2205.93,
+      "to": 2208.37,
+      "sid": 935,
+      "location": 2,
+      "content": "那么宇宙的形状可以是任意的样子",
+      "music": 0.0
+    },
+    {
+      "from": 2208.37,
+      "to": 2210.59,
+      "sid": 936,
+      "location": 2,
+      "content": "而正是对称性这个法则",
+      "music": 0.0
+    },
+    {
+      "from": 2210.59,
+      "to": 2213.96,
+      "sid": 937,
+      "location": 2,
+      "content": "才把我们带到了这么具体的几个选项面前",
+      "music": 0.0
+    },
+    {
+      "from": 2213.96,
+      "to": 2215.4,
+      "sid": 938,
+      "location": 2,
+      "content": "关于对称性的思考",
+      "music": 0.0
+    },
+    {
+      "from": 2215.4,
+      "to": 2218.62,
+      "sid": 939,
+      "location": 2,
+      "content": "已经成为了现代宇宙学中不可或缺的部分",
+      "music": 0.0
+    },
+    {
+      "from": 2218.62,
+      "to": 2220.98,
+      "sid": 940,
+      "location": 2,
+      "content": "它让宇宙整体的时间变得有意义",
+      "music": 0.0
+    },
+    {
+      "from": 2220.98,
+      "to": 2223.26,
+      "sid": 941,
+      "location": 2,
+      "content": "也决定了宇宙的整体形状",
+      "music": 0.0
+    },
+    {
+      "from": 2223.26,
+      "to": 2226.28,
+      "sid": 942,
+      "location": 2,
+      "content": "甚至影响了广义相对论的理论框架",
+      "music": 0.0
+    },
+    {
+      "from": 2226.28,
+      "to": 2229.319,
+      "sid": 943,
+      "location": 2,
+      "content": "我们所知的一切都依赖于对称性",
+      "music": 0.0
+    },
+    {
+      "from": 2229.319,
+      "to": 2232.619,
+      "sid": 944,
+      "location": 2,
+      "content": "当我们从浩瀚的宇宙进入到微观的量子世界",
+      "music": 0.0
+    },
+    {
+      "from": 2232.619,
+      "to": 2234.779,
+      "sid": 945,
+      "location": 2,
+      "content": "也离不开对称性的掌控",
+      "music": 0.0
+    },
+    {
+      "from": 2234.779,
+      "to": 2237.359,
+      "sid": 946,
+      "location": 2,
+      "content": "对称性就像一条神秘的金线",
+      "music": 0.0
+    },
+    {
+      "from": 2237.359,
+      "to": 2240.39,
+      "sid": 947,
+      "location": 2,
+      "content": "串联起微观的原子和浩瀚的宇宙",
+      "music": 0.0
+    },
+    {
+      "from": 2240.39,
+      "to": 2242.79,
+      "sid": 948,
+      "location": 2,
+      "content": "它让物理定律具有普适性",
+      "music": 0.0
+    },
+    {
+      "from": 2242.79,
+      "to": 2244.63,
+      "sid": 949,
+      "location": 2,
+      "content": "让地球上的物理定律",
+      "music": 0.0
+    },
+    {
+      "from": 2244.63,
+      "to": 2246.95,
+      "sid": 950,
+      "location": 2,
+      "content": "和宇宙中任何一个地方的物理定律",
+      "music": 0.0
+    },
+    {
+      "from": 2246.95,
+      "to": 2248.44,
+      "sid": 951,
+      "location": 2,
+      "content": "都保持高度一致",
+      "music": 0.0
+    },
+    {
+      "from": 2248.44,
+      "to": 2252.1,
+      "sid": 952,
+      "location": 2,
+      "content": "让我们整个宇宙从无序中归于有序",
+      "music": 0.0
+    },
+    {
+      "from": 2252.1,
+      "to": 2254.1,
+      "sid": 953,
+      "location": 2,
+      "content": "每一次对对称性的追问",
+      "music": 0.0
+    },
+    {
+      "from": 2254.1,
+      "to": 2256.63,
+      "sid": 954,
+      "location": 2,
+      "content": "也都在拓展我们人类认知的边界",
+      "music": 0.0
+    },
+    {
+      "from": 2256.63,
+      "to": 2260.88,
+      "sid": 955,
+      "location": 2,
+      "content": "也让我们距离宇宙的终极秘密更进一步",
+      "music": 0.0
+    }
+  ]
+}

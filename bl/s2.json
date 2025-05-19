@@ -1,0 +1,194 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "aid": 114437608443774,
+        "bvid": "BV17kVGzJE4H",
+        "allow_bp": false,
+        "no_share": false,
+        "cid": 29751381322,
+        "max_limit": 3000,
+        "page_no": 1,
+        "has_next": false,
+        "ip_info": {
+            "ip": "120.242.213.3",
+            "zone_ip": " 172.25.80.12",
+            "zone_id": 4407488,
+            "country": "中国",
+            "province": "安徽",
+            "city": "安庆"
+        },
+        "login_mid": 13257690,
+        "login_mid_hash": "f0fa4639",
+        "is_owner": false,
+        "name": "端点星好运",
+        "permission": "10000,1001",
+        "level_info": {
+            "current_level": 6,
+            "current_min": 28800,
+            "current_exp": 45124,
+            "next_exp": -1,
+            "level_up": 1665447840
+        },
+        "vip": {
+            "type": 2,
+            "status": 1,
+            "due_date": 1785427200000,
+            "vip_pay_type": 0,
+            "theme_type": 0,
+            "label": {
+                "path": "",
+                "text": "年度大会员",
+                "label_theme": "annual_vip",
+                "text_color": "#FFFFFF",
+                "bg_style": 1,
+                "bg_color": "#FB7299",
+                "border_color": "",
+                "use_img_label": true,
+                "img_label_uri_hans": "",
+                "img_label_uri_hant": "",
+                "img_label_uri_hans_static": "https://i0.hdslb.com/bfs/vip/8d4f8bfc713826a5412a0a27eaaac4d6b9ede1d9.png",
+                "img_label_uri_hant_static": "https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/VEW8fCC0hg.png"
+            },
+            "avatar_subscript": 1,
+            "nickname_color": "#FB7299",
+            "role": 3,
+            "avatar_subscript_url": "",
+            "tv_vip_status": 0,
+            "tv_vip_pay_type": 0,
+            "tv_due_date": 1641484800,
+            "avatar_icon": {
+                "icon_type": 1,
+                "icon_resource": {}
+            }
+        },
+        "answer_status": 0,
+        "block_time": 0,
+        "role": "0",
+        "last_play_time": 0,
+        "last_play_cid": 0,
+        "now_time": 1747615934,
+        "online_count": 1,
+        "need_login_subtitle": false,
+        "subtitle": {
+            "allow_submit": false,
+            "lan": "",
+            "lan_doc": "",
+            "subtitles": [
+                {
+                    "id": 1745088786486007552,
+                    "lan": "ai-zh",
+                    "lan_doc": "中文（自动生成）",
+                    "is_lock": false,
+                    "subtitle_url": "//aisubtitle.hdslb.com/bfs/ai_subtitle/prod/1144376084437742975138132203bbb3b467434795999414c159e2c9fc?auth_key=1747615934-7438193003374997bb948166449d9fbc-0-73f5e8d356a091fe2ff92418d3c78d6f",
+                    "subtitle_url_v2": "//subtitle.bilibili.com/%01%1B%5C=_%04%12%12%049f%2F%07H%08%29~%16$5%0D.%0B%0AL%03%2C%01%1A%00M:%1Ce%00%0F%1FF%03%003%1A6%17%0A%25U%14%16Q%16%2CI%16o%16G%5C%09BjGK%5DQZT%1DDqUg%5CE%12yZX_%5BPY_%0B%21%17M.%15NDJUj%11Ku%1EOQ%09@i%12JP%5C%0BUIJ%23%04?auth_key=1747615934-7438193003374997bb948166449d9fbc-0-73f5e8d356a091fe2ff92418d3c78d6f",
+                    "type": 1,
+                    "id_str": "1745088786486007552",
+                    "ai_type": 0,
+                    "ai_status": 2
+                }
+            ]
+        },
+        "view_points": [
+            {
+                "type": 2,
+                "from": 0,
+                "to": 394,
+                "content": "初识宇宙的秘密",
+                "imgUrl": "http://i0.hdslb.com/bfs/vchapter/29751381322_0.jpg",
+                "logoUrl": "",
+                "team_type": "",
+                "team_name": ""
+            },
+            {
+                "type": 2,
+                "from": 394,
+                "to": 994,
+                "content": "隐藏在日常中的奇迹",
+                "imgUrl": "http://i0.hdslb.com/bfs/vchapter/29751381322_394.jpg",
+                "logoUrl": "",
+                "team_type": "",
+                "team_name": ""
+            },
+            {
+                "type": 2,
+                "from": 994,
+                "to": 1294,
+                "content": "科学的边界 幻想的开始",
+                "imgUrl": "http://i0.hdslb.com/bfs/vchapter/29751381322_994.jpg",
+                "logoUrl": "",
+                "team_type": "",
+                "team_name": ""
+            },
+            {
+                "type": 2,
+                "from": 1294,
+                "to": 1898,
+                "content": "穿越时空的想象力",
+                "imgUrl": "http://i0.hdslb.com/bfs/vchapter/29751381322_1294.jpg",
+                "logoUrl": "",
+                "team_type": "",
+                "team_name": ""
+            },
+            {
+                "type": 2,
+                "from": 1898,
+                "to": 2262,
+                "content": "我们存在的另一种可能",
+                "imgUrl": "http://i0.hdslb.com/bfs/vchapter/29751381322_1898.jpg",
+                "logoUrl": "",
+                "team_type": "",
+                "team_name": ""
+            }
+        ],
+        "preview_toast": "为创作付费，购买观看完整视频|购买观看",
+        "options": {
+            "is_360": false,
+            "without_vip": false
+        },
+        "guide_attention": [
+            {
+                "type": 1,
+                "from": 416,
+                "to": 421,
+                "pos_x": 333.5,
+                "pos_y": 243.75
+            }
+        ],
+        "jump_card": [],
+        "operation_card": [],
+        "online_switch": {
+            "enable_gray_dash_playback": "500",
+            "new_broadcast": "1",
+            "realtime_dm": "1",
+            "subtitle_submit_switch": "1"
+        },
+        "fawkes": {
+            "config_version": 33737,
+            "ff_version": 21289
+        },
+        "show_switch": {
+            "long_progress": false
+        },
+        "bgm_info": null,
+        "toast_block": false,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "is_ugc_pay_preview": false,
+        "elec_high_level": {
+            "privilege_type": 0,
+            "title": "",
+            "sub_title": "",
+            "show_button": false,
+            "button_text": "",
+            "jump_url": "",
+            "intro": "",
+            "new": false,
+            "question_text": "",
+            "qa_title": ""
+        },
+        "disable_show_up_info": false,
+        "is_upower_exclusive_with_qa": false
+    }
+}

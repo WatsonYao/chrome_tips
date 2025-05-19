@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>🪐</title>
+  <style>
+    @font-face {
+      font-family: 'CustomReader';
+      src: url('fonts/cr2.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    body {
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      font-family: 'CustomReader', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 22px;
+      line-height: 1.6;
+      overflow-wrap: break-word;
+    }
+    .reader-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .content {
+      white-space: normal;
+      padding: 15px;
+    }
+    .top-controls {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      gap: 10px;
+      z-index: 100;
+    }
+    .top-controls button {
+      background-color: rgba(40, 40, 40, 0.8);
+      padding: 8px 15px;
+      border-radius: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+    .top-controls button:hover {
+      background-color: rgba(60, 60, 60, 0.9);
+      transform: translateY(-2px);
+    }
+    #settings-btn {
+      background-color: rgba(50, 50, 70, 0.8);
+    }
+    #settings-btn:hover {
+      background-color: rgba(70, 70, 90, 0.9);
+    }
+    #settings-btn.active {
+      background-color: rgba(80, 80, 120, 0.9);
+      box-shadow: 0 0 8px rgba(100, 100, 255, 0.5);
+    }
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: -280px;
+      width: 270px;
+      height: 100%;
+      background-color: rgba(40, 40, 40, 0.95);
+      transition: right 0.3s ease;
+      box-shadow: -3px 0 10px rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      overflow-y: auto;
+      padding-top: 0;
+    }
+    .sidebar.open {
+      right: 0;
+    }
+    .sidebar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      border-bottom: 1px solid #555;
+      background-color: rgba(30, 30, 50, 0.8);
+    }
+    .sidebar-header h2 {
+      margin: 0;
+      font-size: 18px;
+      color: #eee;
+    }
+    .sidebar-close-btn {
+      background: none;
+      border: none;
+      color: #ccc;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 0 5px;
+      transition: all 0.2s ease;
+    }
+    .sidebar-close-btn:hover {
+      color: #fff;
+      transform: scale(1.2);
+    }
+    .sidebar-toggle {
+      position: absolute;
+      top: 15px;
+      left: -45px;
+      width: 45px;
+      height: 45px;
+      background-color: rgba(40, 40, 40, 0.95);
+      border-radius: 8px 0 0 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3);
+      transition: all 0.2s ease;
+    }
+    .sidebar-toggle:hover {
+      background-color: rgba(60, 60, 60, 0.95);
+    }
+    .sidebar-toggle::before {
+      content: "⚙️";
+      font-size: 22px;
+    }
+    .sidebar-section {
+      padding: 18px 20px;
+      border-bottom: 1px solid #444;
+    }
+    .sidebar-section h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #eee;
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .current-value {
+      font-size: 14px;
+      font-weight: normal;
+      color: #aaa;
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .sidebar-section button {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 8px;
+      padding: 8px 0;
+      background-color: #333;
+      transition: all 0.2s ease;
+    }
+    .sidebar-section button:hover {
+      background-color: #444;
+      transform: translateY(-1px);
+    }
+    button {
+      padding: 6px 10px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #444;
+    }
+    button:active {
+      background-color: #555;
+    }
+    .control-group {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .font-size-controls, .spacing-controls {
+      display: flex;
+      gap: 5px;
+      width: 100%;
+    }
+    .font-size-controls button, .spacing-controls button {
+      flex: 1;
+    }
+    /* Markdown 样式 */
+    .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #e0e0e0;
+    }
+    .content h1 {
+      font-size: 1.8em;
+      border-bottom: 1px solid #444;
+      padding-bottom: 5px;
+    }
+    .content h2 {
+      font-size: 1.5em;
+      border-bottom: 1px solid #444;
+      padding-bottom: 3px;
+    }
+    .content blockquote {
+      border-left: 4px solid #444;
+      padding-left: 15px;
+      margin-left: 0;
+      color: #aaa;
+    }
+    .content pre, .content code {
+      background-color: #2d2d2d;
+      border-radius: 3px;
+      font-family: monospace;
+      padding: 3px 5px;
+    }
+    .content pre {
+      padding: 10px;
+      overflow-x: auto;
+      margin: 15px 0;
+    }
+    .content pre code {
+      background-color: transparent;
+      padding: 0;
+    }
+    .content a {
+      color: #4b8bf4;
+      text-decoration: none;
+    }
+    .content a:hover {
+      text-decoration: underline;
+    }
+    .content img {
+      max-width: 100%;
+      display: block;
+      margin: 20px auto;
+      border-radius: 5px;
+    }
+    .content hr {
+      border: 0;
+      height: 1px;
+      background-color: #444;
+      margin: 20px 0;
+    }
+    .content ul, .content ol {
+      padding-left: 25px;
+    }
+    .content li {
+      margin-bottom: 5px;
+    }
+    .content table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 15px 0;
+    }
+    .content th, .content td {
+      border: 1px solid #444;
+      padding: 8px;
+    }
+    .content th {
+      background-color: #333;
+    }
+    .content p {
+      margin: 15px 0;
+    }
+  </style>
+  <!-- 引入本地 marked.js 用于 Markdown 解析 -->
+  <script src="marked.min.js"></script>
+</head>
+<body>
+  <div class="top-controls">
+    <button id="clipboard-btn">粘贴</button>
+    <button id="settings-btn" title="设置">⚙️ 设置</button>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-toggle" id="sidebar-toggle" title="设置"></div>
+    <div class="sidebar-header">
+      <h2>阅读设置</h2>
+      <button id="sidebar-close" class="sidebar-close-btn" title="关闭设置">×</button>
+    </div>
+    <div class="sidebar-section">
+      <h3>文本格式 <span class="current-value" id="word-count-value">0字</span></h3>
+      <div class="control-group">
+        <button id="markdown-toggle">Markdown 模式</button>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <h3>字体大小 <span class="current-value" id="font-size-value">22px</span></h3>
+      <div class="control-group font-size-controls">
+        <button id="decrease-font" title="减小字体">缩小</button>
+        <button id="increase-font" title="增大字体">放大</button>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <h3>行间距 <span class="current-value" id="line-height-value">1.6</span></h3>
+      <div class="control-group spacing-controls">
+        <button id="decrease-line-height" title="减小行间距">缩小</button>
+        <button id="increase-line-height" title="增加行间距">增大</button>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <h3>段落间距 <span class="current-value" id="paragraph-spacing-value">15px</span></h3>
+      <div class="control-group spacing-controls">
+        <button id="decrease-paragraph-spacing" title="减小段间距">缩小</button>
+        <button id="increase-paragraph-spacing" title="增加段间距">增大</button>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <h3>主题选择</h3>
+      <div class="control-group" id="theme-controls">
+        <div style="width:100%">
+          <strong>白天模式</strong>
+        </div>
+        <button class="theme-btn" data-theme="light1">a</button>
+        <button class="theme-btn" data-theme="light2">b</button>
+        <button class="theme-btn" data-theme="light3">c</button>
+        <div style="width:100%;margin-top:8px">
+          <strong>夜间模式</strong>
+        </div>
+        <button class="theme-btn" data-theme="dark1">x</button>
+        <button class="theme-btn" data-theme="dark2">y</button>
+        <button class="theme-btn" data-theme="dark3">z</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="reader-container">
+    <h1>🪐</h1>
+    <div id="content" class="content"></div>
+  </div>
+
+  <script src="reader.js"></script>
+</body>
+</html> 
