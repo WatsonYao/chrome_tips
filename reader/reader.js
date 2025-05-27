@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const decreaseFontBtn = document.getElementById('decrease-font');
   const increaseFontBtn = document.getElementById('increase-font');
   const clipboardBtn = document.getElementById('clipboard-btn');
+  const saveBtn = document.getElementById('save-btn');
+  const saveMarkdownBtn = document.getElementById('save-markdown-btn');
+  const saveImageBtn = document.getElementById('save-image-btn');
   const markdownToggleBtn = document.getElementById('markdown-toggle');
   const decreaseLineHeightBtn = document.getElementById('decrease-line-height');
   const increaseLineHeightBtn = document.getElementById('increase-line-height');
@@ -18,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const wordCountValueEl = document.getElementById('word-count-value');
   const themeButtons = document.querySelectorAll('.theme-btn');
   const body = document.body;
+  const formatDialog = document.getElementById('format-dialog');
   
   // 默认设置
   let currentFontSize = 22;
@@ -69,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
     dark2:  { bodyBg: '#212121', bodyColor: '#FFF9C4' },
     dark3:  { bodyBg: '#415062', bodyColor: '#fff6e6' }
   };
-  let currentTheme = 'dark1'; // 默认夜间深灰
+  let currentTheme = 'dark1';
   
   // 从本地存储加载设置
   function loadSettings() {
@@ -110,7 +114,9 @@ document.addEventListener('DOMContentLoaded', function() {
     breaks: true,        // 允许换行
     gfm: true,           // 启用 GitHub 风格的 Markdown
     mangle: false,       // 不转义标记
-    headerIds: false     // 不添加 header id
+    headerIds: false,    // 不添加 header id
+    smartLists: true,    // 优化列表输出
+    smartypants: true    // 优化标点符号
   });
   
   // 加载主题设置 (不再需要，由loadSettings替代)
@@ -205,15 +211,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (markdownMode) {
       try {
-        contentElement.innerHTML = marked.parse(text);
+        // 预处理文本，确保段落之间有足够的空行
+        const processedText = text
+          .replace(/\n{3,}/g, '\n\n')  // 将3个以上连续换行替换为2个
+          .replace(/([^\n])\n([^\n])/g, '$1\n\n$2');  // 确保段落之间有空行
+        
+        contentElement.innerHTML = marked.parse(processedText);
       } catch (error) {
-        // 如果 marked.parse 失败，尝试使用 marked 函数
-        try {
-          contentElement.innerHTML = marked(text);
-        } catch (err) {
-          console.error('Markdown 解析错误:', err);
-          contentElement.textContent = text; // 回退到纯文本
-        }
+        console.error('Markdown 解析错误:', error);
+        contentElement.textContent = text; // 回退到纯文本
       }
     } else {
       contentElement.textContent = text; // 纯文本模式
@@ -226,10 +232,20 @@ document.addEventListener('DOMContentLoaded', function() {
   // 应用段落间距
   function applyParagraphSpacing() {
     if (markdownMode) {
-      // 如果是 Markdown 模式，为段落元素添加样式
+      // 为段落元素添加样式
       const paragraphs = contentElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, ul, ol, pre, blockquote, table');
       paragraphs.forEach(p => {
         p.style.marginBottom = currentParagraphSpacing + 'px';
+        p.style.marginTop = '0';  // 确保顶部间距为0，避免重复间距
+      });
+
+      // 特别处理段落，确保有足够的间距
+      const pElements = contentElement.querySelectorAll('p');
+      pElements.forEach(p => {
+        // 如果不是列表项内的段落，则应用更大的间距
+        if (!p.closest('li')) {
+          p.style.marginBottom = (currentParagraphSpacing * 1.5) + 'px';
+        }
       });
     }
   }
@@ -326,6 +342,75 @@ document.addEventListener('DOMContentLoaded', function() {
     } catch (err) {
       console.error('无法访问剪贴板:', err);
       alert('无法访问剪贴板，请确保已授予相应权限。');
+    }
+  });
+  
+  // 显示格式选择对话框
+  saveBtn.addEventListener('click', function() {
+    formatDialog.style.display = 'block';
+  });
+
+  // 点击对话框外部关闭对话框
+  document.addEventListener('click', function(event) {
+    if (!formatDialog.contains(event.target) && event.target !== saveBtn) {
+      formatDialog.style.display = 'none';
+    }
+  });
+
+  // 保存为 Markdown 文件
+  saveMarkdownBtn.addEventListener('click', function() {
+    formatDialog.style.display = 'none';
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const blob = new Blob([currentContent], { type: 'text/markdown' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `阅读内容_${timestamp}.md`;
+    link.click();
+    URL.revokeObjectURL(link.href);
+  });
+
+  // 保存为图片
+  saveImageBtn.addEventListener('click', async function() {
+    formatDialog.style.display = 'none';
+    try {
+      // 获取整个reader-container元素
+      const container = document.querySelector('.reader-container');
+      
+      // 创建加载提示
+      const loadingDiv = document.createElement('div');
+      loadingDiv.style.position = 'fixed';
+      loadingDiv.style.top = '50%';
+      loadingDiv.style.left = '50%';
+      loadingDiv.style.transform = 'translate(-50%, -50%)';
+      loadingDiv.style.padding = '20px';
+      loadingDiv.style.background = 'rgba(0, 0, 0, 0.8)';
+      loadingDiv.style.color = 'white';
+      loadingDiv.style.borderRadius = '10px';
+      loadingDiv.style.zIndex = '9999';
+      loadingDiv.textContent = '正在生成图片，请稍候...';
+      document.body.appendChild(loadingDiv);
+
+      // 使用html2canvas捕获页面内容
+      const canvas = await html2canvas(container, {
+        backgroundColor: body.style.backgroundColor,
+        scale: 2, // 提高图片质量
+        useCORS: true,
+        logging: false,
+        scrollY: -window.scrollY // 确保从页面顶部开始截图
+      });
+
+      // 移除加载提示
+      document.body.removeChild(loadingDiv);
+
+      // 将canvas转换为图片并下载
+      const link = document.createElement('a');
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      link.download = `阅读内容_${timestamp}.png`;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    } catch (err) {
+      console.error('保存图片时出错:', err);
+      alert('保存图片时出错，请重试。');
     }
   });
   
