@@ -9,12 +9,17 @@ document.addEventListener('DOMContentLoaded', function() {
   const settingsBtn = document.getElementById('settingsBtn');
   const exportBtn = document.getElementById('exportBtn');
   const clearBtn = document.getElementById('clearBtn');
+  const closeBtn = document.getElementById('closeBtn');
   const settingsModal = document.getElementById('settingsModal');
   const confirmModal = document.getElementById('confirmModal');
+  const exportModal = document.getElementById('exportModal');
   const closeModal = document.querySelector('.close');
   const closeConfirmModal = document.querySelector('.close-confirm');
+  const closeExportModal = document.querySelector('.close-export');
   const cancelClearBtn = document.getElementById('cancelClear');
   const confirmClearBtn = document.getElementById('confirmClear');
+  const exportJsonBtn = document.getElementById('exportJson');
+  const exportTxtBtn = document.getElementById('exportTxt');
   const apiKeyInput = document.getElementById('apiKey');
   const saveApiKeyBtn = document.getElementById('saveApiKey');
   const themeToggleBtn = document.getElementById('themeToggleBtn');
@@ -94,12 +99,16 @@ document.addEventListener('DOMContentLoaded', function() {
   translateBtn.addEventListener('click', translateWord);
   saveBtn.addEventListener('click', saveWord);
   settingsBtn.addEventListener('click', openSettings);
-  exportBtn.addEventListener('click', exportWords);
+  exportBtn.addEventListener('click', openExportOptions);
   clearBtn.addEventListener('click', openClearConfirmation);
+  closeBtn.addEventListener('click', closeSidePanel);
   closeModal.addEventListener('click', closeSettings);
   closeConfirmModal.addEventListener('click', closeClearConfirmation);
+  closeExportModal.addEventListener('click', closeExportOptions);
   cancelClearBtn.addEventListener('click', closeClearConfirmation);
   confirmClearBtn.addEventListener('click', clearAllWords);
+  exportJsonBtn.addEventListener('click', () => exportWords('json'));
+  exportTxtBtn.addEventListener('click', () => exportWords('txt'));
   saveApiKeyBtn.addEventListener('click', saveApiKey);
   themeToggleBtn.addEventListener('click', toggleTheme);
   
@@ -110,6 +119,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (event.target === confirmModal) {
       confirmModal.style.display = "none";
+    }
+    if (event.target === exportModal) {
+      exportModal.style.display = "none";
     }
   });
   
@@ -296,7 +308,40 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
   
-  function exportWords() {
+  function openExportOptions() {
+    exportModal.style.display = "block";
+  }
+  
+  function closeExportOptions() {
+    exportModal.style.display = "none";
+  }
+  
+  function closeSidePanel() {
+    // First, apply the closing animation for visual feedback
+    document.body.classList.add('closing');
+    
+    // Message the background script to help close the panel
+    chrome.runtime.sendMessage({ action: "closeSidePanel" });
+    
+    // Use the chrome extension API's dedicated method if available
+    if (chrome.sidePanel && chrome.sidePanel.close) {
+      try {
+        chrome.sidePanel.close();
+      } catch (e) {
+        console.log("sidePanel.close failed:", e);
+      }
+    }
+    
+    // Final fallback: just hide the UI if nothing else works
+    // After animation completes (300ms) + some buffer
+    setTimeout(() => {
+      if (document.body.classList.contains('closing')) {
+        document.body.style.display = 'none';
+      }
+    }, 500);
+  }
+  
+  function exportWords(format) {
     chrome.storage.local.get(['savedWords'], function(result) {
       const savedWords = result.savedWords || [];
       
@@ -305,16 +350,40 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
       
-      const jsonStr = JSON.stringify(savedWords, null, 2);
-      const blob = new Blob([jsonStr], { type: 'application/json' });
+      // Create timestamp for filename (YYYYMMDD_HHMMSS format)
+      const now = new Date();
+      const timestamp = now.getFullYear() +
+                       String(now.getMonth() + 1).padStart(2, '0') +
+                       String(now.getDate()).padStart(2, '0') + '_' +
+                       String(now.getHours()).padStart(2, '0') +
+                       String(now.getMinutes()).padStart(2, '0') +
+                       String(now.getSeconds()).padStart(2, '0');
+      
+      let content;
+      let mimeType;
+      let fileName;
+      
+      if (format === 'json') {
+        content = JSON.stringify(savedWords, null, 2);
+        mimeType = 'application/json';
+        fileName = `saved_words_${timestamp}.json`;
+      } else {
+        // TXT format: English, Chinese translation, blank line, repeat
+        content = savedWords.map(word => `${word.en}\n${word.cn}\n`).join('\n');
+        mimeType = 'text/plain';
+        fileName = `saved_words_${timestamp}.txt`;
+      }
+      
+      const blob = new Blob([content], { type: mimeType });
       const url = URL.createObjectURL(blob);
       
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'saved_words.json';
+      a.download = fileName;
       a.click();
       
       URL.revokeObjectURL(url);
+      closeExportOptions();
     });
   }
 }); 

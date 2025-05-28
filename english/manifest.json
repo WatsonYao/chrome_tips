@@ -7,11 +7,15 @@
     "contextMenus",
     "storage",
     "sidePanel",
-    "scripting"
+    "scripting",
+    "windows"
   ],
   "host_permissions": [
     "<all_urls>"
   ],
+  "externally_connectable": {
+    "matches": ["<all_urls>"]
+  },
   "background": {
     "service_worker": "background.js"
   },

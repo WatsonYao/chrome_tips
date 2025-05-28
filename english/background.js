@@ -24,6 +24,42 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       sendResponse({ wasAlreadyOpen: isOpen });
     });
     return true; // Indicates async response
+  } else if (message.action === "closeSidePanel") {
+    // Handle request to close the side panel
+    try {
+      // Most direct approach - just try to close it
+      if (chrome.sidePanel && chrome.sidePanel.close) {
+        chrome.sidePanel.close();
+      }
+      
+      // Alternate approach for Chrome 114+
+      if (chrome.sidePanel && chrome.sidePanel.setOptions) {
+        // First disable the panel
+        chrome.sidePanel.setOptions({
+          enabled: false
+        }).catch(err => {
+          console.error("Error disabling side panel:", err);
+        });
+        
+        // After a short delay, re-enable it for future use
+        setTimeout(() => {
+          chrome.sidePanel.setOptions({
+            enabled: true
+          }).catch(err => {
+            console.error("Error re-enabling side panel:", err);
+          });
+        }, 100);
+      }
+      
+      // Update panel state
+      chrome.storage.local.set({ 'panelOpenState': false });
+      
+      sendResponse({ success: true });
+    } catch (error) {
+      console.error("Error closing side panel:", error);
+      sendResponse({ success: false, error: error.message });
+    }
+    return true; // Indicates async response
   }
 });
 

@@ -54,6 +54,22 @@ body {
   transition: var(--transition);
 }
 
+/* Animation for closing the panel */
+body.closing {
+  animation: fadeOut 0.3s ease forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
 .container {
   padding: 16px;
   display: flex;
@@ -210,7 +226,7 @@ button:hover {
 
 .delete-btn {
   color: var(--delete-btn);
-  border-color: var(--delete-btn);
+  border-color: transparent;
   padding: 4px 8px;
   font-size: 12px;
 }
@@ -223,30 +239,17 @@ button:hover {
 
 .bottom-section {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding-top: 12px;
   border-top: 1px solid var(--border-color);
-}
-
-.bottom-left, .bottom-right {
-  display: flex;
   gap: 8px;
 }
 
 .theme-toggle {
-  width: 40px;
-  min-width: 40px;
-  padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  color: var(--btn-primary);
-  border: 1px solid var(--btn-primary);
-  border-radius: 4px;
-  cursor: pointer;
   position: relative;
   overflow: hidden;
+  padding: 0 8px !important;
 }
 
 .theme-toggle:hover {
@@ -254,32 +257,47 @@ button:hover {
 }
 
 .theme-toggle span {
-  display: block;
+  display: inline-block;
   transition: var(--transition);
-  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
   line-height: 1;
+  font-size: 14px;
 }
 
-.light-icon {
+.light-mode-text, .light-icon {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(0, -50%);
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  text-align: center;
 }
 
-.dark-icon {
+.dark-mode-text, .dark-icon {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translate(0, 100%);
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  text-align: center;
 }
 
-body.dark-theme .light-icon {
+body.dark-theme .light-mode-text, body.dark-theme .light-icon {
   opacity: 0;
-  transform: translateY(-20px);
+  transform: translate(0, -200%);
 }
 
-body.dark-theme .dark-icon {
+body.dark-theme .dark-mode-text, body.dark-theme .dark-icon {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(0, -50%);
 }
 
 .danger-btn {
@@ -299,6 +317,17 @@ body.dark-theme .dark-icon {
 }
 
 .cancel-btn:hover {
+  background-color: rgba(158, 158, 158, 0.1);
+  color: var(--btn-cancel-hover);
+  border-color: var(--btn-cancel-hover);
+}
+
+.close-btn {
+  color: var(--btn-cancel);
+  border-color: var(--btn-cancel);
+}
+
+.close-btn:hover {
   background-color: rgba(158, 158, 158, 0.1);
   color: var(--btn-cancel-hover);
   border-color: var(--btn-cancel-hover);
@@ -355,6 +384,19 @@ body.dark-theme .dark-icon {
   margin-top: 20px;
 }
 
+.export-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.export-btn {
+  padding: 10px 20px;
+  flex: 1;
+  max-width: 120px;
+}
+
 #saveApiKey {
   margin-top: 12px;
   width: 100%;
@@ -364,4 +406,19 @@ body.dark-theme .dark-icon {
   padding: 16px;
   text-align: center;
   color: var(--secondary-text);
+}
+
+/* Common styles for all bottom buttons */
+.bottom-btn {
+  flex: 1;
+  min-width: 0;
+  height: 36px;
+  padding: 0 8px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 } 

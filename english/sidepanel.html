@@ -27,17 +27,14 @@
     </div>
     
     <div class="bottom-section">
-      <div class="bottom-left">
-        <button id="settingsBtn">设置</button>
-        <button id="themeToggleBtn" class="theme-toggle">
-          <span class="light-icon">◴</span>
-          <span class="dark-icon">◕</span>
-        </button>
-      </div>
-      <div class="bottom-right">
-        <button id="clearBtn" class="danger-btn">清空</button>
-        <button id="exportBtn">导出</button>
-      </div>
+      <button id="settingsBtn" class="bottom-btn">设置</button>
+      <button id="themeToggleBtn" class="theme-toggle bottom-btn">
+        <span class="light-mode-text">日间</span>
+        <span class="dark-mode-text">夜间</span>
+      </button>
+      <button id="closeBtn" class="close-btn bottom-btn">关闭</button>
+      <button id="clearBtn" class="danger-btn bottom-btn">清空</button>
+      <button id="exportBtn" class="bottom-btn">导出</button>
     </div>
   </div>
   
@@ -63,6 +60,19 @@
       <div class="confirm-buttons">
         <button id="cancelClear" class="cancel-btn">取消</button>
         <button id="confirmClear" class="danger-btn">确认清空</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Export Modal -->
+  <div id="exportModal" class="modal">
+    <div class="modal-content">
+      <span class="close-export">&times;</span>
+      <h3>导出选项</h3>
+      <p>请选择导出格式：</p>
+      <div class="export-buttons">
+        <button id="exportJson" class="export-btn">JSON格式</button>
+        <button id="exportTxt" class="export-btn">TXT格式</button>
       </div>
     </div>
   </div>
