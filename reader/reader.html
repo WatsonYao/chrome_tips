@@ -286,11 +286,13 @@
 
   <!-- 添加格式选择对话框 -->
   <div id="format-dialog" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); 
-    background-color: rgba(40, 40, 40, 0.95); padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); z-index: 1000;">
-    <h3 style="margin-top: 0; color: #eee;">选择保存格式</h3>
-    <div style="display: flex; gap: 10px;">
-      <button id="save-markdown-btn" style="flex: 1;">Markdown</button>
-      <button id="save-image-btn" style="flex: 1;">图片</button>
+    background-color: rgba(40, 40, 40, 0.95); padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); z-index: 1000;
+    min-width: 300px; width: 380px;">
+    <h3 style="margin-top: 0; color: #eee; font-size: 20px; text-align: center; margin-bottom: 20px;">选择保存格式</h3>
+    <div style="display: flex; gap: 15px; flex-direction: column;">
+      <button id="save-markdown-btn" style="flex: 1; padding: 12px 15px; font-size: 16px; border-radius: 8px;">Markdown</button>
+      <button id="save-image-btn" style="flex: 1; padding: 12px 15px; font-size: 16px; border-radius: 8px;">图片</button>
+      <button id="save-text-btn" style="flex: 1; padding: 12px 15px; font-size: 16px; border-radius: 8px;">纯文本</button>
     </div>
   </div>
 

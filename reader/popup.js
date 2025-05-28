@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const pasteButton = document.getElementById('pasteButton');
   const readCurrentButton = document.getElementById('readCurrentButton');
+  const textReadButton = document.getElementById('textReadButton');
   const progressContainer = document.getElementById('progressContainer');
   const progressBar = document.getElementById('progressBar');
   const statusText = document.getElementById('statusText');
@@ -25,8 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // 读取剪贴板内容
       const text = await navigator.clipboard.readText();
       
-      // 将内容保存到本地存储
+      // 将内容同时保存到两种存储中
       localStorage.setItem('readerContent', text);
+      await chrome.storage.local.set({ readerContent: text, readMode: 'markdown' });
       
       // 打开阅读页面
       chrome.tabs.create({url: 'reader.html'});
@@ -211,19 +213,15 @@ document.addEventListener('DOMContentLoaded', function() {
             // 预处理内容
             const processedContent = preprocessContent(contentElement);
             
-            // 获取标题
-            const title = document.title;
-            
-            // 转换为 Markdown
-            const markdown = `# ${title}\n\n${turndownService.turndown(processedContent)}`;
+            // 转换为 Markdown，不添加标题
+            const markdown = turndownService.turndown(processedContent);
             console.log('提取的 Markdown 内容:', markdown); // 在页面控制台打印
             return markdown;
           } else {
             // 如果没有找到特定容器，获取 body 的主要内容
             const processedBody = preprocessContent(document.body);
             
-            const title = document.title;
-            const markdown = `# ${title}\n\n${turndownService.turndown(processedBody)}`;
+            const markdown = turndownService.turndown(processedBody);
             console.log('提取的 Markdown 内容:', markdown); // 在页面控制台打印
             return markdown;
           }
@@ -237,11 +235,152 @@ document.addEventListener('DOMContentLoaded', function() {
         throw new Error('未能成功提取内容');
       }
       
-      // 将内容保存到本地存储
+      // 将内容同时保存到两种存储中
       localStorage.setItem('readerContent', result);
+      await chrome.storage.local.set({ readerContent: result, readMode: 'markdown' });
       
       // 打开阅读页面
       chrome.tabs.create({url: 'reader.html'});
+    } catch (err) {
+      console.error('内容提取错误:', err);
+      alert('提取页面内容时出错：' + err.message);
+    }
+  });
+
+  textReadButton.addEventListener('click', async function() {
+    console.log('文本阅读按钮被点击');
+    try {
+      // 获取当前标签页
+      console.log('正在获取当前标签页...');
+      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      console.log('当前标签页:', tab);
+      
+      // 执行内容提取脚本
+      console.log('开始执行内容提取脚本...');
+      const [{result}] = await chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        func: () => {
+          console.log('开始在页面中提取内容...');
+          // 尝试找到文章主体
+          const selectors = [
+            'article',
+            '[role="article"]',
+            '[role="main"]',
+            'main',
+            '.article-content',
+            '.post-content',
+            '.entry-content',
+            '.content',
+            '#content'
+          ];
+
+          let contentElement = null;
+          for (const selector of selectors) {
+            const element = document.querySelector(selector);
+            if (element) {
+              contentElement = element;
+              break;
+            }
+          }
+
+          // 预处理函数：移除不需要的元素
+          function preprocessContent(element) {
+            const clone = element.cloneNode(true);
+            
+            // 移除不需要的元素
+            const selectorsToRemove = [
+              'script', 'style', 'iframe', 'nav', 'header', 'footer',
+              '.ad', '.advertisement', '.social-share', '.related',
+              '.recommended', '.suggestions', '[class*="related"]',
+              '[class*="recommend"]', '[id*="related"]', '[id*="recommend"]',
+              'aside', '.sidebar', '.widget', '.share', '.social',
+              '.comment', '.comments', '#comments', '.meta', '.author-info',
+              '.pagination', '.nav-links', '.post-navigation',
+              'figcaption', '.caption', '.wp-caption-text',
+              '[class*="caption"]', '[class*="img-desc"]',
+              '[class*="pic-desc"]', '[class*="image-desc"]',
+              '.figure-caption', '.image-caption', '.photo-caption'
+            ];
+            
+            const elementsToRemove = clone.querySelectorAll(selectorsToRemove.join(','));
+            elementsToRemove.forEach(el => el.remove());
+            
+            return clone;
+          }
+
+          function extractTextContent(element) {
+            console.log('正在处理元素:', element.tagName);
+            const processedElement = preprocessContent(element);
+            
+            // 获取所有文本节点
+            const textNodes = [];
+            const walker = document.createTreeWalker(
+              processedElement,
+              NodeFilter.SHOW_TEXT,
+              null,
+              false
+            );
+
+            let node;
+            let paragraphCount = 0;
+            while (node = walker.nextNode()) {
+              const text = node.textContent.trim();
+              if (text) {
+                paragraphCount++;
+                // 检查是否是新段落的开始
+                const isNewParagraph = node.parentElement && 
+                  (node.parentElement.tagName === 'P' || 
+                   node.parentElement.tagName === 'DIV' ||
+                   node.parentElement.tagName.match(/^H[1-6]$/));
+                
+                if (isNewParagraph) {
+                  textNodes.push('\n\n' + text);
+                } else {
+                  textNodes.push(text);
+                }
+              }
+            }
+            console.log(`处理了 ${paragraphCount} 个文本节点`);
+
+            // 合并文本并处理格式
+            const result = textNodes
+              .join(' ')
+              .replace(/\s+/g, ' ')
+              .replace(/\n\s+/g, '\n')
+              .replace(/\n{3,}/g, '\n\n')
+              .trim();
+            
+            console.log(`提取的文本长度: ${result.length} 字符`);
+            return result;
+          }
+
+          // 提取内容
+          const content = contentElement ? contentElement : document.body;
+          console.log('使用元素进行提取:', content.tagName);
+          const extractedText = extractTextContent(content);
+          console.log('内容提取完成');
+          return extractedText;
+        }
+      });
+      
+      console.log('内容提取脚本执行完成');
+      console.log('提取的内容长度:', result ? result.length : 0);
+      
+      if (!result) {
+        throw new Error('未能成功提取内容');
+      }
+      
+      // 将内容同时保存到两种存储中
+      console.log('正在保存内容到存储...');
+      localStorage.setItem('readerContent', result);
+      localStorage.setItem('readMode', 'text');
+      await chrome.storage.local.set({ readerContent: result, readMode: 'text' });
+      
+      // 打开阅读页面
+      console.log('正在打开阅读页面...');
+      await chrome.tabs.create({url: 'reader.html'});
+      console.log('阅读页面已打开');
+      
     } catch (err) {
       console.error('内容提取错误:', err);
       alert('提取页面内容时出错：' + err.message);

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
   const contentElement = document.getElementById('content');
   const decreaseFontBtn = document.getElementById('decrease-font');
   const increaseFontBtn = document.getElementById('increase-font');
@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const themeButtons = document.querySelectorAll('.theme-btn');
   const body = document.body;
   const formatDialog = document.getElementById('format-dialog');
+  const saveTextBtn = document.getElementById('save-text-btn');
   
   // 默认设置
   let currentFontSize = 22;
@@ -195,6 +196,15 @@ document.addEventListener('DOMContentLoaded', function() {
     updateDisplayValues();
   }
   
+  // 应用段落间距
+  function applyParagraphSpacing() {
+    // 获取所有段落元素
+    const paragraphs = contentElement.querySelectorAll('p');
+    paragraphs.forEach(p => {
+      p.style.marginBottom = currentParagraphSpacing + 'px';
+    });
+  }
+  
   // 应用样式设置
   function applyStyles() {
     contentElement.style.fontSize = currentFontSize + 'px';
@@ -202,51 +212,109 @@ document.addEventListener('DOMContentLoaded', function() {
     applyParagraphSpacing();
   }
   
-  // 渲染 Markdown 内容
-  function renderMarkdown(text) {
+  // 获取文件名
+  function getFileName(content) {
+    // 获取内容的第一行作为标题
+    let title = content.split('\n')[0].trim();
+    
+    // 如果标题超过20个字，截断它
+    if (title.length > 50) {
+      title = title.substring(0, 20) + '...';
+    }
+    
+    // 获取当前时间戳
+    const now = new Date();
+    const timestamp = now.getFullYear() +
+      ('0' + (now.getMonth() + 1)).slice(-2) +
+      ('0' + now.getDate()).slice(-2) +
+      ('0' + now.getHours()).slice(-2) +
+      ('0' + now.getMinutes()).slice(-2) +
+      ('0' + now.getSeconds()).slice(-2);
+    
+    return `${title}_${timestamp}`;
+  }
+  
+  // 渲染内容时根据模式选择渲染方式
+  function renderContent(text) {
     currentContent = text;
     
     // 更新字数统计
     updateWordCount(text);
     
+    // 获取模式
+    const readMode = localStorage.getItem('readMode');
+    
+    // 如果存在readMode，则同步更新markdownMode
+    if (readMode) {
+      markdownMode = (readMode !== 'text');
+      updateToggleButtonText();
+    }
+    
+    // 根据markdownMode决定渲染方式
     if (markdownMode) {
       try {
-        // 预处理文本，确保段落之间有足够的空行
         const processedText = text
-          .replace(/\n{3,}/g, '\n\n')  // 将3个以上连续换行替换为2个
-          .replace(/([^\n])\n([^\n])/g, '$1\n\n$2');  // 确保段落之间有空行
+          .replace(/\n{3,}/g, '\n\n')
+          .replace(/([^\n])\n([^\n])/g, '$1\n\n$2');
         
         contentElement.innerHTML = marked.parse(processedText);
       } catch (error) {
         console.error('Markdown 解析错误:', error);
-        contentElement.textContent = text; // 回退到纯文本
+        contentElement.textContent = text;
       }
     } else {
-      contentElement.textContent = text; // 纯文本模式
+      // 纯文本模式 - 清空内容区域
+      contentElement.textContent = '';
+      
+      // 先按段落分割文本
+      const paragraphs = text.split(/\n{2,}/);
+      
+      paragraphs.forEach(paragraph => {
+        if (!paragraph.trim()) return;
+        
+        // 创建段落容器
+        const paragraphDiv = document.createElement('div');
+        paragraphDiv.className = 'text-paragraph';
+        paragraphDiv.style.marginBottom = (currentParagraphSpacing + 10) + 'px';
+        
+        // 按句子分割段落（中文句号、问号、感叹号，以及英文句号+空格）
+        const sentences = paragraph.split(/([。！？\.\?!](\s|$))/);
+        
+        let currentSentence = '';
+        
+        // 重建句子并添加到段落
+        for (let i = 0; i < sentences.length; i++) {
+          if (!sentences[i]) continue;
+          
+          currentSentence += sentences[i];
+          
+          // 如果是句子结尾标点或者是最后一个部分
+          if (i % 3 === 1 || i === sentences.length - 1) {
+            if (currentSentence.trim()) {
+              const sentenceP = document.createElement('p');
+              sentenceP.textContent = currentSentence.trim();
+              sentenceP.style.marginBottom = '1em'; // 每句话之间添加空间
+              paragraphDiv.appendChild(sentenceP);
+              currentSentence = '';
+            }
+          }
+        }
+        
+        // 如果没有检测到句子结构，则作为一个整体显示
+        if (paragraphDiv.childNodes.length === 0 && paragraph.trim()) {
+          const p = document.createElement('p');
+          p.textContent = paragraph.trim();
+          p.style.marginBottom = '1em';
+          paragraphDiv.appendChild(p);
+        }
+        
+        contentElement.appendChild(paragraphDiv);
+      });
     }
     
-    // 应用段落间距
-    applyParagraphSpacing();
-  }
-  
-  // 应用段落间距
-  function applyParagraphSpacing() {
+    // 应用段落间距 - 在纯文本模式下，我们已经在上面处理了段落间距
     if (markdownMode) {
-      // 为段落元素添加样式
-      const paragraphs = contentElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, ul, ol, pre, blockquote, table');
-      paragraphs.forEach(p => {
-        p.style.marginBottom = currentParagraphSpacing + 'px';
-        p.style.marginTop = '0';  // 确保顶部间距为0，避免重复间距
-      });
-
-      // 特别处理段落，确保有足够的间距
-      const pElements = contentElement.querySelectorAll('p');
-      pElements.forEach(p => {
-        // 如果不是列表项内的段落，则应用更大的间距
-        if (!p.closest('li')) {
-          p.style.marginBottom = (currentParagraphSpacing * 1.5) + 'px';
-        }
-      });
+      applyParagraphSpacing();
     }
   }
   
@@ -259,16 +327,57 @@ document.addEventListener('DOMContentLoaded', function() {
   markdownToggleBtn.addEventListener('click', function() {
     markdownMode = !markdownMode;
     updateToggleButtonText();
-    renderMarkdown(currentContent);
+    
+    // 更新readMode值
+    const newReadMode = markdownMode ? 'markdown' : 'text';
+    localStorage.setItem('readMode', newReadMode);
+    
+    // 同时更新chrome.storage.local
+    chrome.storage.local.set({ readMode: newReadMode }).catch(err => {
+      console.error('更新存储时出错:', err);
+    });
+    
+    // 重新渲染内容
+    renderContent(currentContent);
     saveSettings();
   });
   
   // 获取本地存储中的内容
-  const savedContent = localStorage.getItem('readerContent');
-  if (savedContent) {
-    renderMarkdown(savedContent);
-  } else {
-    contentElement.textContent = '没有找到内容。请返回并重新粘贴文本。';
+  try {
+    // 首先尝试从 chrome.storage.local 获取内容
+    const { readerContent, readMode } = await chrome.storage.local.get(['readerContent', 'readMode']);
+    
+    // 如果从 chrome.storage.local 获取到内容
+    if (readerContent) {
+      localStorage.setItem('readerContent', readerContent);
+      localStorage.setItem('readMode', readMode || '');
+      renderContent(readerContent);
+    } else {
+      // 如果没有从 chrome.storage.local 获取到内容，则尝试从 localStorage 获取
+      const localContent = localStorage.getItem('readerContent');
+      const localReadMode = localStorage.getItem('readMode');
+      
+      if (localContent) {
+        renderContent(localContent);
+      } else {
+        contentElement.textContent = '没有找到内容。请返回并重新粘贴文本。';
+      }
+    }
+  } catch (err) {
+    console.error('读取存储内容时出错:', err);
+    
+    // 发生错误时尝试从 localStorage 获取
+    try {
+      const localContent = localStorage.getItem('readerContent');
+      if (localContent) {
+        renderContent(localContent);
+      } else {
+        contentElement.textContent = '读取内容时出错，请重试。';
+      }
+    } catch (localErr) {
+      console.error('从 localStorage 读取内容时出错:', localErr);
+      contentElement.textContent = '读取内容时出错，请重试。';
+    }
   }
   
   // 增加字体大小
@@ -337,8 +446,22 @@ document.addEventListener('DOMContentLoaded', function() {
   clipboardBtn.addEventListener('click', async function() {
     try {
       const text = await navigator.clipboard.readText();
-      renderMarkdown(text);
+      
+      // 获取当前模式
+      const readMode = markdownMode ? 'markdown' : 'text';
+      
+      // 更新本地存储
       localStorage.setItem('readerContent', text);
+      localStorage.setItem('readMode', readMode);
+      
+      // 同时更新chrome.storage.local
+      await chrome.storage.local.set({ 
+        readerContent: text, 
+        readMode: readMode 
+      });
+      
+      // 渲染内容
+      renderContent(text);
     } catch (err) {
       console.error('无法访问剪贴板:', err);
       alert('无法访问剪贴板，请确保已授予相应权限。');
@@ -360,11 +483,23 @@ document.addEventListener('DOMContentLoaded', function() {
   // 保存为 Markdown 文件
   saveMarkdownBtn.addEventListener('click', function() {
     formatDialog.style.display = 'none';
-    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const fileName = getFileName(currentContent);
     const blob = new Blob([currentContent], { type: 'text/markdown' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = `阅读内容_${timestamp}.md`;
+    link.download = `${fileName}.md`;
+    link.click();
+    URL.revokeObjectURL(link.href);
+  });
+
+  // 保存为纯文本
+  saveTextBtn.addEventListener('click', function() {
+    formatDialog.style.display = 'none';
+    const fileName = getFileName(currentContent);
+    const blob = new Blob([currentContent], { type: 'text/plain' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `${fileName}.txt`;
     link.click();
     URL.revokeObjectURL(link.href);
   });
@@ -373,7 +508,6 @@ document.addEventListener('DOMContentLoaded', function() {
   saveImageBtn.addEventListener('click', async function() {
     formatDialog.style.display = 'none';
     try {
-      // 获取整个reader-container元素
       const container = document.querySelector('.reader-container');
       
       // 创建加载提示
@@ -393,10 +527,10 @@ document.addEventListener('DOMContentLoaded', function() {
       // 使用html2canvas捕获页面内容
       const canvas = await html2canvas(container, {
         backgroundColor: body.style.backgroundColor,
-        scale: 2, // 提高图片质量
+        scale: 2,
         useCORS: true,
         logging: false,
-        scrollY: -window.scrollY // 确保从页面顶部开始截图
+        scrollY: -window.scrollY
       });
 
       // 移除加载提示
@@ -404,8 +538,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // 将canvas转换为图片并下载
       const link = document.createElement('a');
-      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-      link.download = `阅读内容_${timestamp}.png`;
+      const fileName = getFileName(currentContent);
+      link.download = `${fileName}.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
     } catch (err) {
