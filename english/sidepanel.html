@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Word Saver</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-section">
+      <div class="input-group">
+        <input type="text" id="wordInput" placeholder="输入或粘贴单词...">
+        <button id="translateBtn">翻译</button>
+      </div>
+      <div class="translation-result">
+        <textarea id="translationResult" placeholder="翻译结果..." readonly></textarea>
+        <button id="saveBtn">保存</button>
+      </div>
+    </div>
+    
+    <div class="middle-section">
+      <div class="section-header">
+        <h3>已保存单词</h3>
+        <span class="word-count" id="wordCount">0</span>
+      </div>
+      <div id="wordsList" class="words-list"></div>
+    </div>
+    
+    <div class="bottom-section">
+      <div class="bottom-left">
+        <button id="settingsBtn">设置</button>
+        <button id="themeToggleBtn" class="theme-toggle">
+          <span class="light-icon">◴</span>
+          <span class="dark-icon">◕</span>
+        </button>
+      </div>
+      <div class="bottom-right">
+        <button id="clearBtn" class="danger-btn">清空</button>
+        <button id="exportBtn">导出</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Settings Modal -->
+  <div id="settingsModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>API 设置</h3>
+      <div class="input-group">
+        <label for="apiKey">Gemini API Key:</label>
+        <input type="text" id="apiKey" placeholder="输入 Gemini API Key">
+      </div>
+      <button id="saveApiKey">保存</button>
+    </div>
+  </div>
+  
+  <!-- Confirmation Modal -->
+  <div id="confirmModal" class="modal">
+    <div class="modal-content">
+      <span class="close-confirm">&times;</span>
+      <h3>确认操作</h3>
+      <p>确定要清空所有保存的单词吗？此操作无法撤销。</p>
+      <div class="confirm-buttons">
+        <button id="cancelClear" class="cancel-btn">取消</button>
+        <button id="confirmClear" class="danger-btn">确认清空</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="sidepanel.js"></script>
+</body>
+</html> 
