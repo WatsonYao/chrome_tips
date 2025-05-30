@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>B站字幕下载</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 16px;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #FB7299;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #FB7299;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+      width: 100%;
+      max-width: 300px;
+      margin: 8px 0;
+    }
+    button:hover {
+      background-color: #e05c85;
+    }
+    button:disabled {
+      background-color: #cccccc;
+      cursor: not-allowed;
+    }
+    #stats {
+      margin: 16px 0;
+      padding: 12px;
+      background-color: #f8f9fa;
+      border-radius: 4px;
+      width: 100%;
+      max-width: 300px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      text-align: center;
+    }
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 4px;
+    }
+    .stat-value {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+    }
+    .stat-value.success {
+      color: #2ecc71;
+    }
+    .stat-value.error {
+      color: #e74c3c;
+    }
+    #status {
+      margin-top: 20px;
+      font-size: 14px;
+      padding: 16px;
+      border-radius: 4px;
+      width: 100%;
+      max-width: 600px;
+      min-height: 24px;
+      background-color: #f5f5f5;
+      word-wrap: break-word;
+      max-height: calc(100vh - 200px);
+      overflow-y: auto;
+    }
+    #status p {
+      margin: 8px 0;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>B站字幕下载器</h2>
+    <button id="downloadBtn">单视频字幕下载</button>
+    <button id="batchDownloadBtn">视频合集字幕下载</button>
+    <div id="stats">
+      <div class="stat-item">
+        <div class="stat-label">总数</div>
+        <div class="stat-value" id="totalCount">0</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-label">成功</div>
+        <div class="stat-value success" id="successCount">0</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-label">失败</div>
+        <div class="stat-value error" id="errorCount">0</div>
+      </div>
+    </div>
+    <div id="status"></div>
+  </div>
+  <script src="sidepanel.js"></script>
+</body>
+</html> 

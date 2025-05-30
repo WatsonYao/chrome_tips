@@ -2,6 +2,33 @@ document.addEventListener('DOMContentLoaded', () => {
   const downloadBtn = document.getElementById('downloadBtn');
   const batchDownloadBtn = document.getElementById('batchDownloadBtn');
   const statusDiv = document.getElementById('status');
+  const totalCountElement = document.getElementById('totalCount');
+  const successCountElement = document.getElementById('successCount');
+  const errorCountElement = document.getElementById('errorCount');
+
+  // 统计数据
+  let stats = {
+    total: 0,
+    success: 0,
+    error: 0
+  };
+
+  // 更新统计显示
+  function updateStats() {
+    totalCountElement.textContent = stats.total;
+    successCountElement.textContent = stats.success;
+    errorCountElement.textContent = stats.error;
+  }
+
+  // 重置统计数据
+  function resetStats() {
+    stats = {
+      total: 0,
+      success: 0,
+      error: 0
+    };
+    updateStats();
+  }
 
   function updateStatus(message, isError = false) {
     const timestamp = new Date().toLocaleTimeString();
@@ -21,33 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
       statusDiv.removeChild(statusDiv.lastChild);
     }
   }
-
-  // Function to check if we're on a Bilibili video page
-  function checkIfBilibiliVideo() {
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-      const currentTab = tabs[0];
-      const url = currentTab.url;
-      
-      if (!url.includes('bilibili.com/video/')) {
-        updateStatus('当前页面不是B站视频页面，请导航到B站视频后再试', true);
-        downloadBtn.disabled = true;
-        batchDownloadBtn.disabled = true;
-      } else {
-        downloadBtn.disabled = false;
-        batchDownloadBtn.disabled = false;
-      }
-    });
-  }
-
-  // Check on load
-  checkIfBilibiliVideo();
-  
-  // Set up tab update listener to check when tab URL changes
-  chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-    if (changeInfo.status === 'complete') {
-      checkIfBilibiliVideo();
-    }
-  });
 
   // Function to download subtitles for a single video
   async function downloadSubtitle(bvid, cookies) {
@@ -156,6 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 单个视频下载按钮事件处理
   downloadBtn.addEventListener('click', async () => {
     statusDiv.innerHTML = '';
+    resetStats();
     updateStatus('正在处理...');
     
     try {
@@ -204,11 +205,17 @@ document.addEventListener('DOMContentLoaded', () => {
       updateStatus('获取Cookie成功.');
 
       // 4. 下载字幕
+      stats.total = 1;
+      updateStats();
       const filename = await downloadSubtitle(bvid, cookieString);
+      stats.success = 1;
+      updateStats();
       updateStatus(`字幕文件 ${filename} 下载成功!`);
 
     } catch (error) {
       console.error('错误:', error);
+      stats.error = 1;
+      updateStats();
       updateStatus(`发生错误: ${error.message}`, true);
     }
   });
@@ -216,6 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 批量下载按钮事件处理
   batchDownloadBtn.addEventListener('click', async () => {
     statusDiv.innerHTML = '';
+    resetStats();
     updateStatus('正在处理批量下载...');
     
     try {
@@ -259,6 +267,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const videos = videoList[0].result;
+      stats.total = videos.length;
+      updateStats();
       updateStatus(`找到 ${videos.length} 个视频，开始下载字幕...`);
 
       // 4. 批量下载字幕
@@ -266,6 +276,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const video = videos[i];
         try {
           await downloadSubtitle(video.bvid, cookieString);
+          stats.success++;
+          updateStats();
           updateStatus(`(${i + 1}/${videos.length}) ${video.bvid} 下载成功`);
           
           // 每下载10个暂停1秒
@@ -274,6 +286,8 @@ document.addEventListener('DOMContentLoaded', () => {
             await new Promise(resolve => setTimeout(resolve, 1000));
           }
         } catch (error) {
+          stats.error++;
+          updateStats();
           updateStatus(`(${i + 1}/${videos.length}) ${video.bvid} 下载失败: ${error.message}`, true);
         }
       }
