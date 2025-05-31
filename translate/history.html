@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gemini翻译历史</title>
+  <style>
+    body {
+      font-family: 'Microsoft YaHei', Arial, sans-serif;
+      margin: 20px;
+      color: #333;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #4285f4;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .history-item {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 15px;
+      background-color: #f9f9f9;
+      position: relative;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .timestamp {
+      color: #666;
+      font-size: 12px;
+    }
+    .delete-btn {
+      background-color: #db4437;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
+      font-size: 16px;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+    .delete-btn:hover {
+      opacity: 1;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .original, .translated {
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .original {
+      background-color: #e8f0fe;
+    }
+    .translated {
+      background-color: #e6f4ea;
+    }
+    .empty-message {
+      text-align: center;
+      color: #666;
+      padding: 50px 0;
+    }
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    button {
+      padding: 8px 15px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+    #clearBtn {
+      background-color: #db4437;
+    }
+    #clearBtn:hover {
+      background-color: #c53929;
+    }
+  </style>
+</head>
+<body>
+  <h1>翻译历史记录</h1>
+  
+  <div id="historyContainer"></div>
+  
+  <div class="actions">
+    <button id="clearBtn">清空所有历史</button>
+  </div>
+  
+  <script src="history.js"></script>
+</body>
+</html> 

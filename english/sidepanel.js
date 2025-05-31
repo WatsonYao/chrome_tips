@@ -112,6 +112,15 @@ document.addEventListener('DOMContentLoaded', function() {
   saveApiKeyBtn.addEventListener('click', saveApiKey);
   themeToggleBtn.addEventListener('click', toggleTheme);
   
+  // Add Enter key listener to the input field
+  wordInput.addEventListener('keydown', function(event) {
+    // Check if the pressed key is Enter and the input is not empty
+    if (event.key === 'Enter' && this.value.trim()) {
+      event.preventDefault(); // Prevent default form submission behavior
+      translateWord(); // Trigger translation
+    }
+  });
+  
   // Close modals when clicking outside of them
   window.addEventListener('click', function(event) {
     if (event.target === settingsModal) {

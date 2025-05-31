@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gemini翻译助手</title>
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #333333;
+      --textarea-bg: #ffffff;
+      --textarea-border: #cccccc;
+      --result-bg: #f5f5f5;
+      --button-hover: #3367d6;
+    }
+
+    [data-theme="dark"] {
+      --bg-color: #1e1e1e;
+      --text-color: #ffffff;
+      --textarea-bg: #2d2d2d;
+      --textarea-border: #404040;
+      --result-bg: #2d2d2d;
+      --button-hover: #5c85de;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      font-family: 'Microsoft YaHei', Arial, sans-serif;
+      margin: 0;
+      color: var(--text-color);
+      overflow: hidden;
+      background-color: var(--bg-color);
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    .textareas {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      min-height: 0;
+      padding: 15px;
+      padding-bottom: 5px;
+    }
+    #originalText {
+      flex: 1;
+      min-height: 0;
+      background-color: var(--textarea-bg);
+      color: var(--text-color);
+      border-color: var(--textarea-border);
+    }
+    #translatedText {
+      flex: 2;
+      background-color: var(--result-bg);
+      color: var(--text-color);
+      border-color: var(--textarea-border);
+      min-height: 0;
+    }
+    textarea {
+      width: 100%;
+      padding: 8px;
+      resize: none;
+      border: 1px solid var(--textarea-border);
+      border-radius: 4px;
+      font-family: inherit;
+      box-sizing: border-box;
+    }
+    .footer {
+      padding: 10px 15px;
+      background-color: var(--bg-color);
+      border-top: 1px solid var(--textarea-border);
+    }
+    .buttons {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    button {
+      padding: 8px 15px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 12px;
+      min-width: 60px;
+    }
+    button:hover {
+      background-color: var(--button-hover);
+    }
+    .loading {
+      display: none;
+      text-align: center;
+      margin: 5px 0;
+      color: var(--text-color);
+    }
+    #saveBtn {
+      background-color: #0f9d58;
+    }
+    #saveBtn:hover {
+      background-color: #0b8043;
+    }
+    #historyBtn {
+      background-color: #f4b400;
+    }
+    #historyBtn:hover {
+      background-color: #e09e07;
+    }
+    #clearBtn {
+      background-color: #db4437;
+    }
+    #clearBtn:hover {
+      background-color: #c53929;
+    }
+    #themeBtn {
+      background-color: #673ab7;
+    }
+    #themeBtn:hover {
+      background-color: #5e35b1;
+    }
+    .status {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 5px;
+      color: #4285f4;
+      display: none;
+    }
+    #translateBtn {
+      background-color: #8e24aa;
+    }
+    #translateBtn:hover {
+      background-color: #6d1b7b;
+    }
+    #settingsBtn {
+      background-color: #607d8b;
+    }
+    #settingsBtn:hover {
+      background-color: #455a64;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+    }
+    .modal-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--bg-color);
+      padding: 20px;
+      border-radius: 8px;
+      width: 80%;
+      max-width: 400px;
+    }
+    .modal input {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+      border: 1px solid var(--textarea-border);
+      border-radius: 4px;
+      background-color: var(--textarea-bg);
+      color: var(--text-color);
+    }
+    .modal-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="settingsModal" class="modal">
+      <div class="modal-content">
+        <h3>设置</h3>
+        <input type="text" id="apiKeyInput" placeholder="输入 Gemini API Key">
+        <div class="modal-buttons">
+          <button id="cancelSettingsBtn">取消</button>
+          <button id="saveSettingsBtn">保存</button>
+        </div>
+      </div>
+    </div>
+    <div class="textareas">
+      <textarea id="originalText" placeholder="点击粘贴按钮获取剪贴板文本或手动输入..."></textarea>
+      <textarea id="translatedText" placeholder="翻译结果..." readonly></textarea>
+      <div class="loading" id="loadingIndicator">正在翻译...</div>
+      <div class="status" id="saveStatus"></div>
+    </div>
+    <div class="footer">
+      <div class="buttons">
+        <button id="pasteBtn">粘贴</button>
+        <button id="pasteAndTranslateBtn">粘译</button>
+        <button id="translateBtn">翻译</button>
+        <button id="copyBtn">复制</button>
+        <button id="clearBtn">清空</button>
+        <button id="saveBtn">保存</button>
+        <button id="historyBtn">历史</button>
+        <button id="themeBtn">日间</button>
+        <button id="settingsBtn">设置</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 
