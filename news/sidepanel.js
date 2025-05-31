@@ -143,7 +143,7 @@ analyzeBtn.addEventListener('click', async () => {
             console.log('Content script 注入错误（如果已存在则忽略）:', error);
         }
 
-        resultsDiv.innerHTML = '<p>正在收集新闻标题...</p>';
+        resultsDiv.innerHTML = '<p>正在收集新闻内容...</p>';
         
         // 发送消息给content script
         console.log('开始向content script发送消息');
@@ -156,17 +156,29 @@ analyzeBtn.addEventListener('click', async () => {
                 return;
             }
 
-            if (!response || !response.titles || response.titles.length === 0) {
-                console.log('未找到新闻标题');
-                resultsDiv.innerHTML = '<p>未找到任何新闻标题</p>';
+            if (!response || !response.newsItems || response.newsItems.length === 0) {
+                console.log('未找到新闻内容');
+                resultsDiv.innerHTML = '<p>未找到任何新闻内容</p>';
                 return;
             }
 
-            console.log('收集到的标题数量:', response.titles.length);
-            console.log('标题列表:', response.titles);
+            console.log('收集到的新闻数量:', response.newsItems.length);
+            console.log('新闻列表:', response.newsItems);
+
+            // 下载原始数据
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            const blob = new Blob([JSON.stringify(response.newsItems, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `news_data_${timestamp}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
             
-            resultsDiv.innerHTML = `<p>已收集到 ${response.titles.length} 个标题，正在分析...</p>`;
-            await analyzeNewsTitles(response.titles, geminiApiKey);
+            resultsDiv.innerHTML = `<p>已收集到 ${response.newsItems.length} 条新闻，正在分析...</p>`;
+            await analyzeNewsTitles(response.newsItems, geminiApiKey);
         });
     } catch (error) {
         console.error('分析过程出错:', error);
@@ -175,7 +187,7 @@ analyzeBtn.addEventListener('click', async () => {
 });
 
 // 分析新闻标题
-async function analyzeNewsTitles(titles, apiKey) {
+async function analyzeNewsTitles(newsItems, apiKey) {
     resultsDiv.innerHTML = '<p>正在分析中...</p>';
     
     try {
@@ -187,7 +199,7 @@ async function analyzeNewsTitles(titles, apiKey) {
             body: JSON.stringify({
                 contents: [{
                     parts: [{
-                        text: `请分析以下新闻标题，判断哪些适合作为大学英语四六级或考研英语阅读材料，选择标准：
+                        text: `请分析以下新闻标题和描述，判断哪些适合作为大学英语四六级或考研英语阅读材料，选择标准：
                         选材原则:
 思辨性和学术性强: 文章通常包含复杂的观点、论证和逻辑关系。
 关注社会热点和前沿问题: 内容常涉及近几年全球关注的经济、科技、社会、文化、环境等议题。
@@ -195,7 +207,7 @@ async function analyzeNewsTitles(titles, apiKey) {
 文化背景知识要求: 对西方主流社会文化、价值观和历史背景有一定了解有助于理解文章。
 体裁以议论文和说明文为主: 着重考查逻辑分析和信息获取能力。
 一般不包括的题源类型:
-政治体制改革相关的；
+国家内部政治、政治体制改革、地缘政治等相关的；
 乌克兰、巴基斯坦等边缘政治和战争相关的；
 文学作品（尤其是小说、诗歌、戏剧）: 考研英语的核心是学术英语和媒体英语，而非文学英语。
 非正式的个人博客、论坛帖子等网络文本。
@@ -205,13 +217,15 @@ async function analyzeNewsTitles(titles, apiKey) {
 与中国国情直接相关的、由中国作者撰写的英文宣传材料（倾向于选择西方视角和语言习惯的材料）。
 时效性过强且缺乏普适性分析的新闻短讯（更倾向于有深度分析的评论文章）。
 高度专业化且背景知识要求极高的论文（会选择有一定普适性，可以通过上下文理解的学术文章）。
-                        标题列表：${JSON.stringify(titles)}
+                        新闻列表：${JSON.stringify(newsItems)}
                         请用JSON格式返回结果，格式为：
                         {
                             "suitable_titles": [
                                 {
                                     "title": "标题内容",
-                                    "cn": "翻译",
+                                    "description": "描述内容",
+                                    "title_cn": "翻译",
+                                    "description_cn": "翻译",
                                     "reason": "理由",
                                     "type": "不适/CET4/CET6/考研"
                                 }
@@ -280,10 +294,12 @@ function displayResults(results) {
             html += `
                 <div class="result-item" data-title="${item.title}" style="padding: 12px 0 12px 12px; position: relative; ${borderBottom}; cursor: pointer;">
                     <div style="position: absolute; left: 0; top: 12px; bottom: 12px; width: 2px; background-color: ${indicatorColor};"></div>
-                    <div style="font-weight: bold; margin-bottom: 8px;">${item.title}</div>
-                    <div style="margin-bottom: 8px;">${item.cn || '无翻译'}</div>
-                    <div style="margin-bottom: 8px;">类型：${item.type}</div>
-                    <div>原因：${item.reason}</div>
+                    <div style="font-weight: bold; margin-bottom: 8px; font-size: 18px;">${item.title}</div>
+                    <div style="margin-bottom: 8px; color: #666; font-size: 16px;">${item.title_cn || '无翻译'}</div>
+                    <div style="margin-bottom: 16px; font-style: italic; font-size: 16px;">${item.description}</div>
+                    <div style="margin-bottom: 16px; color: #666; font-size: 16px;">${item.description_cn || '无翻译'}</div>
+                    <div style="margin-bottom: 8px; font-size: 16px;">类型：${item.type}</div>
+                    <div style="font-size: 16px;">原因：${item.reason}</div>
                 </div>
             `;
         });
